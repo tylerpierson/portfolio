@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import HomePage from './pages/HomePage/HomePage'
 import ContactPage from './pages/ContactPage/ContactPage'
-import ProjectPage from './pages/ProjectPage/ProjectPage'
+import ProjectsPage from './pages/ProjectsPage/ProjectsPage'
 import { Route, Routes } from 'react-router-dom'
 import styles from './App.module.scss'
 
@@ -54,7 +54,7 @@ export default function App(){
 
                     <Route 
                     path='/projects' 
-                    element={<ProjectPage />}></Route>
+                    element={<ProjectsPage />}></Route>
                 </Routes>
             </div>
         </>

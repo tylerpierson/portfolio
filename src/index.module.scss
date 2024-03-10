@@ -1,0 +1,17 @@
+:root {
+    --bg-color: #F0F4EF;
+    --btn-color: rgb(100, 149, 237);
+    --btn-animation: rgba(171, 188, 219, 0.3);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: copperplate, papyrus, fantasy;
+}
+
+body {
+    background-color: var(--bg-color);
+}
