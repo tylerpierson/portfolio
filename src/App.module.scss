@@ -1,5 +1,7 @@
 h1 {
     font-size: 7vmin;
+    color: var(--heading-color);
+    text-shadow: 1px 1px 2px black;
 }
 
 input {
@@ -9,6 +11,7 @@ input {
     margin-left: 1rem;
     font-size: 2rem;
     padding: 1rem;
+    color: var(--input-color);
 }
 
 input:focus {
