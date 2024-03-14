@@ -5,7 +5,10 @@ export default function HomePage(){
     return (
         <>
             <NavBar />
-            <h1>This is the HomePage</h1>
+            <h1>Welcome!</h1>
+            <div className={styles.imgContainer}>
+                <img className={styles.Image} src="https://i.imgur.com/UCkBOcc.png" />
+            </div>
             <div className={styles.bgDesign}></div>
         </>
     )

@@ -212,7 +212,12 @@ function ContactPage() {
 
 
 function HomePage() {
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/React.createElement("h1", null, "This is the HomePage"), /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/React.createElement("h1", null, "Welcome!"), /*#__PURE__*/React.createElement("div", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].imgContainer
+  }, /*#__PURE__*/React.createElement("img", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].Image,
+    src: "https://i.imgur.com/UCkBOcc.png"
+  })), /*#__PURE__*/React.createElement("div", {
     className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].bgDesign
   }));
 }
@@ -535,10 +540,26 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.A8BYRXkcYYmnCzTQK_MX {
   border-left: 2px solid var(--nav-border);
   width: 1px;
   transform: rotate(35deg);
-}`, "",{"version":3,"sources":["webpack://./src/pages/HomePage/HomePage.module.scss"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,YAAA;EACA,SAAA;EACA,aAAA;EACA,wCAAA;EACA,UAAA;EACA,wBAAA;AACJ","sourcesContent":[".bgDesign {\n    position: absolute;\n    bottom: -10%;\n    left: 60%;\n    height: 100vh;\n    border-left: 2px solid var(--nav-border);\n    width: 1px;\n    transform: rotate(35deg);\n}"],"sourceRoot":""}]);
+}
+
+.EAuVK_KO0u0E5AlRqZwj {
+  height: 50rem;
+  width: 50rem;
+  border-radius: 100%;
+  background-color: cornflowerblue;
+  padding: 3rem;
+  overflow: hidden;
+  position: relative;
+}
+.EAuVK_KO0u0E5AlRqZwj .lfZZfASpyIJoeQVhSHY6 {
+  position: absolute;
+  top: -3rem;
+}`, "",{"version":3,"sources":["webpack://./src/pages/HomePage/HomePage.module.scss"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,YAAA;EACA,SAAA;EACA,aAAA;EACA,wCAAA;EACA,UAAA;EACA,wBAAA;AACJ;;AAEA;EACI,aAAA;EACA,YAAA;EACA,mBAAA;EACA,gCAAA;EACA,aAAA;EACA,gBAAA;EACA,kBAAA;AACJ;AAAI;EACI,kBAAA;EACA,UAAA;AAER","sourcesContent":[".bgDesign {\n    position: absolute;\n    bottom: -10%;\n    left: 60%;\n    height: 100vh;\n    border-left: 2px solid var(--nav-border);\n    width: 1px;\n    transform: rotate(35deg);\n}\n\n.imgContainer {\n    height: 50rem;\n    width: 50rem;\n    border-radius: 100%;\n    background-color: cornflowerblue;\n    padding: 3rem;\n    overflow: hidden;\n    position: relative;\n    .Image {\n        position: absolute;\n        top: -3rem;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
-	"bgDesign": `A8BYRXkcYYmnCzTQK_MX`
+	"bgDesign": `A8BYRXkcYYmnCzTQK_MX`,
+	"imgContainer": `EAuVK_KO0u0E5AlRqZwj`,
+	"Image": `lfZZfASpyIJoeQVhSHY6`
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1157,4 +1178,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.aa103a693caa8b1443babad6128a45b7.js.map
+//# sourceMappingURL=App.86defb15b2eb956888531eb74f94cd1b.js.map

@@ -7,3 +7,17 @@
     width: 1px;
     transform: rotate(35deg);
 }
+
+.imgContainer {
+    height: 50rem;
+    width: 50rem;
+    border-radius: 100%;
+    background-color: cornflowerblue;
+    padding: 3rem;
+    overflow: hidden;
+    position: relative;
+    .Image {
+        position: absolute;
+        top: -3rem;
+    }
+}
