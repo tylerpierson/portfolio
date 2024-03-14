@@ -1,41 +1,65 @@
 .Nav {
     width: 100%;
     height: 10vh;
-    box-shadow: 0 0 2rem var(--nav-border);
     display: flex;
+
     .image {
-        width: 20vw;
+        width: 10vw;
         margin-left: 2rem;
     }
+
     .ul {
         width: 100%;
         height: 100%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        .navItem {
-            text-decoration: none;
-            border: .1rem solid var(--nav-border);
-            width: 10vw;
+
+        .listItemContainer {
             height: 100%;
-            &:hover{
-                background-color: var(--btn-color);
-                cursor: pointer;
-            }
-            .listItem {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+            width: 7vw;
+            margin-left: 1rem;
+            position: relative;
+
+            .navItemTop, .navItemBottom {
+                list-style-type: none;
+                text-decoration: none;
+                color: white;
+                position: absolute;
                 width: 100%;
-                height: 100%;
-                color: black;
-                font-size: 2rem;
-                list-style: none;
-                &:hover {
-                    color: white;
+                text-align: center;
+                transition: transform 0.3s ease;
+            }
+
+            .navItemTop {
+                top: 50%;
+                transform: translateY(-50%);
+                transition: .5s ease;
+            }
+
+            .navItemBottom {
+                top: 50%;
+                transform: translateY(50%);
+                opacity: 0;
+                transition: .5s ease;
+            }
+
+            &:hover {
+                cursor: pointer;
+
+                .navItemTop {
+                    transform: translateY(-150%);
+                    opacity: 0;
+                    transition: .5s ease;
+                }
+
+                .navItemBottom {
+                    transform: translateY(-50%);
+                    opacity: 1;
+                    transition: .5s ease;
+                    color: var(--btn-color);
                 }
             }
         }
     }
 }
-

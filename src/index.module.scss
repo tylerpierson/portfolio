@@ -1,7 +1,7 @@
 :root {
-    --heading-color: rgb(100, 149, 237);
-    --bg-color: #F0F4EF;
-    --btn-color: rgb(100, 149, 237);
+    --heading-color: rgb(100, 237, 207);
+    --bg-color: black;
+    --btn-color: rgb(100, 237, 207);
     --btn-animation: rgba(171, 188, 219, 0.3);
     --input-color: rgb(8, 36, 87);
     --nav-border: rgba(171, 188, 219, 0.3);
@@ -12,7 +12,10 @@
     margin: 0;
     padding: 0;
     font-size: 10px;
-    font-family: copperplate, papyrus, fantasy;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
 }
 
 body {

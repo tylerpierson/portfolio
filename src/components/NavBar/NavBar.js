@@ -3,12 +3,24 @@ import styles from './NavBar.module.scss'
 export default function NavBar(){
     return (
         <nav className={styles.Nav}>
-            <img className={styles.image} src="https://i.imgur.com/xbCw3gO.png"/>
+            <img className={styles.image} src="https://i.imgur.com/gcCq6UY.png"/>
             <ul className={styles.ul}>
-                <a className={styles.navItem} href="#"><li className={styles.listItem}>Home</li></a>
-                <a className={styles.navItem} href="#"><li className={styles.listItem}>About Me</li></a>
-                <a className={styles.navItem} href="#"><li className={styles.listItem}>Projects</li></a>
-                <a className={styles.navItem} href="#"><li className={styles.listItem}>Contact</li></a>
+                <div className={styles.listItemContainer}>
+                    <a className={styles.navItemTop} href="#"><li className={styles.listItem}>Home</li></a>
+                    <a className={styles.navItemBottom} href="#"><li className={styles.listItem}>Home</li></a>
+                </div>
+                <div className={styles.listItemContainer}>
+                    <a className={styles.navItemTop} href="#"><li className={styles.listItem}>About Me</li></a>
+                    <a className={styles.navItemBottom} href="#"><li className={styles.listItem}>About Me</li></a>
+                </div>
+                <div className={styles.listItemContainer}>
+                    <a className={styles.navItemTop} href="#"><li className={styles.listItem}>Projects</li></a>
+                    <a className={styles.navItemBottom} href="#"><li className={styles.listItem}>Projects</li></a>
+                </div>
+                <div className={styles.listItemContainer}>
+                    <a className={styles.navItemTop} href="#"><li className={styles.listItem}>Contact</li></a>
+                    <a className={styles.navItemBottom} href="#"><li className={styles.listItem}>Contact</li></a>
+                </div>
             </ul>
         </nav>
     )

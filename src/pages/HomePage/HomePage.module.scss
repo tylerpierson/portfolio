@@ -1,23 +1,58 @@
-.bgDesign {
-    position: absolute;
-    bottom: -10%;
-    left: 60%;
-    height: 100vh;
-    border-left: 2px solid var(--nav-border);
-    width: 1px;
-    transform: rotate(35deg);
+.HomePage {
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    position: relative;
+    .headingSM {
+        margin: 8rem 0;
+    }
+    .heading {
+        color: white;
+        font-size: 11rem;
+        .spanText, .spanPlus {
+            font-size: 11rem;
+        }
+        .spanText {
+            font-weight: 100;
+            color: var(--heading-color);
+        }
+        .spanPlus {
+            color: black;
+            font-size: 13rem;
+        }
+    }
+    
+    .paragraph {
+        color: grey;
+        margin-top: 5rem;
+        width: 50vw;
+    }
+    
+    .image {
+        background-color: black;
+        width: 30vw;
+        position: absolute;
+        top: 4rem;
+        right: 10rem;
+        z-index: -1;
+        transform: rotate(7deg);
+    }
 }
 
-.imgContainer {
-    height: 50rem;
-    width: 50rem;
-    border-radius: 100%;
-    background-color: cornflowerblue;
-    padding: 3rem;
-    overflow: hidden;
-    position: relative;
-    .Image {
-        position: absolute;
-        top: -3rem;
+.headingSM {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.Bio {
+    height: 60vh;
+    width: 75%;
+    margin: 0 auto;
+    padding: 10rem 0;
+    .title {
+        font-size: 8.5rem;
+        font-weight: 600;
+        margin-top: 4rem;
+        color: white;
     }
 }
