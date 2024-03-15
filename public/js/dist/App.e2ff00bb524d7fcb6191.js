@@ -259,11 +259,62 @@ function HomePage() {
     src: "https://i.imgur.com/CAtnkHR.png"
   })), /*#__PURE__*/React.createElement("div", {
     className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].Bio
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].contentContainer
   }, /*#__PURE__*/React.createElement("h4", {
     className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].headingSM
   }, "Who I am"), /*#__PURE__*/React.createElement("h1", {
     className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].title
-  }, "Software", /*#__PURE__*/React.createElement("br", null), "Engineer")));
+  }, "Software", /*#__PURE__*/React.createElement("br", null), "Engineer")), /*#__PURE__*/React.createElement("p", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].titleDescription
+  }, "My role is as dynamic as the code I craft. I'm not just a coder; I'm an architect, a problem-solver, and an innovator.  ")), /*#__PURE__*/React.createElement("div", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].imgBannerContainer
+  }, /*#__PURE__*/React.createElement("img", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].imgBanner,
+    src: "https://i.imgur.com/zACT24f.png"
+  })), /*#__PURE__*/React.createElement("div", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceContainerMain
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceContainerLeft
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceCard
+  }, /*#__PURE__*/React.createElement("h4", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceTitle
+  }, "Design"), /*#__PURE__*/React.createElement("p", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceDescription
+  }, "Design in web development is the art of harmoniously blending aesthetics and functionality to create immersive digital experiences that captivate and engage users.")), /*#__PURE__*/React.createElement("div", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceCard
+  }, /*#__PURE__*/React.createElement("h4", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceTitle
+  }, "Development"), /*#__PURE__*/React.createElement("p", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceDescription
+  }, "The intricate process of architecting and implementing innovative solutions, leveraging cutting-edge technologies to build robust, scalable, and user-centric digital platforms that empower and enrich the online experience.")), /*#__PURE__*/React.createElement("div", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].headingSMContainer
+  }, /*#__PURE__*/React.createElement("p", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].headingSM
+  }, "I provide comprehensive web development services, crafting tailored solutions that seamlessly integrate design, branding, and marketing strategies to elevate online presence and drive meaningful engagement."))), /*#__PURE__*/React.createElement("div", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceContainerRight
+  }, /*#__PURE__*/React.createElement("h4", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].headingSM
+  }, "Creative Solutions"), /*#__PURE__*/React.createElement("h2", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceHeader
+  }, "Services"), /*#__PURE__*/React.createElement("div", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceCard
+  }, /*#__PURE__*/React.createElement("h4", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceTitle
+  }, "Branding"), /*#__PURE__*/React.createElement("p", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceDescription
+  }, "Branding in web development is the strategic cultivation of a cohesive digital identity, encompassing visual elements, messaging, and user experience, to establish a distinctive and memorable presence that resonates with audiences and fosters trust and loyalty.")), /*#__PURE__*/React.createElement("div", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceCard
+  }, /*#__PURE__*/React.createElement("h4", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceTitle
+  }, "Marketing"), /*#__PURE__*/React.createElement("p", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceDescription
+  }, "Marketing in web development involves leveraging various digital channels and strategies to effectively promote products, services, or ideas, with the aim of reaching and engaging target audiences, driving traffic, and ultimately achieving business objectives, all while delivering compelling and relevant content tailored to user needs and preferences.")))), /*#__PURE__*/React.createElement("div", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].projectBannerContainer
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].projectBanner
+  }, "My Projects")));
 }
 
 /***/ }),
@@ -644,14 +695,131 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.luBJirBC3AbIwQNsEypk {
   height: 60vh;
   width: 75%;
   margin: 0 auto;
-  padding: 10rem 0;
+  padding: 10rem 0 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.beJSPvPImQI8jxDHLb_F .qIs7e7_Y_JM_bcw9U8L1 {
+.beJSPvPImQI8jxDHLb_F .SFzQUleyXLDlii7aEUlZ {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.beJSPvPImQI8jxDHLb_F .SFzQUleyXLDlii7aEUlZ .qIs7e7_Y_JM_bcw9U8L1 {
   font-size: 8.5rem;
   font-weight: 600;
-  margin-top: 4rem;
   color: white;
-}`, "",{"version":3,"sources":["webpack://./src/pages/HomePage/HomePage.module.scss"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,YAAA;EACA,cAAA;EACA,kBAAA;AACJ;AAAI;EACI,cAAA;AAER;AAAI;EACI,YAAA;EACA,gBAAA;AAER;AADQ;EACI,gBAAA;AAGZ;AADQ;EACI,gBAAA;EACA,2BAAA;AAGZ;AADQ;EACI,YAAA;EACA,gBAAA;AAGZ;AACI;EACI,WAAA;EACA,gBAAA;EACA,WAAA;AACR;AAEI;EACI,uBAAA;EACA,WAAA;EACA,kBAAA;EACA,SAAA;EACA,YAAA;EACA,WAAA;EACA,uBAAA;AAAR;;AAIA;EACI,YAAA;EACA,iBAAA;AADJ;;AAIA;EACI,YAAA;EACA,UAAA;EACA,cAAA;EACA,gBAAA;AADJ;AAEI;EACI,iBAAA;EACA,gBAAA;EACA,gBAAA;EACA,YAAA;AAAR","sourcesContent":[".HomePage {\n    width: 80%;\n    height: 80vh;\n    margin: 0 auto;\n    position: relative;\n    .headingSM {\n        margin: 8rem 0;\n    }\n    .heading {\n        color: white;\n        font-size: 11rem;\n        .spanText, .spanPlus {\n            font-size: 11rem;\n        }\n        .spanText {\n            font-weight: 100;\n            color: var(--heading-color);\n        }\n        .spanPlus {\n            color: black;\n            font-size: 13rem;\n        }\n    }\n    \n    .paragraph {\n        color: grey;\n        margin-top: 5rem;\n        width: 50vw;\n    }\n    \n    .image {\n        background-color: black;\n        width: 30vw;\n        position: absolute;\n        top: 4rem;\n        right: 10rem;\n        z-index: -1;\n        transform: rotate(7deg);\n    }\n}\n\n.headingSM {\n    color: white;\n    font-size: 1.5rem;\n}\n\n.Bio {\n    height: 60vh;\n    width: 75%;\n    margin: 0 auto;\n    padding: 10rem 0;\n    .title {\n        font-size: 8.5rem;\n        font-weight: 600;\n        margin-top: 4rem;\n        color: white;\n    }\n}"],"sourceRoot":""}]);
+}
+.beJSPvPImQI8jxDHLb_F .CszEE0vYQoG0SlZGgu6m {
+  color: grey;
+  padding-left: 3rem;
+  height: 60vh;
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  transition: 1s ease;
+}
+.beJSPvPImQI8jxDHLb_F .CszEE0vYQoG0SlZGgu6m:hover {
+  color: var(--heading-color);
+  transition: 1s ease;
+}
+
+.qV6gkvx305OJeH7486zo {
+  background-color: var(--heading-color);
+  height: 60vh;
+  position: relative;
+  overflow: hidden;
+}
+.qV6gkvx305OJeH7486zo .YGev3COECzKodgZWwelb {
+  width: 100vw;
+  position: absolute;
+  transition: 0.8s ease;
+}
+.qV6gkvx305OJeH7486zo .YGev3COECzKodgZWwelb:hover {
+  transition: 0.8s ease;
+  opacity: 0.9;
+}
+
+.GeFQKPm7WsqVbd0zYErS {
+  width: 75%;
+  margin: 0 auto;
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.GeFQKPm7WsqVbd0zYErS .pm4owp_jiUPI0AQ5lpux {
+  font-size: 8.5rem;
+  font-weight: 600;
+  color: white;
+}
+.GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L .Nf1wYnmcdcOixED537yh {
+  width: 90%;
+}
+.GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L .Nf1wYnmcdcOixED537yh .h2c6G6zXieb9PEgg9YMz {
+  text-align: left;
+}
+.GeFQKPm7WsqVbd0zYErS .G_5kqBdkwt8o4xv_rRpT {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.GeFQKPm7WsqVbd0zYErS .PCCy3NZpXL2GjrWEhDul {
+  width: 90%;
+  height: 25vh;
+  background-color: #303030;
+  margin-bottom: 3rem;
+  padding: 3.5rem;
+  border-radius: 0.5rem;
+  transition: 0.4s ease;
+}
+.GeFQKPm7WsqVbd0zYErS .PCCy3NZpXL2GjrWEhDul .sJc8qJur0rxEvfnLqrpE {
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+.GeFQKPm7WsqVbd0zYErS .PCCy3NZpXL2GjrWEhDul .QU527y1gYusA6K_RnBE0 {
+  font-size: 1rem;
+  color: darkgrey;
+}
+.GeFQKPm7WsqVbd0zYErS .PCCy3NZpXL2GjrWEhDul:hover .sJc8qJur0rxEvfnLqrpE {
+  transform: scale(1.05);
+  color: var(--heading-color);
+  transition: 0.4s ease;
+}
+
+.mEO0Dl5CIYIkzD394caj {
+  background-color: black;
+  padding: 5rem 0;
+  overflow: hidden; /* Ensure the banner stays within its container */
+}
+.mEO0Dl5CIYIkzD394caj .TdR_D6KPZ0Hjn_3R33mg {
+  font-size: 20rem;
+  font-weight: 800;
+  animation: Tp22a9mn2RU26vUN2coQ 10s linear infinite; /* Adjust the duration and timing function as needed */
+}
+
+@keyframes Tp22a9mn2RU26vUN2coQ {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}`, "",{"version":3,"sources":["webpack://./src/pages/HomePage/HomePage.module.scss"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,YAAA;EACA,cAAA;EACA,kBAAA;AACJ;AAAI;EACI,cAAA;AAER;AAAI;EACI,YAAA;EACA,gBAAA;AAER;AADQ;EACI,gBAAA;AAGZ;AADQ;EACI,gBAAA;EACA,2BAAA;AAGZ;AADQ;EACI,YAAA;EACA,gBAAA;AAGZ;AACI;EACI,WAAA;EACA,gBAAA;EACA,WAAA;AACR;AAEI;EACI,uBAAA;EACA,WAAA;EACA,kBAAA;EACA,SAAA;EACA,YAAA;EACA,WAAA;EACA,uBAAA;AAAR;;AAIA;EACI,YAAA;EACA,iBAAA;AADJ;;AAIA;EACI,YAAA;EACA,UAAA;EACA,cAAA;EACA,sBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;AADJ;AAEI;EACI,YAAA;EACA,aAAA;EACA,sBAAA;EACA,yBAAA;EACA,uBAAA;AAAR;AACQ;EACI,iBAAA;EACA,gBAAA;EACA,YAAA;AACZ;AAEI;EACI,WAAA;EACA,kBAAA;EACA,YAAA;EACA,eAAA;EACA,aAAA;EACA,sBAAA;EACA,yBAAA;EACA,uBAAA;EACA,mBAAA;AAAR;AACQ;EACI,2BAAA;EACA,mBAAA;AACZ;;AAGA;EACI,sCAAA;EACA,YAAA;EACA,kBAAA;EACA,gBAAA;AAAJ;AACI;EACI,YAAA;EACA,kBAAA;EACA,qBAAA;AACR;AAAQ;EACI,qBAAA;EACA,YAAA;AAEZ;;AAEA;EACI,UAAA;EACA,cAAA;EACA,eAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;AACJ;AAAI;EACI,iBAAA;EACA,gBAAA;EACA,YAAA;AAER;AAAI;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;AAER;AADQ;EACI,UAAA;AAGZ;AAFY;EACI,gBAAA;AAIhB;AAAI;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;AAER;AAAI;EACI,UAAA;EACA,YAAA;EACA,yBAAA;EACA,mBAAA;EACA,eAAA;EACA,qBAAA;EACA,qBAAA;AAER;AADQ;EACI,iBAAA;EACA,YAAA;EACA,mBAAA;AAGZ;AADQ;EACI,eAAA;EACA,eAAA;AAGZ;AADQ;EACI,sBAAA;EACA,2BAAA;EACA,qBAAA;AAGZ;;AACA;EACI,uBAAA;EACA,eAAA;EACA,gBAAA,EAAA,iDAAA;AAEJ;AADI;EACI,gBAAA;EACA,gBAAA;EACA,mDAAA,EAAA,sDAAA;AAGR;;AACA;EACI;IACI,2BAAA;EAEN;EACE;IACI,4BAAA;EACN;AACF","sourcesContent":[".HomePage {\n    width: 80%;\n    height: 80vh;\n    margin: 0 auto;\n    position: relative;\n    .headingSM {\n        margin: 8rem 0;\n    }\n    .heading {\n        color: white;\n        font-size: 11rem;\n        .spanText, .spanPlus {\n            font-size: 11rem;\n        }\n        .spanText {\n            font-weight: 100;\n            color: var(--heading-color);\n        }\n        .spanPlus {\n            color: black;\n            font-size: 13rem;\n        }\n    }\n    \n    .paragraph {\n        color: grey;\n        margin-top: 5rem;\n        width: 50vw;\n    }\n    \n    .image {\n        background-color: black;\n        width: 30vw;\n        position: absolute;\n        top: 4rem;\n        right: 10rem;\n        z-index: -1;\n        transform: rotate(7deg);\n    }\n}\n\n.headingSM {\n    color: white;\n    font-size: 1.5rem;\n}\n\n.Bio {\n    height: 60vh;\n    width: 75%;\n    margin: 0 auto;\n    padding: 10rem 0 20rem;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    .contentContainer {\n        height: 60vh;\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-end;\n        align-items: flex-start;\n        .title {\n            font-size: 8.5rem;\n            font-weight: 600;\n            color: white;\n        }\n    }\n    .titleDescription {\n        color: grey;\n        padding-left: 3rem;\n        height: 60vh;\n        font-size: 5rem;\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-end;\n        align-items: flex-start;\n        transition: 1s ease;\n        &:hover {\n            color: var(--heading-color);\n            transition: 1s ease;\n        }\n    }\n}\n.imgBannerContainer {\n    background-color: var(--heading-color);\n    height: 60vh;\n    position: relative;\n    overflow: hidden;\n    .imgBanner {\n        width: 100vw;\n        position: absolute;\n        transition: .8s ease;\n        &:hover {\n            transition: .8s ease;\n            opacity: .9;\n        }\n    }\n}\n.serviceContainerMain {\n    width: 75%;\n    margin: 0 auto;\n    padding: 5rem 0;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    .serviceHeader {\n        font-size: 8.5rem;\n        font-weight: 600;\n        color: white;\n    }\n    .serviceContainerLeft {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        width: 50%;\n        .headingSMContainer {\n            width: 90%;\n            .headingSM {\n                text-align: left;\n            }\n        }\n    }\n    .serviceContainerRight {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        width: 50%;\n    }\n    .serviceCard {\n        width: 90%;\n        height: 25vh;\n        background-color: #303030;\n        margin-bottom: 3rem;\n        padding: 3.5rem;\n        border-radius: .5rem;\n        transition: .4s ease;\n        .serviceTitle {\n            font-size: 1.8rem;\n            color: white;\n            margin-bottom: 1rem;\n        }\n        .serviceDescription {\n            font-size: 1rem;\n            color: darkgrey;\n        }\n        &:hover .serviceTitle {\n            transform: scale(1.05);\n            color: var(--heading-color);\n            transition: .4s ease;\n        }\n    }\n}\n.projectBannerContainer {\n    background-color: black;\n    padding: 5rem 0;\n    overflow: hidden; /* Ensure the banner stays within its container */\n    .projectBanner {\n        font-size: 20rem;\n        font-weight: 800;\n        animation: slideAcross 10s linear infinite; /* Adjust the duration and timing function as needed */\n    }\n}\n\n@keyframes slideAcross {\n    from {\n        transform: translateX(100%);\n    }\n  \n    to {\n        transform: translateX(-100%);\n    }\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"HomePage": `luBJirBC3AbIwQNsEypk`,
@@ -662,7 +830,22 @@ ___CSS_LOADER_EXPORT___.locals = {
 	"paragraph": `CC_x9kGqk0rMd_y5t0Ne`,
 	"image": `OANrHW02gzoqyv5UHhmL`,
 	"Bio": `beJSPvPImQI8jxDHLb_F`,
-	"title": `qIs7e7_Y_JM_bcw9U8L1`
+	"contentContainer": `SFzQUleyXLDlii7aEUlZ`,
+	"title": `qIs7e7_Y_JM_bcw9U8L1`,
+	"titleDescription": `CszEE0vYQoG0SlZGgu6m`,
+	"imgBannerContainer": `qV6gkvx305OJeH7486zo`,
+	"imgBanner": `YGev3COECzKodgZWwelb`,
+	"serviceContainerMain": `GeFQKPm7WsqVbd0zYErS`,
+	"serviceHeader": `pm4owp_jiUPI0AQ5lpux`,
+	"serviceContainerLeft": `y3q9pTjEFUujyR8Zxc8L`,
+	"headingSMContainer": `Nf1wYnmcdcOixED537yh`,
+	"serviceContainerRight": `G_5kqBdkwt8o4xv_rRpT`,
+	"serviceCard": `PCCy3NZpXL2GjrWEhDul`,
+	"serviceTitle": `sJc8qJur0rxEvfnLqrpE`,
+	"serviceDescription": `QU527y1gYusA6K_RnBE0`,
+	"projectBannerContainer": `mEO0Dl5CIYIkzD394caj`,
+	"projectBanner": `TdR_D6KPZ0Hjn_3R33mg`,
+	"slideAcross": `Tp22a9mn2RU26vUN2coQ`
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1281,4 +1464,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.7ea0b34005f152ca47a896b644b2cb78.js.map
+//# sourceMappingURL=App.ecec936deec9939e24ae1f8ced1b7d4f.js.map
