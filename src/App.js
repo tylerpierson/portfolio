@@ -39,7 +39,7 @@ export default function App(){
     }
     return(
         <>
-            <div className={styles.container}>
+            <div className={styles.App}>
                 <Routes>
                     <Route 
                     path='/' 

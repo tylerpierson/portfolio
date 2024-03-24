@@ -62,7 +62,7 @@ function App() {
     }
   };
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].container
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].App
   }, /*#__PURE__*/React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Routes, null, /*#__PURE__*/React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Route, {
     path: "/",
     element: /*#__PURE__*/React.createElement(_pages_HomePage_HomePage__WEBPACK_IMPORTED_MODULE_1__["default"], null)
@@ -242,6 +242,8 @@ function ContactPage() {
 function HomePage() {
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/React.createElement("div", {
     className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].HomePage
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].introContainer
   }, /*#__PURE__*/React.createElement("h4", {
     className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].headingSM
   }, "Design Portfolio"), /*#__PURE__*/React.createElement("h1", {
@@ -314,7 +316,7 @@ function HomePage() {
     className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].projectBannerContainer
   }, /*#__PURE__*/React.createElement("h1", {
     className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].projectBanner
-  }, "My Projects")));
+  }, "My Projects"))));
 }
 
 /***/ }),
@@ -359,7 +361,12 @@ function ProjectsPage() {
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `h1 {
+___CSS_LOADER_EXPORT___.push([module.id, `.IMqMrT2eGOGeFiLbCAGg {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
   font-size: 7vmin;
   color: var(--heading-color);
   text-shadow: 1px 1px 2px black;
@@ -393,9 +400,11 @@ button {
 
 button:hover {
   cursor: pointer;
-}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"AAAA;EACI,gBAAA;EACA,2BAAA;EACA,8BAAA;AACJ;;AAEA;EACI,WAAA;EACA,cAAA;EACA,mBAAA;EACA,iBAAA;EACA,eAAA;EACA,aAAA;EACA,yBAAA;AACJ;;AAEA;EACI,aAAA;EACA,qCAAA;AACJ;;AAEA;EACI,iBAAA;EACA,aAAA;AACJ;;AAEA;EACI,kCAAA;EACA,4BAAA;EACA,gCAAA;AACJ;;AAEA;EACI,eAAA;AACJ","sourcesContent":["h1 {\n    font-size: 7vmin;\n    color: var(--heading-color);\n    text-shadow: 1px 1px 2px black;\n}\n\ninput {\n    width: 25vw;\n    height: 3.5rem;\n    border-radius: 1rem;\n    margin-left: 1rem;\n    font-size: 2rem;\n    padding: 1rem;\n    color: var(--input-color);\n}\n\ninput:focus {\n    outline: none;\n    box-shadow: 0 0 1rem var(--btn-color);\n}\n\nlabel {\n    font-size: 2.3rem;\n    padding: 1rem;\n}\n\nbutton {\n    background-color: var(--btn-color);\n    border-top-left-radius: 1rem;\n    border-bottom-right-radius: 1rem;\n}\n\nbutton:hover {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;AACJ;;AAEA;EACI,gBAAA;EACA,2BAAA;EACA,8BAAA;AACJ;;AAEA;EACI,WAAA;EACA,cAAA;EACA,mBAAA;EACA,iBAAA;EACA,eAAA;EACA,aAAA;EACA,yBAAA;AACJ;;AAEA;EACI,aAAA;EACA,qCAAA;AACJ;;AAEA;EACI,iBAAA;EACA,aAAA;AACJ;;AAEA;EACI,kCAAA;EACA,4BAAA;EACA,gCAAA;AACJ;;AAEA;EACI,eAAA;AACJ","sourcesContent":[".App {\n    width: 100%;\n    height: 100%;\n}\n\nh1 {\n    font-size: 7vmin;\n    color: var(--heading-color);\n    text-shadow: 1px 1px 2px black;\n}\n\ninput {\n    width: 25vw;\n    height: 3.5rem;\n    border-radius: 1rem;\n    margin-left: 1rem;\n    font-size: 2rem;\n    padding: 1rem;\n    color: var(--input-color);\n}\n\ninput:focus {\n    outline: none;\n    box-shadow: 0 0 1rem var(--btn-color);\n}\n\nlabel {\n    font-size: 2.3rem;\n    padding: 1rem;\n}\n\nbutton {\n    background-color: var(--btn-color);\n    border-top-left-radius: 1rem;\n    border-bottom-right-radius: 1rem;\n}\n\nbutton:hover {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
 // Exports
-___CSS_LOADER_EXPORT___.locals = {};
+___CSS_LOADER_EXPORT___.locals = {
+	"App": `IMqMrT2eGOGeFiLbCAGg`
+};
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
@@ -534,7 +543,14 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.SLZXaJInmBusSKJAiC7A {
   opacity: 1;
   transition: 0.5s ease;
   color: var(--btn-color);
-}`, "",{"version":3,"sources":["webpack://./src/components/NavBar/NavBar.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;EACA,aAAA;AACJ;AACI;EACI,WAAA;EACA,iBAAA;AACR;AAEI;EACI,WAAA;EACA,YAAA;EACA,aAAA;EACA,yBAAA;EACA,mBAAA;AAAR;AAEQ;EACI,YAAA;EACA,UAAA;EACA,iBAAA;EACA,kBAAA;AAAZ;AAEY;EACI,qBAAA;EACA,qBAAA;EACA,YAAA;EACA,kBAAA;EACA,WAAA;EACA,kBAAA;EACA,+BAAA;AAAhB;AAGY;EACI,QAAA;EACA,2BAAA;EACA,qBAAA;AADhB;AAIY;EACI,QAAA;EACA,0BAAA;EACA,UAAA;EACA,qBAAA;AAFhB;AAKY;EACI,eAAA;AAHhB;AAKgB;EACI,4BAAA;EACA,UAAA;EACA,qBAAA;AAHpB;AAMgB;EACI,2BAAA;EACA,UAAA;EACA,qBAAA;EACA,uBAAA;AAJpB","sourcesContent":[".Nav {\n    width: 100%;\n    height: 10vh;\n    display: flex;\n\n    .image {\n        width: 10vw;\n        margin-left: 2rem;\n    }\n\n    .ul {\n        width: 100%;\n        height: 100%;\n        display: flex;\n        justify-content: flex-end;\n        align-items: center;\n\n        .listItemContainer {\n            height: 100%;\n            width: 7vw;\n            margin-left: 1rem;\n            position: relative;\n\n            .navItemTop, .navItemBottom {\n                list-style-type: none;\n                text-decoration: none;\n                color: white;\n                position: absolute;\n                width: 100%;\n                text-align: center;\n                transition: transform 0.3s ease;\n            }\n\n            .navItemTop {\n                top: 50%;\n                transform: translateY(-50%);\n                transition: .5s ease;\n            }\n\n            .navItemBottom {\n                top: 50%;\n                transform: translateY(50%);\n                opacity: 0;\n                transition: .5s ease;\n            }\n\n            &:hover {\n                cursor: pointer;\n\n                .navItemTop {\n                    transform: translateY(-150%);\n                    opacity: 0;\n                    transition: .5s ease;\n                }\n\n                .navItemBottom {\n                    transform: translateY(-50%);\n                    opacity: 1;\n                    transition: .5s ease;\n                    color: var(--btn-color);\n                }\n            }\n        }\n    }\n}\n"],"sourceRoot":""}]);
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .SLZXaJInmBusSKJAiC7A {
+    display: none;
+  }
+}`, "",{"version":3,"sources":["webpack://./src/components/NavBar/NavBar.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;EACA,aAAA;AACJ;AACI;EACI,WAAA;EACA,iBAAA;AACR;AAEI;EACI,WAAA;EACA,YAAA;EACA,aAAA;EACA,yBAAA;EACA,mBAAA;AAAR;AAEQ;EACI,YAAA;EACA,UAAA;EACA,iBAAA;EACA,kBAAA;AAAZ;AAEY;EACI,qBAAA;EACA,qBAAA;EACA,YAAA;EACA,kBAAA;EACA,WAAA;EACA,kBAAA;EACA,+BAAA;AAAhB;AAGY;EACI,QAAA;EACA,2BAAA;EACA,qBAAA;AADhB;AAIY;EACI,QAAA;EACA,0BAAA;EACA,UAAA;EACA,qBAAA;AAFhB;AAKY;EACI,eAAA;AAHhB;AAKgB;EACI,4BAAA;EACA,UAAA;EACA,qBAAA;AAHpB;AAMgB;EACI,2BAAA;EACA,UAAA;EACA,qBAAA;EACA,uBAAA;AAJpB;;AAWA,oEAAA;AACA;EACI;IACI,aAAA;EARN;AACF","sourcesContent":[".Nav {\n    width: 100%;\n    height: 10vh;\n    display: flex;\n\n    .image {\n        width: 10vw;\n        margin-left: 2rem;\n    }\n\n    .ul {\n        width: 100%;\n        height: 100%;\n        display: flex;\n        justify-content: flex-end;\n        align-items: center;\n\n        .listItemContainer {\n            height: 100%;\n            width: 7vw;\n            margin-left: 1rem;\n            position: relative;\n\n            .navItemTop, .navItemBottom {\n                list-style-type: none;\n                text-decoration: none;\n                color: white;\n                position: absolute;\n                width: 100%;\n                text-align: center;\n                transition: transform 0.3s ease;\n            }\n\n            .navItemTop {\n                top: 50%;\n                transform: translateY(-50%);\n                transition: .5s ease;\n            }\n\n            .navItemBottom {\n                top: 50%;\n                transform: translateY(50%);\n                opacity: 0;\n                transition: .5s ease;\n            }\n\n            &:hover {\n                cursor: pointer;\n\n                .navItemTop {\n                    transform: translateY(-150%);\n                    opacity: 0;\n                    transition: .5s ease;\n                }\n\n                .navItemBottom {\n                    transform: translateY(-50%);\n                    opacity: 1;\n                    transition: .5s ease;\n                    color: var(--btn-color);\n                }\n            }\n        }\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 600px) {\n    .Nav {\n        display: none;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Nav": `SLZXaJInmBusSKJAiC7A`,
@@ -649,34 +665,38 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.luBJirBC3AbIwQNsEypk {
   width: 80%;
-  height: 80vh;
+  height: 100%;
   margin: 0 auto;
+}
+.luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn {
+  width: 100%;
+  height: 100%;
   position: relative;
 }
-.luBJirBC3AbIwQNsEypk .h2c6G6zXieb9PEgg9YMz {
+.luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .h2c6G6zXieb9PEgg9YMz {
   margin: 8rem 0;
 }
-.luBJirBC3AbIwQNsEypk .HXb4If_3xaEW4b91vFuW {
+.luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .HXb4If_3xaEW4b91vFuW {
   color: white;
   font-size: 11rem;
 }
-.luBJirBC3AbIwQNsEypk .HXb4If_3xaEW4b91vFuW .gyGLoW6CuXeiMZ56G4RC, .luBJirBC3AbIwQNsEypk .HXb4If_3xaEW4b91vFuW .IzT_Oh31NN5s_F70j18X {
+.luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .HXb4If_3xaEW4b91vFuW .gyGLoW6CuXeiMZ56G4RC, .luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .HXb4If_3xaEW4b91vFuW .IzT_Oh31NN5s_F70j18X {
   font-size: 11rem;
 }
-.luBJirBC3AbIwQNsEypk .HXb4If_3xaEW4b91vFuW .gyGLoW6CuXeiMZ56G4RC {
+.luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .HXb4If_3xaEW4b91vFuW .gyGLoW6CuXeiMZ56G4RC {
   font-weight: 100;
   color: var(--heading-color);
 }
-.luBJirBC3AbIwQNsEypk .HXb4If_3xaEW4b91vFuW .IzT_Oh31NN5s_F70j18X {
+.luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .HXb4If_3xaEW4b91vFuW .IzT_Oh31NN5s_F70j18X {
   color: black;
   font-size: 13rem;
 }
-.luBJirBC3AbIwQNsEypk .CC_x9kGqk0rMd_y5t0Ne {
+.luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .CC_x9kGqk0rMd_y5t0Ne {
   color: grey;
   margin-top: 5rem;
   width: 50vw;
 }
-.luBJirBC3AbIwQNsEypk .OANrHW02gzoqyv5UHhmL {
+.luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .OANrHW02gzoqyv5UHhmL {
   background-color: black;
   width: 30vw;
   position: absolute;
@@ -685,13 +705,11 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.luBJirBC3AbIwQNsEypk {
   z-index: -1;
   transform: rotate(7deg);
 }
-
-.h2c6G6zXieb9PEgg9YMz {
+.luBJirBC3AbIwQNsEypk .h2c6G6zXieb9PEgg9YMz {
   color: white;
   font-size: 1.5rem;
 }
-
-.beJSPvPImQI8jxDHLb_F {
+.luBJirBC3AbIwQNsEypk .beJSPvPImQI8jxDHLb_F {
   height: 60vh;
   width: 75%;
   margin: 0 auto;
@@ -700,19 +718,19 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.luBJirBC3AbIwQNsEypk {
   justify-content: center;
   align-items: center;
 }
-.beJSPvPImQI8jxDHLb_F .SFzQUleyXLDlii7aEUlZ {
+.luBJirBC3AbIwQNsEypk .beJSPvPImQI8jxDHLb_F .SFzQUleyXLDlii7aEUlZ {
   height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
 }
-.beJSPvPImQI8jxDHLb_F .SFzQUleyXLDlii7aEUlZ .qIs7e7_Y_JM_bcw9U8L1 {
+.luBJirBC3AbIwQNsEypk .beJSPvPImQI8jxDHLb_F .SFzQUleyXLDlii7aEUlZ .qIs7e7_Y_JM_bcw9U8L1 {
   font-size: 8.5rem;
   font-weight: 600;
   color: white;
 }
-.beJSPvPImQI8jxDHLb_F .CszEE0vYQoG0SlZGgu6m {
+.luBJirBC3AbIwQNsEypk .beJSPvPImQI8jxDHLb_F .CszEE0vYQoG0SlZGgu6m {
   color: grey;
   padding-left: 3rem;
   height: 60vh;
@@ -723,28 +741,26 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.luBJirBC3AbIwQNsEypk {
   align-items: flex-start;
   transition: 1s ease;
 }
-.beJSPvPImQI8jxDHLb_F .CszEE0vYQoG0SlZGgu6m:hover {
+.luBJirBC3AbIwQNsEypk .beJSPvPImQI8jxDHLb_F .CszEE0vYQoG0SlZGgu6m:hover {
   color: var(--heading-color);
   transition: 1s ease;
 }
-
-.qV6gkvx305OJeH7486zo {
+.luBJirBC3AbIwQNsEypk .qV6gkvx305OJeH7486zo {
   background-color: var(--heading-color);
   height: 60vh;
   position: relative;
   overflow: hidden;
 }
-.qV6gkvx305OJeH7486zo .YGev3COECzKodgZWwelb {
+.luBJirBC3AbIwQNsEypk .qV6gkvx305OJeH7486zo .YGev3COECzKodgZWwelb {
   width: 100vw;
   position: absolute;
   transition: 0.8s ease;
 }
-.qV6gkvx305OJeH7486zo .YGev3COECzKodgZWwelb:hover {
+.luBJirBC3AbIwQNsEypk .qV6gkvx305OJeH7486zo .YGev3COECzKodgZWwelb:hover {
   transition: 0.8s ease;
   opacity: 0.9;
 }
-
-.GeFQKPm7WsqVbd0zYErS {
+.luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS {
   width: 75%;
   margin: 0 auto;
   padding: 5rem 0;
@@ -752,32 +768,32 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.luBJirBC3AbIwQNsEypk {
   justify-content: space-between;
   align-items: center;
 }
-.GeFQKPm7WsqVbd0zYErS .pm4owp_jiUPI0AQ5lpux {
+.luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .pm4owp_jiUPI0AQ5lpux {
   font-size: 8.5rem;
   font-weight: 600;
   color: white;
 }
-.GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L {
+.luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 50%;
 }
-.GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L .Nf1wYnmcdcOixED537yh {
+.luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L .Nf1wYnmcdcOixED537yh {
   width: 90%;
 }
-.GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L .Nf1wYnmcdcOixED537yh .h2c6G6zXieb9PEgg9YMz {
+.luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L .Nf1wYnmcdcOixED537yh .h2c6G6zXieb9PEgg9YMz {
   text-align: left;
 }
-.GeFQKPm7WsqVbd0zYErS .G_5kqBdkwt8o4xv_rRpT {
+.luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .G_5kqBdkwt8o4xv_rRpT {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 50%;
 }
-.GeFQKPm7WsqVbd0zYErS .PCCy3NZpXL2GjrWEhDul {
+.luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .PCCy3NZpXL2GjrWEhDul {
   width: 90%;
   height: 25vh;
   background-color: #303030;
@@ -786,32 +802,30 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.luBJirBC3AbIwQNsEypk {
   border-radius: 0.5rem;
   transition: 0.4s ease;
 }
-.GeFQKPm7WsqVbd0zYErS .PCCy3NZpXL2GjrWEhDul .sJc8qJur0rxEvfnLqrpE {
+.luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .PCCy3NZpXL2GjrWEhDul .sJc8qJur0rxEvfnLqrpE {
   font-size: 1.8rem;
   color: white;
   margin-bottom: 1rem;
 }
-.GeFQKPm7WsqVbd0zYErS .PCCy3NZpXL2GjrWEhDul .QU527y1gYusA6K_RnBE0 {
+.luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .PCCy3NZpXL2GjrWEhDul .QU527y1gYusA6K_RnBE0 {
   font-size: 1rem;
   color: darkgrey;
 }
-.GeFQKPm7WsqVbd0zYErS .PCCy3NZpXL2GjrWEhDul:hover .sJc8qJur0rxEvfnLqrpE {
+.luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .PCCy3NZpXL2GjrWEhDul:hover .sJc8qJur0rxEvfnLqrpE {
   transform: scale(1.05);
   color: var(--heading-color);
   transition: 0.4s ease;
 }
-
-.mEO0Dl5CIYIkzD394caj {
+.luBJirBC3AbIwQNsEypk .mEO0Dl5CIYIkzD394caj {
   background-color: black;
   padding: 5rem 0;
   overflow: hidden; /* Ensure the banner stays within its container */
 }
-.mEO0Dl5CIYIkzD394caj .TdR_D6KPZ0Hjn_3R33mg {
+.luBJirBC3AbIwQNsEypk .mEO0Dl5CIYIkzD394caj .TdR_D6KPZ0Hjn_3R33mg {
   font-size: 20rem;
   font-weight: 800;
   animation: Tp22a9mn2RU26vUN2coQ 10s linear infinite; /* Adjust the duration and timing function as needed */
 }
-
 @keyframes Tp22a9mn2RU26vUN2coQ {
   from {
     transform: translateX(100%);
@@ -819,10 +833,105 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.luBJirBC3AbIwQNsEypk {
   to {
     transform: translateX(-100%);
   }
-}`, "",{"version":3,"sources":["webpack://./src/pages/HomePage/HomePage.module.scss"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,YAAA;EACA,cAAA;EACA,kBAAA;AACJ;AAAI;EACI,cAAA;AAER;AAAI;EACI,YAAA;EACA,gBAAA;AAER;AADQ;EACI,gBAAA;AAGZ;AADQ;EACI,gBAAA;EACA,2BAAA;AAGZ;AADQ;EACI,YAAA;EACA,gBAAA;AAGZ;AACI;EACI,WAAA;EACA,gBAAA;EACA,WAAA;AACR;AAEI;EACI,uBAAA;EACA,WAAA;EACA,kBAAA;EACA,SAAA;EACA,YAAA;EACA,WAAA;EACA,uBAAA;AAAR;;AAIA;EACI,YAAA;EACA,iBAAA;AADJ;;AAIA;EACI,YAAA;EACA,UAAA;EACA,cAAA;EACA,sBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;AADJ;AAEI;EACI,YAAA;EACA,aAAA;EACA,sBAAA;EACA,yBAAA;EACA,uBAAA;AAAR;AACQ;EACI,iBAAA;EACA,gBAAA;EACA,YAAA;AACZ;AAEI;EACI,WAAA;EACA,kBAAA;EACA,YAAA;EACA,eAAA;EACA,aAAA;EACA,sBAAA;EACA,yBAAA;EACA,uBAAA;EACA,mBAAA;AAAR;AACQ;EACI,2BAAA;EACA,mBAAA;AACZ;;AAGA;EACI,sCAAA;EACA,YAAA;EACA,kBAAA;EACA,gBAAA;AAAJ;AACI;EACI,YAAA;EACA,kBAAA;EACA,qBAAA;AACR;AAAQ;EACI,qBAAA;EACA,YAAA;AAEZ;;AAEA;EACI,UAAA;EACA,cAAA;EACA,eAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;AACJ;AAAI;EACI,iBAAA;EACA,gBAAA;EACA,YAAA;AAER;AAAI;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;AAER;AADQ;EACI,UAAA;AAGZ;AAFY;EACI,gBAAA;AAIhB;AAAI;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;AAER;AAAI;EACI,UAAA;EACA,YAAA;EACA,yBAAA;EACA,mBAAA;EACA,eAAA;EACA,qBAAA;EACA,qBAAA;AAER;AADQ;EACI,iBAAA;EACA,YAAA;EACA,mBAAA;AAGZ;AADQ;EACI,eAAA;EACA,eAAA;AAGZ;AADQ;EACI,sBAAA;EACA,2BAAA;EACA,qBAAA;AAGZ;;AACA;EACI,uBAAA;EACA,eAAA;EACA,gBAAA,EAAA,iDAAA;AAEJ;AADI;EACI,gBAAA;EACA,gBAAA;EACA,mDAAA,EAAA,sDAAA;AAGR;;AACA;EACI;IACI,2BAAA;EAEN;EACE;IACI,4BAAA;EACN;AACF","sourcesContent":[".HomePage {\n    width: 80%;\n    height: 80vh;\n    margin: 0 auto;\n    position: relative;\n    .headingSM {\n        margin: 8rem 0;\n    }\n    .heading {\n        color: white;\n        font-size: 11rem;\n        .spanText, .spanPlus {\n            font-size: 11rem;\n        }\n        .spanText {\n            font-weight: 100;\n            color: var(--heading-color);\n        }\n        .spanPlus {\n            color: black;\n            font-size: 13rem;\n        }\n    }\n    \n    .paragraph {\n        color: grey;\n        margin-top: 5rem;\n        width: 50vw;\n    }\n    \n    .image {\n        background-color: black;\n        width: 30vw;\n        position: absolute;\n        top: 4rem;\n        right: 10rem;\n        z-index: -1;\n        transform: rotate(7deg);\n    }\n}\n\n.headingSM {\n    color: white;\n    font-size: 1.5rem;\n}\n\n.Bio {\n    height: 60vh;\n    width: 75%;\n    margin: 0 auto;\n    padding: 10rem 0 20rem;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    .contentContainer {\n        height: 60vh;\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-end;\n        align-items: flex-start;\n        .title {\n            font-size: 8.5rem;\n            font-weight: 600;\n            color: white;\n        }\n    }\n    .titleDescription {\n        color: grey;\n        padding-left: 3rem;\n        height: 60vh;\n        font-size: 5rem;\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-end;\n        align-items: flex-start;\n        transition: 1s ease;\n        &:hover {\n            color: var(--heading-color);\n            transition: 1s ease;\n        }\n    }\n}\n.imgBannerContainer {\n    background-color: var(--heading-color);\n    height: 60vh;\n    position: relative;\n    overflow: hidden;\n    .imgBanner {\n        width: 100vw;\n        position: absolute;\n        transition: .8s ease;\n        &:hover {\n            transition: .8s ease;\n            opacity: .9;\n        }\n    }\n}\n.serviceContainerMain {\n    width: 75%;\n    margin: 0 auto;\n    padding: 5rem 0;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    .serviceHeader {\n        font-size: 8.5rem;\n        font-weight: 600;\n        color: white;\n    }\n    .serviceContainerLeft {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        width: 50%;\n        .headingSMContainer {\n            width: 90%;\n            .headingSM {\n                text-align: left;\n            }\n        }\n    }\n    .serviceContainerRight {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        width: 50%;\n    }\n    .serviceCard {\n        width: 90%;\n        height: 25vh;\n        background-color: #303030;\n        margin-bottom: 3rem;\n        padding: 3.5rem;\n        border-radius: .5rem;\n        transition: .4s ease;\n        .serviceTitle {\n            font-size: 1.8rem;\n            color: white;\n            margin-bottom: 1rem;\n        }\n        .serviceDescription {\n            font-size: 1rem;\n            color: darkgrey;\n        }\n        &:hover .serviceTitle {\n            transform: scale(1.05);\n            color: var(--heading-color);\n            transition: .4s ease;\n        }\n    }\n}\n.projectBannerContainer {\n    background-color: black;\n    padding: 5rem 0;\n    overflow: hidden; /* Ensure the banner stays within its container */\n    .projectBanner {\n        font-size: 20rem;\n        font-weight: 800;\n        animation: slideAcross 10s linear infinite; /* Adjust the duration and timing function as needed */\n    }\n}\n\n@keyframes slideAcross {\n    from {\n        transform: translateX(100%);\n    }\n  \n    to {\n        transform: translateX(-100%);\n    }\n}\n"],"sourceRoot":""}]);
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .luBJirBC3AbIwQNsEypk {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    border: 1px solid red;
+  }
+  .luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn {
+    width: 100%;
+    border: 1px solid green;
+  }
+  .luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .h2c6G6zXieb9PEgg9YMz {
+    font-size: 1.4rem;
+    color: white;
+  }
+  .luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .HXb4If_3xaEW4b91vFuW {
+    width: 100%;
+    font-size: 3.5rem;
+  }
+  .luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .HXb4If_3xaEW4b91vFuW .gyGLoW6CuXeiMZ56G4RC {
+    font-size: 3.5rem;
+  }
+  .luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .HXb4If_3xaEW4b91vFuW .IzT_Oh31NN5s_F70j18X {
+    font-size: 3.5rem;
+  }
+  .luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .CC_x9kGqk0rMd_y5t0Ne {
+    width: 100%;
+  }
+  .luBJirBC3AbIwQNsEypk .dDBktqHefpOPtro_D3nn .OANrHW02gzoqyv5UHhmL {
+    top: 0;
+    right: 0;
+    transform: rotate(0);
+    width: 25rem;
+  }
+  .luBJirBC3AbIwQNsEypk .beJSPvPImQI8jxDHLb_F {
+    padding: 0;
+    width: 100vw;
+    height: 10rem;
+  }
+  .luBJirBC3AbIwQNsEypk .beJSPvPImQI8jxDHLb_F .SFzQUleyXLDlii7aEUlZ {
+    height: auto;
+  }
+  .luBJirBC3AbIwQNsEypk .beJSPvPImQI8jxDHLb_F .SFzQUleyXLDlii7aEUlZ .h2c6G6zXieb9PEgg9YMz {
+    font-size: 1rem;
+  }
+  .luBJirBC3AbIwQNsEypk .beJSPvPImQI8jxDHLb_F .SFzQUleyXLDlii7aEUlZ .qIs7e7_Y_JM_bcw9U8L1 {
+    font-size: 1rem;
+  }
+  .luBJirBC3AbIwQNsEypk .beJSPvPImQI8jxDHLb_F .CszEE0vYQoG0SlZGgu6m {
+    height: auto;
+    font-size: 1rem;
+  }
+  .luBJirBC3AbIwQNsEypk .qV6gkvx305OJeH7486zo {
+    background-color: transparent;
+    width: 100%;
+    height: 15rem;
+  }
+  .luBJirBC3AbIwQNsEypk .qV6gkvx305OJeH7486zo .YGev3COECzKodgZWwelb {
+    width: 100%;
+  }
+  .luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS {
+    display: none;
+  }
+  .luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L {
+    display: none;
+  }
+  .luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L .PCCy3NZpXL2GjrWEhDul {
+    display: none;
+  }
+  .luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L .PCCy3NZpXL2GjrWEhDul .sJc8qJur0rxEvfnLqrpE {
+    display: none;
+  }
+  .luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L .PCCy3NZpXL2GjrWEhDul .QU527y1gYusA6K_RnBE0 {
+    display: none;
+  }
+  .luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .y3q9pTjEFUujyR8Zxc8L .Nf1wYnmcdcOixED537yh {
+    display: none;
+  }
+  .luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .G_5kqBdkwt8o4xv_rRpT {
+    display: none;
+  }
+  .luBJirBC3AbIwQNsEypk .GeFQKPm7WsqVbd0zYErS .G_5kqBdkwt8o4xv_rRpT .pm4owp_jiUPI0AQ5lpux {
+    display: none;
+  }
+  .luBJirBC3AbIwQNsEypk .mEO0Dl5CIYIkzD394caj {
+    display: none;
+  }
+  .luBJirBC3AbIwQNsEypk .mEO0Dl5CIYIkzD394caj .TdR_D6KPZ0Hjn_3R33mg {
+    display: none;
+  }
+}`, "",{"version":3,"sources":["webpack://./src/pages/HomePage/HomePage.module.scss"],"names":[],"mappings":"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","sourcesContent":[".HomePage {\n    width: 80%;\n    height: 100%;\n    margin: 0 auto;\n    .introContainer {\n        width: 100%;\n        height: 100%;\n        position: relative;\n        .headingSM {\n            margin: 8rem 0;\n        }\n        .heading {\n            color: white;\n            font-size: 11rem;\n            .spanText, .spanPlus {\n                font-size: 11rem;\n            }\n            .spanText {\n                font-weight: 100;\n                color: var(--heading-color);\n            }\n            .spanPlus {\n                color: black;\n                font-size: 13rem;\n            }\n        }\n        \n        .paragraph {\n            color: grey;\n            margin-top: 5rem;\n            width: 50vw;\n        }\n        \n        .image {\n            background-color: black;\n            width: 30vw;\n            position: absolute;\n            top: 4rem;\n            right: 10rem;\n            z-index: -1;\n            transform: rotate(7deg);\n        }\n    }\n    \n    .headingSM {\n        color: white;\n        font-size: 1.5rem;\n    }\n    \n    .Bio {\n        height: 60vh;\n        width: 75%;\n        margin: 0 auto;\n        padding: 10rem 0 20rem;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        .contentContainer {\n            height: 60vh;\n            display: flex;\n            flex-direction: column;\n            justify-content: flex-end;\n            align-items: flex-start;\n            .title {\n                font-size: 8.5rem;\n                font-weight: 600;\n                color: white;\n            }\n        }\n        .titleDescription {\n            color: grey;\n            padding-left: 3rem;\n            height: 60vh;\n            font-size: 5rem;\n            display: flex;\n            flex-direction: column;\n            justify-content: flex-end;\n            align-items: flex-start;\n            transition: 1s ease;\n            &:hover {\n                color: var(--heading-color);\n                transition: 1s ease;\n            }\n        }\n    }\n    .imgBannerContainer {\n        background-color: var(--heading-color);\n        height: 60vh;\n        position: relative;\n        overflow: hidden;\n        .imgBanner {\n            width: 100vw;\n            position: absolute;\n            transition: .8s ease;\n            &:hover {\n                transition: .8s ease;\n                opacity: .9;\n            }\n        }\n    }\n    .serviceContainerMain {\n        width: 75%;\n        margin: 0 auto;\n        padding: 5rem 0;\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        .serviceHeader {\n            font-size: 8.5rem;\n            font-weight: 600;\n            color: white;\n        }\n        .serviceContainerLeft {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            width: 50%;\n            .headingSMContainer {\n                width: 90%;\n                .headingSM {\n                    text-align: left;\n                }\n            }\n        }\n        .serviceContainerRight {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            width: 50%;\n        }\n        .serviceCard {\n            width: 90%;\n            height: 25vh;\n            background-color: #303030;\n            margin-bottom: 3rem;\n            padding: 3.5rem;\n            border-radius: .5rem;\n            transition: .4s ease;\n            .serviceTitle {\n                font-size: 1.8rem;\n                color: white;\n                margin-bottom: 1rem;\n            }\n            .serviceDescription {\n                font-size: 1rem;\n                color: darkgrey;\n            }\n            &:hover .serviceTitle {\n                transform: scale(1.05);\n                color: var(--heading-color);\n                transition: .4s ease;\n            }\n        }\n    }\n    .projectBannerContainer {\n        background-color: black;\n        padding: 5rem 0;\n        overflow: hidden; /* Ensure the banner stays within its container */\n        .projectBanner {\n            font-size: 20rem;\n            font-weight: 800;\n            animation: slideAcross 10s linear infinite; /* Adjust the duration and timing function as needed */\n        }\n    }\n    \n    @keyframes slideAcross {\n        from {\n            transform: translateX(100%);\n        }\n      \n        to {\n            transform: translateX(-100%);\n        }\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 600px) {\n    .HomePage {\n        display: flex;\n        flex-direction: column;\n        width: 100%;\n        margin: 0;\n        border: 1px solid red;\n        .introContainer {\n            width: 100%;\n            border: 1px solid green;\n            .headingSM {\n                font-size: 1.4rem;\n                color: white;\n            }\n            .heading {\n                width: 100%;\n                font-size: 3.5rem;\n                .spanText {\n                    font-size: 3.5rem;\n                }\n                .spanPlus {\n                    font-size: 3.5rem;\n                }\n            }\n            .paragraph {\n                width: 100%;\n            }\n            .image {\n                top: 0;\n                right: 0;\n                transform: rotate(0);\n                width: 25rem;\n            }\n        }\n        .Bio {\n            padding: 0;\n            width: 100vw;\n            height: 10rem;\n            .contentContainer {\n                height: auto;\n                .headingSM {\n                    font-size: 1rem;\n                }\n                .title {\n                    font-size: 1rem;\n                }\n            }\n            .titleDescription {\n                height: auto;\n                font-size: 1rem; \n            }\n        }\n        .imgBannerContainer {\n            background-color: transparent;\n            width: 100%;\n            height: 15rem;\n            .imgBanner {\n                width: 100%;\n            }\n        }\n        .serviceContainerMain {\n            display: none;\n            .serviceContainerLeft {\n                display: none;\n                .serviceCard {\n                    display: none;\n                    .serviceTitle {\n                        display: none;\n                    }\n                    .serviceDescription {\n                        display: none;\n                    }\n                }\n                .headingSMContainer {\n                    display: none;\n                }\n            }\n            .serviceContainerRight {\n                display: none;\n                .serviceHeader {\n                    display: none;\n                }\n            }\n        }\n        .projectBannerContainer {\n            display: none;\n            .projectBanner {\n                display: none;\n            }\n        }\n    }\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"HomePage": `luBJirBC3AbIwQNsEypk`,
+	"introContainer": `dDBktqHefpOPtro_D3nn`,
 	"headingSM": `h2c6G6zXieb9PEgg9YMz`,
 	"heading": `HXb4If_3xaEW4b91vFuW`,
 	"spanText": `gyGLoW6CuXeiMZ56G4RC`,
@@ -1464,4 +1573,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.ecec936deec9939e24ae1f8ced1b7d4f.js.map
+//# sourceMappingURL=App.9083b1cfb624c0c940a0d43cc8806de3.js.map
