@@ -1,0 +1,35 @@
+.projectBannerContainer {
+    background-color: black;
+    width: 100%;
+    padding: 5rem 0;
+    overflow: hidden; /* Ensure the banner stays within its container */
+    .projectBanner {
+        font-size: 20rem;
+        font-weight: 800;
+        animation: slideAcross 10s linear infinite; /* Adjust the duration and timing function as needed */
+    }
+}
+
+@keyframes slideAcross {
+    from {
+        transform: translateX(100%);
+    }
+  
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .projectBannerContainer {
+        height: 15vh;
+        padding: 0;
+        .projectBanner {
+            font-size: 14vw;
+            margin: auto 0;
+            height: 100%;
+            width: 110%;
+        }
+    }
+}

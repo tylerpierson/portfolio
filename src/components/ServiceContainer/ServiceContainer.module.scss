@@ -1,0 +1,84 @@
+.serviceContainerMain {
+    width: 75%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .serviceHeader {
+        font-size: 8.5rem;
+        font-weight: 600;
+        color: white;
+    }
+    .serviceContainerLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        .headingSMContainer {
+            width: 90%;
+            .headingSM {
+                text-align: left;
+            }
+        }
+    }
+    .serviceContainerRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    .serviceCard {
+        width: 90%;
+        height: 25vh;
+        background-color: #303030;
+        margin-bottom: 3rem;
+        padding: 3.5rem;
+        border-radius: .5rem;
+        transition: .4s ease;
+        .serviceTitle {
+            font-size: 1.8rem;
+            color: white;
+            margin-bottom: 1rem;
+        }
+        .serviceDescription {
+            font-size: 1rem;
+            color: darkgrey;
+        }
+        &:hover .serviceTitle {
+            transform: scale(1.05);
+            color: var(--heading-color);
+            transition: .4s ease;
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .serviceContainerMain {
+        display: none;
+        .serviceContainerLeft {
+            display: none;
+            .serviceCard {
+                display: none;
+                .serviceTitle {
+                    display: none;
+                }
+                .serviceDescription {
+                    display: none;
+                }
+            }
+            .headingSMContainer {
+                display: none;
+            }
+        }
+        .serviceContainerRight {
+            display: none;
+            .serviceHeader {
+                display: none;
+            }
+        }
+    }
+}
