@@ -589,10 +589,11 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, `/* Small devices (portrait tablets and large phones, 600px and up) */
 .jinRZ7_sItrL6xbGnzrK {
   height: 60vh;
-  width: 75%;
-  margin: 0 auto;
-  padding: 10rem 0 20rem;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 3rem 0 10rem;
   display: flex;
+  background-color: var(--heading-color);
   justify-content: center;
   align-items: center;
 }
@@ -604,7 +605,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `/* Small devices (portrait tablets and
   align-items: flex-start;
 }
 .jinRZ7_sItrL6xbGnzrK .RhflQIR1aiRzE7JYfRJ4 .E2Pix40MW7mYfxJp4xsz {
-  font-size: 8.5rem;
+  font-size: 8.5vw;
   font-weight: 600;
   color: white;
 }
@@ -612,7 +613,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `/* Small devices (portrait tablets and
   color: grey;
   padding-left: 3rem;
   height: 60vh;
-  font-size: 5rem;
+  font-size: 3vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -620,11 +621,11 @@ ___CSS_LOADER_EXPORT___.push([module.id, `/* Small devices (portrait tablets and
   transition: 1s ease;
 }
 .jinRZ7_sItrL6xbGnzrK .WjVjMLdQXGGAB9HV83S0:hover {
-  color: var(--heading-color);
+  color: var(--bg-color);
   transition: 1s ease;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .jinRZ7_sItrL6xbGnzrK {
     padding: 0 2rem;
     width: 100vw;
@@ -653,7 +654,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `/* Small devices (portrait tablets and
   .jinRZ7_sItrL6xbGnzrK .WjVjMLdQXGGAB9HV83S0:hover {
     color: black;
   }
-}`, "",{"version":3,"sources":["webpack://./src/components/Bio/Bio.module.scss"],"names":[],"mappings":"AAAA,oEAAA;AACA;EACI,YAAA;EACA,UAAA;EACA,cAAA;EACA,sBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;AACJ;AAAI;EACI,YAAA;EACA,aAAA;EACA,sBAAA;EACA,yBAAA;EACA,uBAAA;AAER;AADQ;EACI,iBAAA;EACA,gBAAA;EACA,YAAA;AAGZ;AAAI;EACI,WAAA;EACA,kBAAA;EACA,YAAA;EACA,eAAA;EACA,aAAA;EACA,sBAAA;EACA,yBAAA;EACA,uBAAA;EACA,mBAAA;AAER;AADQ;EACI,2BAAA;EACA,mBAAA;AAGZ;;AAEA;EACI;IACI,eAAA;IACA,YAAA;IACA,aAAA;IACA,oCAAA;EACN;EAAM;IACI,aAAA;IACA,uBAAA;IACA,YAAA;IACA,UAAA;EAEV;EADU;IACI,iBAAA;EAGd;EADU;IACI,eAAA;EAGd;EAAM;IACI,aAAA;IACA,uBAAA;IACA,UAAA;IACA,YAAA;IACA,iBAAA;EAEV;EADU;IACI,YAAA;EAGd;AACF","sourcesContent":["/* Small devices (portrait tablets and large phones, 600px and up) */\n.Bio {\n    height: 60vh;\n    width: 75%;\n    margin: 0 auto;\n    padding: 10rem 0 20rem;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    .contentContainer {\n        height: 60vh;\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-end;\n        align-items: flex-start;\n        .title {\n            font-size: 8.5rem;\n            font-weight: 600;\n            color: white;\n        }\n    }\n    .titleDescription {\n        color: grey;\n        padding-left: 3rem;\n        height: 60vh;\n        font-size: 5rem;\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-end;\n        align-items: flex-start;\n        transition: 1s ease;\n        &:hover {\n            color: var(--heading-color);\n            transition: 1s ease;\n        }\n    }\n}\n\n@media only screen and (max-width: 600px) {\n    .Bio {\n        padding: 0 2rem;\n        width: 100vw;\n        height: 15rem;\n        background-color: rgb(100, 237, 207);\n        .contentContainer {\n            display: flex;\n            justify-content: center;\n            height: 100%;\n            width: 30%;\n            .headingSM {\n                font-size: 1.5rem;\n            }\n            .title {\n                font-size: 2rem;\n            }\n        }\n        .titleDescription {\n            display: flex;\n            justify-content: center;\n            width: 70%;\n            height: 100%;\n            font-size: 1.3rem; \n            &:hover {\n                color: black;\n            }\n        }\n    }\n}\n\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/Bio/Bio.module.scss"],"names":[],"mappings":"AAAA,oEAAA;AACA;EACI,YAAA;EACA,WAAA;EACA,iBAAA;EACA,qBAAA;EACA,aAAA;EACA,sCAAA;EACA,uBAAA;EACA,mBAAA;AACJ;AAAI;EACI,YAAA;EACA,aAAA;EACA,sBAAA;EACA,yBAAA;EACA,uBAAA;AAER;AADQ;EACI,gBAAA;EACA,gBAAA;EACA,YAAA;AAGZ;AAAI;EACI,WAAA;EACA,kBAAA;EACA,YAAA;EACA,cAAA;EACA,aAAA;EACA,sBAAA;EACA,yBAAA;EACA,uBAAA;EACA,mBAAA;AAER;AADQ;EACI,sBAAA;EACA,mBAAA;AAGZ;;AAEA;EACI;IACI,eAAA;IACA,YAAA;IACA,aAAA;IACA,oCAAA;EACN;EAAM;IACI,aAAA;IACA,uBAAA;IACA,YAAA;IACA,UAAA;EAEV;EADU;IACI,iBAAA;EAGd;EADU;IACI,eAAA;EAGd;EAAM;IACI,aAAA;IACA,uBAAA;IACA,UAAA;IACA,YAAA;IACA,iBAAA;EAEV;EADU;IACI,YAAA;EAGd;AACF","sourcesContent":["/* Small devices (portrait tablets and large phones, 600px and up) */\n.Bio {\n    height: 60vh;\n    width: 100%;\n    margin: 2rem auto;\n    padding: 3rem 0 10rem;\n    display: flex;\n    background-color: var(--heading-color);\n    justify-content: center;\n    align-items: center;\n    .contentContainer {\n        height: 60vh;\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-end;\n        align-items: flex-start;\n        .title {\n            font-size: 8.5vw;\n            font-weight: 600;\n            color: white;\n        }\n    }\n    .titleDescription {\n        color: grey;\n        padding-left: 3rem;\n        height: 60vh;\n        font-size: 3vw;\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-end;\n        align-items: flex-start;\n        transition: 1s ease;\n        &:hover {\n            color: var(--bg-color);\n            transition: 1s ease;\n        }\n    }\n}\n\n@media only screen and (max-width: 1000px) {\n    .Bio {\n        padding: 0 2rem;\n        width: 100vw;\n        height: 15rem;\n        background-color: rgb(100, 237, 207);\n        .contentContainer {\n            display: flex;\n            justify-content: center;\n            height: 100%;\n            width: 30%;\n            .headingSM {\n                font-size: 1.5rem;\n            }\n            .title {\n                font-size: 2rem;\n            }\n        }\n        .titleDescription {\n            display: flex;\n            justify-content: center;\n            width: 70%;\n            height: 100%;\n            font-size: 1.3rem; \n            &:hover {\n                color: black;\n            }\n        }\n    }\n}\n\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Bio": `jinRZ7_sItrL6xbGnzrK`,
@@ -762,7 +763,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.G83ax1dzQtHeJMz2gPgQ {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .G83ax1dzQtHeJMz2gPgQ {
     background-color: transparent;
     width: 100%;
@@ -771,7 +772,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.G83ax1dzQtHeJMz2gPgQ {
   .G83ax1dzQtHeJMz2gPgQ .sh2bhPAdbXc_0YCjvC0U {
     width: 100%;
   }
-}`, "",{"version":3,"sources":["webpack://./src/components/ImgBanner/ImgBanner.module.scss"],"names":[],"mappings":"AAAA;EACI,sCAAA;EACA,YAAA;EACA,kBAAA;EACA,gBAAA;AACJ;AAAI;EACI,YAAA;EACA,kBAAA;EACA,qBAAA;AAER;AADQ;EACI,qBAAA;EACA,YAAA;AAGZ;;AAEA,oEAAA;AACA;EACI;IACI,6BAAA;IACA,WAAA;IACA,YAAA;EACN;EAAM;IACI,WAAA;EAEV;AACF","sourcesContent":[".imgBannerContainer {\n    background-color: var(--heading-color);\n    height: 60vh;\n    position: relative;\n    overflow: hidden;\n    .imgBanner {\n        width: 100vw;\n        position: absolute;\n        transition: .8s ease;\n        &:hover {\n            transition: .8s ease;\n            opacity: .9;\n        }\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 600px) {\n    .imgBannerContainer {\n        background-color: transparent;\n        width: 100%;\n        height: 35vh;\n        .imgBanner {\n            width: 100%;\n        }\n    }\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/ImgBanner/ImgBanner.module.scss"],"names":[],"mappings":"AAAA;EACI,sCAAA;EACA,YAAA;EACA,kBAAA;EACA,gBAAA;AACJ;AAAI;EACI,YAAA;EACA,kBAAA;EACA,qBAAA;AAER;AADQ;EACI,qBAAA;EACA,YAAA;AAGZ;;AAEA,oEAAA;AACA;EACI;IACI,6BAAA;IACA,WAAA;IACA,YAAA;EACN;EAAM;IACI,WAAA;EAEV;AACF","sourcesContent":[".imgBannerContainer {\n    background-color: var(--heading-color);\n    height: 60vh;\n    position: relative;\n    overflow: hidden;\n    .imgBanner {\n        width: 100vw;\n        position: absolute;\n        transition: .8s ease;\n        &:hover {\n            transition: .8s ease;\n            opacity: .9;\n        }\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .imgBannerContainer {\n        background-color: transparent;\n        width: 100%;\n        height: 35vh;\n        .imgBanner {\n            width: 100%;\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"imgBannerContainer": `G83ax1dzQtHeJMz2gPgQ`,
@@ -802,7 +803,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.WXIspfxBzGyfPOvOt6Wd {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: relative;
 }
 .WXIspfxBzGyfPOvOt6Wd .RVzjtWAadvbxIwf_Vy5a {
@@ -839,7 +840,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.WXIspfxBzGyfPOvOt6Wd {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .WXIspfxBzGyfPOvOt6Wd {
     width: 100%;
     padding: 0 2rem;
@@ -869,7 +870,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.WXIspfxBzGyfPOvOt6Wd {
     transform: rotate(0);
     width: 25rem;
   }
-}`, "",{"version":3,"sources":["webpack://./src/components/IntroContainer/IntroContainer.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;EACA,kBAAA;AACJ;AAAI;EACI,cAAA;AAER;AAAI;EACI,YAAA;EACA,gBAAA;AAER;AADQ;EACI,gBAAA;AAGZ;AADQ;EACI,gBAAA;EACA,2BAAA;AAGZ;AADQ;EACI,YAAA;EACA,gBAAA;AAGZ;AACI;EACI,WAAA;EACA,gBAAA;EACA,WAAA;AACR;AAEI;EACI,uBAAA;EACA,WAAA;EACA,kBAAA;EACA,SAAA;EACA,YAAA;EACA,WAAA;EACA,uBAAA;AAAR;;AAIA,oEAAA;AACA;EACI;IACI,WAAA;IACA,eAAA;IACA,gBAAA;EADN;EAEM;IACI,iBAAA;IACA,YAAA;IACA,cAAA;EAAV;EAEM;IACI,WAAA;IACA,gBAAA;EAAV;EACU;IACI,gBAAA;EACd;EACU;IACI,gBAAA;EACd;EAEM;IACI,aAAA;EAAV;EAEM;IACI,MAAA;IACA,QAAA;IACA,oBAAA;IACA,YAAA;EAAV;AACF","sourcesContent":[".IntroContainer {\n    width: 100%;\n    height: 100%;\n    position: relative;\n    .headingSM {\n        margin: 8rem 0;\n    }\n    .heading {\n        color: white;\n        font-size: 11rem;\n        .spanText, .spanPlus {\n            font-size: 11rem;\n        }\n        .spanText {\n            font-weight: 100;\n            color: var(--heading-color);\n        }\n        .spanPlus {\n            color: black;\n            font-size: 13rem;\n        }\n    }\n    \n    .paragraph {\n        color: grey;\n        margin-top: 5rem;\n        width: 50vw;\n    }\n    \n    .image {\n        background-color: black;\n        width: 30vw;\n        position: absolute;\n        top: 4rem;\n        right: 10rem;\n        z-index: -1;\n        transform: rotate(7deg);\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 600px) {\n    .IntroContainer {\n        width: 100%;\n        padding: 0 2rem;\n        margin: 0 0 10vh; \n        .headingSM {\n            font-size: 1.4rem;\n            color: white;\n            margin: 2rem 0;\n        }\n        .heading {\n            width: 100%;\n            font-size: 9.5vw;\n            .spanText {\n                font-size: 9.5vw;\n            }\n            .spanPlus {\n                font-size: 9.5vw;\n            }\n        }\n        .paragraph {\n            display: none;\n        }\n        .image {\n            top: 0;\n            right: 0;\n            transform: rotate(0);\n            width: 25rem;\n        }\n    }\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/IntroContainer/IntroContainer.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,aAAA;EACA,kBAAA;AACJ;AAAI;EACI,cAAA;AAER;AAAI;EACI,YAAA;EACA,gBAAA;AAER;AADQ;EACI,gBAAA;AAGZ;AADQ;EACI,gBAAA;EACA,2BAAA;AAGZ;AADQ;EACI,YAAA;EACA,gBAAA;AAGZ;AACI;EACI,WAAA;EACA,gBAAA;EACA,WAAA;AACR;AAEI;EACI,uBAAA;EACA,WAAA;EACA,kBAAA;EACA,SAAA;EACA,YAAA;EACA,WAAA;EACA,uBAAA;AAAR;;AAIA,oEAAA;AACA;EACI;IACI,WAAA;IACA,eAAA;IACA,gBAAA;EADN;EAEM;IACI,iBAAA;IACA,YAAA;IACA,cAAA;EAAV;EAEM;IACI,WAAA;IACA,gBAAA;EAAV;EACU;IACI,gBAAA;EACd;EACU;IACI,gBAAA;EACd;EAEM;IACI,aAAA;EAAV;EAEM;IACI,MAAA;IACA,QAAA;IACA,oBAAA;IACA,YAAA;EAAV;AACF","sourcesContent":[".IntroContainer {\n    width: 100%;\n    height: 100vh;\n    position: relative;\n    .headingSM {\n        margin: 8rem 0;\n    }\n    .heading {\n        color: white;\n        font-size: 11rem;\n        .spanText, .spanPlus {\n            font-size: 11rem;\n        }\n        .spanText {\n            font-weight: 100;\n            color: var(--heading-color);\n        }\n        .spanPlus {\n            color: black;\n            font-size: 13rem;\n        }\n    }\n    \n    .paragraph {\n        color: grey;\n        margin-top: 5rem;\n        width: 50vw;\n    }\n    \n    .image {\n        background-color: black;\n        width: 30vw;\n        position: absolute;\n        top: 4rem;\n        right: 10rem;\n        z-index: -1;\n        transform: rotate(7deg);\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .IntroContainer {\n        width: 100%;\n        padding: 0 2rem;\n        margin: 0 0 10vh; \n        .headingSM {\n            font-size: 1.4rem;\n            color: white;\n            margin: 2rem 0;\n        }\n        .heading {\n            width: 100%;\n            font-size: 9.5vw;\n            .spanText {\n                font-size: 9.5vw;\n            }\n            .spanPlus {\n                font-size: 9.5vw;\n            }\n        }\n        .paragraph {\n            display: none;\n        }\n        .image {\n            top: 0;\n            right: 0;\n            transform: rotate(0);\n            width: 25rem;\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"IntroContainer": `WXIspfxBzGyfPOvOt6Wd`,
@@ -961,11 +962,11 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.SLZXaJInmBusSKJAiC7A {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .SLZXaJInmBusSKJAiC7A {
     display: none;
   }
-}`, "",{"version":3,"sources":["webpack://./src/components/NavBar/NavBar.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;EACA,aAAA;AACJ;AACI;EACI,WAAA;EACA,iBAAA;AACR;AAEI;EACI,WAAA;EACA,YAAA;EACA,aAAA;EACA,yBAAA;EACA,mBAAA;AAAR;AAEQ;EACI,YAAA;EACA,UAAA;EACA,iBAAA;EACA,kBAAA;AAAZ;AAEY;EACI,qBAAA;EACA,qBAAA;EACA,YAAA;EACA,kBAAA;EACA,WAAA;EACA,kBAAA;EACA,+BAAA;AAAhB;AAGY;EACI,QAAA;EACA,2BAAA;EACA,qBAAA;AADhB;AAIY;EACI,QAAA;EACA,0BAAA;EACA,UAAA;EACA,qBAAA;AAFhB;AAKY;EACI,eAAA;AAHhB;AAKgB;EACI,4BAAA;EACA,UAAA;EACA,qBAAA;AAHpB;AAMgB;EACI,2BAAA;EACA,UAAA;EACA,qBAAA;EACA,uBAAA;AAJpB;;AAWA,oEAAA;AACA;EACI;IACI,aAAA;EARN;AACF","sourcesContent":[".Nav {\n    width: 100%;\n    height: 10vh;\n    display: flex;\n\n    .image {\n        width: 10vw;\n        margin-left: 2rem;\n    }\n\n    .ul {\n        width: 100%;\n        height: 100%;\n        display: flex;\n        justify-content: flex-end;\n        align-items: center;\n\n        .listItemContainer {\n            height: 100%;\n            width: 7vw;\n            margin-left: 1rem;\n            position: relative;\n\n            .navItemTop, .navItemBottom {\n                list-style-type: none;\n                text-decoration: none;\n                color: white;\n                position: absolute;\n                width: 100%;\n                text-align: center;\n                transition: transform 0.3s ease;\n            }\n\n            .navItemTop {\n                top: 50%;\n                transform: translateY(-50%);\n                transition: .5s ease;\n            }\n\n            .navItemBottom {\n                top: 50%;\n                transform: translateY(50%);\n                opacity: 0;\n                transition: .5s ease;\n            }\n\n            &:hover {\n                cursor: pointer;\n\n                .navItemTop {\n                    transform: translateY(-150%);\n                    opacity: 0;\n                    transition: .5s ease;\n                }\n\n                .navItemBottom {\n                    transform: translateY(-50%);\n                    opacity: 1;\n                    transition: .5s ease;\n                    color: var(--btn-color);\n                }\n            }\n        }\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 600px) {\n    .Nav {\n        display: none;\n    }\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/NavBar/NavBar.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;EACA,aAAA;AACJ;AACI;EACI,WAAA;EACA,iBAAA;AACR;AAEI;EACI,WAAA;EACA,YAAA;EACA,aAAA;EACA,yBAAA;EACA,mBAAA;AAAR;AAEQ;EACI,YAAA;EACA,UAAA;EACA,iBAAA;EACA,kBAAA;AAAZ;AAEY;EACI,qBAAA;EACA,qBAAA;EACA,YAAA;EACA,kBAAA;EACA,WAAA;EACA,kBAAA;EACA,+BAAA;AAAhB;AAGY;EACI,QAAA;EACA,2BAAA;EACA,qBAAA;AADhB;AAIY;EACI,QAAA;EACA,0BAAA;EACA,UAAA;EACA,qBAAA;AAFhB;AAKY;EACI,eAAA;AAHhB;AAKgB;EACI,4BAAA;EACA,UAAA;EACA,qBAAA;AAHpB;AAMgB;EACI,2BAAA;EACA,UAAA;EACA,qBAAA;EACA,uBAAA;AAJpB;;AAWA,oEAAA;AACA;EACI;IACI,aAAA;EARN;AACF","sourcesContent":[".Nav {\n    width: 100%;\n    height: 10vh;\n    display: flex;\n\n    .image {\n        width: 10vw;\n        margin-left: 2rem;\n    }\n\n    .ul {\n        width: 100%;\n        height: 100%;\n        display: flex;\n        justify-content: flex-end;\n        align-items: center;\n\n        .listItemContainer {\n            height: 100%;\n            width: 7vw;\n            margin-left: 1rem;\n            position: relative;\n\n            .navItemTop, .navItemBottom {\n                list-style-type: none;\n                text-decoration: none;\n                color: white;\n                position: absolute;\n                width: 100%;\n                text-align: center;\n                transition: transform 0.3s ease;\n            }\n\n            .navItemTop {\n                top: 50%;\n                transform: translateY(-50%);\n                transition: .5s ease;\n            }\n\n            .navItemBottom {\n                top: 50%;\n                transform: translateY(50%);\n                opacity: 0;\n                transition: .5s ease;\n            }\n\n            &:hover {\n                cursor: pointer;\n\n                .navItemTop {\n                    transform: translateY(-150%);\n                    opacity: 0;\n                    transition: .5s ease;\n                }\n\n                .navItemBottom {\n                    transform: translateY(-50%);\n                    opacity: 1;\n                    transition: .5s ease;\n                    color: var(--btn-color);\n                }\n            }\n        }\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .Nav {\n        display: none;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Nav": `SLZXaJInmBusSKJAiC7A`,
@@ -1007,7 +1008,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.lksBUiCZFQPLTfIjYUCV {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .lksBUiCZFQPLTfIjYUCV {
     display: block;
     color: white;
@@ -1020,7 +1021,9 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.lksBUiCZFQPLTfIjYUCV {
     height: 5rem;
     border: none;
     border-radius: 100%;
-    position: relative;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
   }
   .lksBUiCZFQPLTfIjYUCV .mQtM4whzNm6xQg_5eBGe span {
     display: inline-block;
@@ -1062,7 +1065,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.lksBUiCZFQPLTfIjYUCV {
     animation: siNp7y8LcjSI_4BB0YO2 5s backwards;
   }
   .m7VesjHTKRTSgCNfxrfL {
-    position: absolute;
+    position: fixed;
     display: block;
     top: 2rem;
     right: 2rem;
@@ -1179,7 +1182,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.lksBUiCZFQPLTfIjYUCV {
     left: 1.8rem;
     font-size: 3rem;
   }
-}`, "",{"version":3,"sources":["webpack://./src/components/NavMobile/NavMobile.module.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;AACJ;;AAEA;EACI,aAAA;AACJ;;AAEA,oEAAA;AACA;EACI;IACI,cAAA;IACA,YAAA;IACA,iBAAA;IACA,aAAA;EACN;EAAM;IACI,aAAA;IACA,WAAA;IACA,YAAA;IACA,YAAA;IACA,mBAAA;IACA,kBAAA;EAEV;EAAU;IACI,qBAAA;IACA,eAAA;IACA,kBAAA;IACA,wBAAA;EAEd;EACU;IACI,WAAA;IACA,YAAA;IACA,wBAAA;EACd;EAEU;IACI,2CAAA;EAAd;EAGU;IACI,4CAAA;EADd;EAIU;IACI,WAAA;IACA,YAAA;IACA,wBAAA;EAFd;EAKU;IACI,6CAAA;EAHd;EAMU;IACI,4CAAA;EAJd;EAOU;IACI,WAAA;IACA,YAAA;IACA,yBAAA;EALd;EAQU;IACI,2CAAA;EANd;EASU;IACI,4CAAA;EAPd;EAYE;IACI,kBAAA;IACA,cAAA;IACA,SAAA;IACA,WAAA;IACA,WAAA;IACA,YAAA;IACA,mBAAA;IACA,YAAA;IACA,aAAA;IACA,0CAAA;IACA,gBAAA;IACA,mCAAA;EAVN;EAaE;IACI,aAAA;EAXN;EAcE;IACI,WAAA;IACA,YAAA;IACA,MAAA;IACA,QAAA;IACA,iBAAA;IACA,aAAA;IACA,sBAAA;IACA,uBAAA;IACA,mBAAA;EAZN;EAaM;IACI,cAAA;IACA,qBAAA;EAXV;EAYU;IACI,qBAAA;IACA,eAAA;IACA,qBAAA;EAVd;EAWc;IACI,eAAA;IACA,oCAAA;IACA,qBAAA;EATlB;EAeE;IACI,WAAA;IACA,YAAA;EAbN;AACF;AAgBA;EACI;IACI,wBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAdN;EAiBE;IACI,yBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAfN;AACF;AAkBA;EACI;IACI,yBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAhBN;EAmBE;IACI,wBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAjBN;AACF;AAoBA;EACI;IACI,UAAA;EAlBN;EAqBE;IACI,UAAA;EAnBN;AACF;AAsBA;EACI;IACI,UAAA;EApBN;EAuBE;IACI,UAAA;EArBN;AACF;AAwBA;EACI;IACI,yBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAtBN;EAyBE;IACI,wBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAvBN;AACF;AA0BA;EACI;IACI,wBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAxBN;EA2BE;IACI,yBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAzBN;AACF","sourcesContent":[".NavMobile {\n    display: none;\n}\n\n.NavContainer {\n    display: none;\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 600px) {\n    .NavMobile {\n        display: block;\n        color: white;\n        text-align: right;\n        padding: 2rem;\n        .NavBtn {\n            z-index: 2000;\n            width: 5rem;\n            height: 5rem;\n            border: none;\n            border-radius: 100%;\n            position: relative;\n\n            span {\n                display: inline-block;\n                font-size: 3rem;\n                position: absolute;\n                transform-origin: center;\n            }\n\n            .NavBtnTop {\n                top: .3rem;\n                left: 2.4rem;\n                transform: rotate(90deg);\n            }\n\n            .rotateTop {\n                animation: rotateTop 5s forwards;\n            }\n\n            .revertTop {\n                animation: revertTop 5s backwards;\n            }\n\n            .NavBtnMid {\n                top: .9rem;\n                left: 2.4rem;\n                transform: rotate(90deg);\n            }\n\n            .fadeOut {\n                animation: fadeOut 1.5s forwards;\n            }\n\n            .fadeIn {\n                animation: fadeIn 5s backwards;\n            }\n            \n            .NavBtnBottom {\n                top: 1.3rem;\n                left: 1.8rem;\n                transform: rotate(-90deg);\n            }\n\n            .rotateBottom {\n                animation: rotateBottom 5s forwards;\n            }\n\n            .revertBottom {\n                animation: revertBottom 5s backwards;\n            }\n        }\n    }\n\n    .NavContainer {\n        position: absolute;\n        display: block;\n        top: 2rem;\n        right: 2rem;\n        width: 5rem;\n        height: 5rem;\n        border-radius: 100%;\n        border: none;\n        z-index: 1000;\n        background-color: rgba(100, 237, 207, .9);;\n        overflow: hidden;\n        transition: width 0.3s, height 0.3s; \n    }\n\n    .ul {\n        display: none;\n    }\n\n    .expandContainer {\n        width: 100%;\n        height: 100%;\n        top: 0;\n        right: 0;\n        border-radius: 0%;\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        .ul {\n            display: block;\n            text-decoration: none;\n            .li {\n                list-style-type: none;\n                font-size: 4rem;\n                transition: .3s ease;\n                &:hover {\n                    cursor: pointer;\n                    background-color: rgba(0, 0, 0, .3);\n                    transition: .3s ease;\n                }\n            }\n        }\n    }\n\n    .collapseContainer {\n        width: 5rem;\n        height: 5rem;\n    }\n}\n\n@keyframes rotateTop {\n    from {\n        transform: rotate(90deg);\n        top: .3rem;\n        left: 2.4rem;\n        font-size: 3rem;\n    }\n  \n    to {\n        transform: rotate(-50deg);\n        top: -.2rem;\n        left: 1.8rem;\n        font-size: 4rem;\n    }\n}\n\n@keyframes revertTop {\n    from {\n        transform: rotate(-50deg);\n        top: -.2rem;\n        left: 1.8rem;\n        font-size: 4rem;\n    }\n\n    to {\n        transform: rotate(90deg);\n        top: .3rem;\n        left: 2.4rem;\n        font-size: 3rem;\n    }\n}\n\n@keyframes fadeOut {\n    from {\n        opacity: 1;\n    }\n\n    to {\n        opacity: 0;\n    }\n}\n\n@keyframes fadeIn {\n    from {\n        opacity: 0;\n    }\n\n    to {\n        opacity: 1;\n    }\n}\n\n@keyframes rotateBottom {\n    from {\n        transform: rotate(-90deg);\n        top: 1.3rem;\n        left: 1.8rem;\n        font-size: 3rem;\n    }\n  \n    to {\n        transform: rotate(45deg);\n        top: -.1rem;\n        left: 2.2rem;\n        font-size: 4rem;\n    }\n}\n\n@keyframes revertBottom {\n    from {\n        transform: rotate(45deg);\n        top: -.2rem;\n        left: 2.2rem;\n        font-size: 4rem;\n    }\n\n    to {\n        transform: rotate(-90deg);\n        top: 1.3rem;\n        left: 1.8rem;\n        font-size: 3rem;\n    }\n}\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/NavMobile/NavMobile.module.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;AACJ;;AAEA;EACI,aAAA;AACJ;;AAEA,oEAAA;AACA;EACI;IACI,cAAA;IACA,YAAA;IACA,iBAAA;IACA,aAAA;EACN;EAAM;IACI,aAAA;IACA,WAAA;IACA,YAAA;IACA,YAAA;IACA,mBAAA;IACA,eAAA;IACA,SAAA;IACA,WAAA;EAEV;EAAU;IACI,qBAAA;IACA,eAAA;IACA,kBAAA;IACA,wBAAA;EAEd;EACU;IACI,WAAA;IACA,YAAA;IACA,wBAAA;EACd;EAEU;IACI,2CAAA;EAAd;EAGU;IACI,4CAAA;EADd;EAIU;IACI,WAAA;IACA,YAAA;IACA,wBAAA;EAFd;EAKU;IACI,6CAAA;EAHd;EAMU;IACI,4CAAA;EAJd;EAOU;IACI,WAAA;IACA,YAAA;IACA,yBAAA;EALd;EAQU;IACI,2CAAA;EANd;EASU;IACI,4CAAA;EAPd;EAYE;IACI,eAAA;IACA,cAAA;IACA,SAAA;IACA,WAAA;IACA,WAAA;IACA,YAAA;IACA,mBAAA;IACA,YAAA;IACA,aAAA;IACA,0CAAA;IACA,gBAAA;IACA,mCAAA;EAVN;EAaE;IACI,aAAA;EAXN;EAcE;IACI,WAAA;IACA,YAAA;IACA,MAAA;IACA,QAAA;IACA,iBAAA;IACA,aAAA;IACA,sBAAA;IACA,uBAAA;IACA,mBAAA;EAZN;EAaM;IACI,cAAA;IACA,qBAAA;EAXV;EAYU;IACI,qBAAA;IACA,eAAA;IACA,qBAAA;EAVd;EAWc;IACI,eAAA;IACA,oCAAA;IACA,qBAAA;EATlB;EAeE;IACI,WAAA;IACA,YAAA;EAbN;AACF;AAgBA;EACI;IACI,wBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAdN;EAiBE;IACI,yBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAfN;AACF;AAkBA;EACI;IACI,yBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAhBN;EAmBE;IACI,wBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAjBN;AACF;AAoBA;EACI;IACI,UAAA;EAlBN;EAqBE;IACI,UAAA;EAnBN;AACF;AAsBA;EACI;IACI,UAAA;EApBN;EAuBE;IACI,UAAA;EArBN;AACF;AAwBA;EACI;IACI,yBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAtBN;EAyBE;IACI,wBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAvBN;AACF;AA0BA;EACI;IACI,wBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAxBN;EA2BE;IACI,yBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAzBN;AACF","sourcesContent":[".NavMobile {\n    display: none;\n}\n\n.NavContainer {\n    display: none;\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .NavMobile {\n        display: block;\n        color: white;\n        text-align: right;\n        padding: 2rem;\n        .NavBtn {\n            z-index: 2000;\n            width: 5rem;\n            height: 5rem;\n            border: none;\n            border-radius: 100%;\n            position: fixed;\n            top: 2rem;\n            right: 2rem;\n\n            span {\n                display: inline-block;\n                font-size: 3rem;\n                position: absolute;\n                transform-origin: center;\n            }\n\n            .NavBtnTop {\n                top: .3rem;\n                left: 2.4rem;\n                transform: rotate(90deg);\n            }\n\n            .rotateTop {\n                animation: rotateTop 5s forwards;\n            }\n\n            .revertTop {\n                animation: revertTop 5s backwards;\n            }\n\n            .NavBtnMid {\n                top: .9rem;\n                left: 2.4rem;\n                transform: rotate(90deg);\n            }\n\n            .fadeOut {\n                animation: fadeOut 1.5s forwards;\n            }\n\n            .fadeIn {\n                animation: fadeIn 5s backwards;\n            }\n            \n            .NavBtnBottom {\n                top: 1.3rem;\n                left: 1.8rem;\n                transform: rotate(-90deg);\n            }\n\n            .rotateBottom {\n                animation: rotateBottom 5s forwards;\n            }\n\n            .revertBottom {\n                animation: revertBottom 5s backwards;\n            }\n        }\n    }\n\n    .NavContainer {\n        position: fixed;\n        display: block;\n        top: 2rem;\n        right: 2rem;\n        width: 5rem;\n        height: 5rem;\n        border-radius: 100%;\n        border: none;\n        z-index: 1000;\n        background-color: rgba(100, 237, 207, .9);;\n        overflow: hidden;\n        transition: width 0.3s, height 0.3s; \n    }\n\n    .ul {\n        display: none;\n    }\n\n    .expandContainer {\n        width: 100%;\n        height: 100%;\n        top: 0;\n        right: 0;\n        border-radius: 0%;\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        .ul {\n            display: block;\n            text-decoration: none;\n            .li {\n                list-style-type: none;\n                font-size: 4rem;\n                transition: .3s ease;\n                &:hover {\n                    cursor: pointer;\n                    background-color: rgba(0, 0, 0, .3);\n                    transition: .3s ease;\n                }\n            }\n        }\n    }\n\n    .collapseContainer {\n        width: 5rem;\n        height: 5rem;\n    }\n}\n\n@keyframes rotateTop {\n    from {\n        transform: rotate(90deg);\n        top: .3rem;\n        left: 2.4rem;\n        font-size: 3rem;\n    }\n  \n    to {\n        transform: rotate(-50deg);\n        top: -.2rem;\n        left: 1.8rem;\n        font-size: 4rem;\n    }\n}\n\n@keyframes revertTop {\n    from {\n        transform: rotate(-50deg);\n        top: -.2rem;\n        left: 1.8rem;\n        font-size: 4rem;\n    }\n\n    to {\n        transform: rotate(90deg);\n        top: .3rem;\n        left: 2.4rem;\n        font-size: 3rem;\n    }\n}\n\n@keyframes fadeOut {\n    from {\n        opacity: 1;\n    }\n\n    to {\n        opacity: 0;\n    }\n}\n\n@keyframes fadeIn {\n    from {\n        opacity: 0;\n    }\n\n    to {\n        opacity: 1;\n    }\n}\n\n@keyframes rotateBottom {\n    from {\n        transform: rotate(-90deg);\n        top: 1.3rem;\n        left: 1.8rem;\n        font-size: 3rem;\n    }\n  \n    to {\n        transform: rotate(45deg);\n        top: -.1rem;\n        left: 2.2rem;\n        font-size: 4rem;\n    }\n}\n\n@keyframes revertBottom {\n    from {\n        transform: rotate(45deg);\n        top: -.2rem;\n        left: 2.2rem;\n        font-size: 4rem;\n    }\n\n    to {\n        transform: rotate(-90deg);\n        top: 1.3rem;\n        left: 1.8rem;\n        font-size: 3rem;\n    }\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"NavMobile": `lksBUiCZFQPLTfIjYUCV`,
@@ -1243,7 +1246,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `._RlhkD0XPSDMMssJYXKX {
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   ._RlhkD0XPSDMMssJYXKX {
     height: 15vh;
     padding: 0;
@@ -1254,7 +1257,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `._RlhkD0XPSDMMssJYXKX {
     height: 100%;
     width: 110%;
   }
-}`, "",{"version":3,"sources":["webpack://./src/components/ProjectBanner/ProjectBanner.module.scss"],"names":[],"mappings":"AAAA;EACI,uBAAA;EACA,WAAA;EACA,eAAA;EACA,gBAAA,EAAA,iDAAA;AACJ;AAAI;EACI,gBAAA;EACA,gBAAA;EACA,mDAAA,EAAA,sDAAA;AAER;;AAEA;EACI;IACI,2BAAA;EACN;EAEE;IACI,4BAAA;EAAN;AACF;AAGA,oEAAA;AACA;EACI;IACI,YAAA;IACA,UAAA;EADN;EAEM;IACI,eAAA;IACA,cAAA;IACA,YAAA;IACA,WAAA;EAAV;AACF","sourcesContent":[".projectBannerContainer {\n    background-color: black;\n    width: 100%;\n    padding: 5rem 0;\n    overflow: hidden; /* Ensure the banner stays within its container */\n    .projectBanner {\n        font-size: 20rem;\n        font-weight: 800;\n        animation: slideAcross 10s linear infinite; /* Adjust the duration and timing function as needed */\n    }\n}\n\n@keyframes slideAcross {\n    from {\n        transform: translateX(100%);\n    }\n  \n    to {\n        transform: translateX(-100%);\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 600px) {\n    .projectBannerContainer {\n        height: 15vh;\n        padding: 0;\n        .projectBanner {\n            font-size: 14vw;\n            margin: auto 0;\n            height: 100%;\n            width: 110%;\n        }\n    }\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/ProjectBanner/ProjectBanner.module.scss"],"names":[],"mappings":"AAAA;EACI,uBAAA;EACA,WAAA;EACA,eAAA;EACA,gBAAA,EAAA,iDAAA;AACJ;AAAI;EACI,gBAAA;EACA,gBAAA;EACA,mDAAA,EAAA,sDAAA;AAER;;AAEA;EACI;IACI,2BAAA;EACN;EAEE;IACI,4BAAA;EAAN;AACF;AAGA,oEAAA;AACA;EACI;IACI,YAAA;IACA,UAAA;EADN;EAEM;IACI,eAAA;IACA,cAAA;IACA,YAAA;IACA,WAAA;EAAV;AACF","sourcesContent":[".projectBannerContainer {\n    background-color: black;\n    width: 100%;\n    padding: 5rem 0;\n    overflow: hidden; /* Ensure the banner stays within its container */\n    .projectBanner {\n        font-size: 20rem;\n        font-weight: 800;\n        animation: slideAcross 10s linear infinite; /* Adjust the duration and timing function as needed */\n    }\n}\n\n@keyframes slideAcross {\n    from {\n        transform: translateX(100%);\n    }\n  \n    to {\n        transform: translateX(-100%);\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .projectBannerContainer {\n        height: 15vh;\n        padding: 0;\n        .projectBanner {\n            font-size: 14vw;\n            margin: auto 0;\n            height: 100%;\n            width: 110%;\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"projectBannerContainer": `_RlhkD0XPSDMMssJYXKX`,
@@ -1319,20 +1322,20 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.MyYwvFOFpuKKEZrTTodI {
 }
 .MyYwvFOFpuKKEZrTTodI .eUnsrkwmyuVmwL2KMfms {
   width: 90%;
-  height: 25vh;
+  height: 35vh;
   background-color: #303030;
   margin-bottom: 3rem;
-  padding: 3.5rem;
   border-radius: 0.5rem;
   transition: 0.4s ease;
 }
 .MyYwvFOFpuKKEZrTTodI .eUnsrkwmyuVmwL2KMfms .VVltheWFikP7_pdjmNcp {
+  margin: 1rem;
   font-size: 1.8rem;
   color: white;
-  margin-bottom: 1rem;
 }
 .MyYwvFOFpuKKEZrTTodI .eUnsrkwmyuVmwL2KMfms .YMBTswNNuhoziprZb9Dz {
-  font-size: 1rem;
+  font-size: 1vw;
+  margin: 1rem;
   color: darkgrey;
 }
 .MyYwvFOFpuKKEZrTTodI .eUnsrkwmyuVmwL2KMfms:hover .VVltheWFikP7_pdjmNcp {
@@ -1342,7 +1345,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.MyYwvFOFpuKKEZrTTodI {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .MyYwvFOFpuKKEZrTTodI {
     display: none;
   }
@@ -1367,7 +1370,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.MyYwvFOFpuKKEZrTTodI {
   .MyYwvFOFpuKKEZrTTodI .HGrHWilZnmAKW9M17BfB .Z3wofxnV_fQfGxSSpHeb {
     display: none;
   }
-}`, "",{"version":3,"sources":["webpack://./src/components/ServiceContainer/ServiceContainer.module.scss"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,cAAA;EACA,eAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;AACJ;AAAI;EACI,iBAAA;EACA,gBAAA;EACA,YAAA;AAER;AAAI;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;AAER;AADQ;EACI,UAAA;AAGZ;AAFY;EACI,gBAAA;AAIhB;AAAI;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;AAER;AAAI;EACI,UAAA;EACA,YAAA;EACA,yBAAA;EACA,mBAAA;EACA,eAAA;EACA,qBAAA;EACA,qBAAA;AAER;AADQ;EACI,iBAAA;EACA,YAAA;EACA,mBAAA;AAGZ;AADQ;EACI,eAAA;EACA,eAAA;AAGZ;AADQ;EACI,sBAAA;EACA,2BAAA;EACA,qBAAA;AAGZ;;AAEA,oEAAA;AACA;EACI;IACI,aAAA;EACN;EAAM;IACI,aAAA;EAEV;EADU;IACI,aAAA;EAGd;EAFc;IACI,aAAA;EAIlB;EAFc;IACI,aAAA;EAIlB;EADU;IACI,aAAA;EAGd;EAAM;IACI,aAAA;EAEV;EADU;IACI,aAAA;EAGd;AACF","sourcesContent":[".serviceContainerMain {\n    width: 75%;\n    margin: 0 auto;\n    padding: 5rem 0;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    .serviceHeader {\n        font-size: 8.5rem;\n        font-weight: 600;\n        color: white;\n    }\n    .serviceContainerLeft {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        width: 50%;\n        .headingSMContainer {\n            width: 90%;\n            .headingSM {\n                text-align: left;\n            }\n        }\n    }\n    .serviceContainerRight {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        width: 50%;\n    }\n    .serviceCard {\n        width: 90%;\n        height: 25vh;\n        background-color: #303030;\n        margin-bottom: 3rem;\n        padding: 3.5rem;\n        border-radius: .5rem;\n        transition: .4s ease;\n        .serviceTitle {\n            font-size: 1.8rem;\n            color: white;\n            margin-bottom: 1rem;\n        }\n        .serviceDescription {\n            font-size: 1rem;\n            color: darkgrey;\n        }\n        &:hover .serviceTitle {\n            transform: scale(1.05);\n            color: var(--heading-color);\n            transition: .4s ease;\n        }\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 600px) {\n    .serviceContainerMain {\n        display: none;\n        .serviceContainerLeft {\n            display: none;\n            .serviceCard {\n                display: none;\n                .serviceTitle {\n                    display: none;\n                }\n                .serviceDescription {\n                    display: none;\n                }\n            }\n            .headingSMContainer {\n                display: none;\n            }\n        }\n        .serviceContainerRight {\n            display: none;\n            .serviceHeader {\n                display: none;\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/ServiceContainer/ServiceContainer.module.scss"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,cAAA;EACA,eAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;AACJ;AAAI;EACI,iBAAA;EACA,gBAAA;EACA,YAAA;AAER;AAAI;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;AAER;AADQ;EACI,UAAA;AAGZ;AAFY;EACI,gBAAA;AAIhB;AAAI;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;AAER;AAAI;EACI,UAAA;EACA,YAAA;EACA,yBAAA;EACA,mBAAA;EACA,qBAAA;EACA,qBAAA;AAER;AADQ;EACI,YAAA;EACA,iBAAA;EACA,YAAA;AAGZ;AADQ;EACI,cAAA;EACA,YAAA;EACA,eAAA;AAGZ;AADQ;EACI,sBAAA;EACA,2BAAA;EACA,qBAAA;AAGZ;;AAEA,oEAAA;AACA;EACI;IACI,aAAA;EACN;EAAM;IACI,aAAA;EAEV;EADU;IACI,aAAA;EAGd;EAFc;IACI,aAAA;EAIlB;EAFc;IACI,aAAA;EAIlB;EADU;IACI,aAAA;EAGd;EAAM;IACI,aAAA;EAEV;EADU;IACI,aAAA;EAGd;AACF","sourcesContent":[".serviceContainerMain {\n    width: 75%;\n    margin: 0 auto;\n    padding: 5rem 0;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    .serviceHeader {\n        font-size: 8.5rem;\n        font-weight: 600;\n        color: white;\n    }\n    .serviceContainerLeft {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        width: 50%;\n        .headingSMContainer {\n            width: 90%;\n            .headingSM {\n                text-align: left;\n            }\n        }\n    }\n    .serviceContainerRight {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        width: 50%;\n    }\n    .serviceCard {\n        width: 90%;\n        height: 35vh;\n        background-color: #303030;\n        margin-bottom: 3rem;\n        border-radius: .5rem;\n        transition: .4s ease;\n        .serviceTitle {\n            margin: 1rem;\n            font-size: 1.8rem;\n            color: white;\n        }\n        .serviceDescription {\n            font-size: 1vw;\n            margin: 1rem;\n            color: darkgrey;\n        }\n        &:hover .serviceTitle {\n            transform: scale(1.05);\n            color: var(--heading-color);\n            transition: .4s ease;\n        }\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .serviceContainerMain {\n        display: none;\n        .serviceContainerLeft {\n            display: none;\n            .serviceCard {\n                display: none;\n                .serviceTitle {\n                    display: none;\n                }\n                .serviceDescription {\n                    display: none;\n                }\n            }\n            .headingSMContainer {\n                display: none;\n            }\n        }\n        .serviceContainerRight {\n            display: none;\n            .serviceHeader {\n                display: none;\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"serviceContainerMain": `MyYwvFOFpuKKEZrTTodI`,
@@ -1494,14 +1497,14 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.luBJirBC3AbIwQNsEypk {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .luBJirBC3AbIwQNsEypk {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin: 0;
   }
-}`, "",{"version":3,"sources":["webpack://./src/pages/HomePage/HomePage.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;EACA,cAAA;AACJ;AAAI;EACI,YAAA;EACA,iBAAA;AAER;;AAEA,oEAAA;AACA;EACI;IACI,aAAA;IACA,sBAAA;IACA,WAAA;IACA,SAAA;EACN;AACF","sourcesContent":[".HomePage {\n    width: 100%;\n    height: 100%;\n    margin: 0 auto;   \n    .headingSM {\n        color: white;\n        font-size: 1.5rem;\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 600px) {\n    .HomePage {\n        display: flex;\n        flex-direction: column;\n        width: 100%;\n        margin: 0;\n    }\n}\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/pages/HomePage/HomePage.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;EACA,cAAA;AACJ;AAAI;EACI,YAAA;EACA,iBAAA;AAER;;AAEA,oEAAA;AACA;EACI;IACI,aAAA;IACA,sBAAA;IACA,WAAA;IACA,SAAA;EACN;AACF","sourcesContent":[".HomePage {\n    width: 100%;\n    height: 100%;\n    margin: 0 auto;   \n    .headingSM {\n        color: white;\n        font-size: 1.5rem;\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .HomePage {\n        display: flex;\n        flex-direction: column;\n        width: 100%;\n        margin: 0;\n    }\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"HomePage": `luBJirBC3AbIwQNsEypk`,
@@ -2442,4 +2445,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.0ecce420833105b221a3299239289795.js.map
+//# sourceMappingURL=App.0d948ce0f3c7359859ab88eef5d8bb81.js.map

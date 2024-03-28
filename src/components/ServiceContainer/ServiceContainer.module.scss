@@ -32,19 +32,19 @@
     }
     .serviceCard {
         width: 90%;
-        height: 25vh;
+        height: 35vh;
         background-color: #303030;
         margin-bottom: 3rem;
-        padding: 3.5rem;
         border-radius: .5rem;
         transition: .4s ease;
         .serviceTitle {
+            margin: 1rem;
             font-size: 1.8rem;
             color: white;
-            margin-bottom: 1rem;
         }
         .serviceDescription {
-            font-size: 1rem;
+            font-size: 1vw;
+            margin: 1rem;
             color: darkgrey;
         }
         &:hover .serviceTitle {
@@ -56,7 +56,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .serviceContainerMain {
         display: none;
         .serviceContainerLeft {
