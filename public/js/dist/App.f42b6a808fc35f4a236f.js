@@ -339,6 +339,60 @@ function ProjectBanner() {
 
 /***/ }),
 
+/***/ "./src/components/Projects/Projects.js":
+/*!*********************************************!*\
+  !*** ./src/components/Projects/Projects.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Projects.module.scss */ "./src/components/Projects/Projects.module.scss");
+/* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+function Projects() {
+  return /*#__PURE__*/React.createElement("div", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].Projects
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectCardOne
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectCard
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].imgContainer
+  }, /*#__PURE__*/React.createElement("img", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectLogo,
+    src: "https://i.imgur.com/UIjyIMC.png"
+  })), /*#__PURE__*/React.createElement("div", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectDetails
+  }, /*#__PURE__*/React.createElement("h5", null, "Goose Dev Hub"), /*#__PURE__*/React.createElement("h6", null, "Year: 2024"), /*#__PURE__*/React.createElement("h6", null, "Category: Tech, Social Media")))), /*#__PURE__*/React.createElement("div", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectCardTwo
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectCard
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].imgContainer
+  }, /*#__PURE__*/React.createElement("img", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectLogo,
+    src: "https://i.imgur.com/ndrcB38.png"
+  })), /*#__PURE__*/React.createElement("div", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectDetails
+  }, /*#__PURE__*/React.createElement("h5", null, "MarvelVerse Comics"), /*#__PURE__*/React.createElement("h6", null, "Year: 2024"), /*#__PURE__*/React.createElement("h6", null, "Category: Ecommerce")))), /*#__PURE__*/React.createElement("div", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectCardThree
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectCard
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].imgContainer
+  }, /*#__PURE__*/React.createElement("img", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectLogo,
+    src: "https://i.imgur.com/0yD52R2.png"
+  })), /*#__PURE__*/React.createElement("div", {
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectDetails
+  }, /*#__PURE__*/React.createElement("h5", null, "Liberty Blogs"), /*#__PURE__*/React.createElement("h6", null, "Year: 2023"), /*#__PURE__*/React.createElement("h6", null, "Category: Social Media, Communication")))));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Projects);
+
+/***/ }),
+
 /***/ "./src/components/ServiceContainer/ServiceContainer.js":
 /*!*************************************************************!*\
   !*** ./src/components/ServiceContainer/ServiceContainer.js ***!
@@ -462,7 +516,9 @@ function ContactPage() {
 /* harmony import */ var _components_ImgBanner_ImgBanner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/ImgBanner/ImgBanner */ "./src/components/ImgBanner/ImgBanner.js");
 /* harmony import */ var _components_ServiceContainer_ServiceContainer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/ServiceContainer/ServiceContainer */ "./src/components/ServiceContainer/ServiceContainer.js");
 /* harmony import */ var _components_ProjectBanner_ProjectBanner__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/ProjectBanner/ProjectBanner */ "./src/components/ProjectBanner/ProjectBanner.js");
+/* harmony import */ var _components_Projects_Projects__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/Projects/Projects */ "./src/components/Projects/Projects.js");
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
 
 
 
@@ -474,7 +530,7 @@ function ContactPage() {
 function HomePage() {
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/React.createElement(_components_NavMobile_NavMobile__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/React.createElement("div", {
     className: _HomePage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].HomePage
-  }, /*#__PURE__*/React.createElement(_components_IntroContainer_IntroContainer__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/React.createElement(_components_Bio_Bio__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/React.createElement(_components_ImgBanner_ImgBanner__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/React.createElement(_components_ServiceContainer_ServiceContainer__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/React.createElement(_components_ProjectBanner_ProjectBanner__WEBPACK_IMPORTED_MODULE_7__["default"], null)));
+  }, /*#__PURE__*/React.createElement(_components_IntroContainer_IntroContainer__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/React.createElement(_components_Bio_Bio__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/React.createElement(_components_ImgBanner_ImgBanner__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/React.createElement(_components_ServiceContainer_ServiceContainer__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/React.createElement(_components_ProjectBanner_ProjectBanner__WEBPACK_IMPORTED_MODULE_7__["default"], null), /*#__PURE__*/React.createElement(_components_Projects_Projects__WEBPACK_IMPORTED_MODULE_8__["default"], null)));
 }
 
 /***/ }),
@@ -802,8 +858,8 @@ ___CSS_LOADER_EXPORT___.locals = {
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.WXIspfxBzGyfPOvOt6Wd {
+  height: 90vh;
   width: 100%;
-  height: 100vh;
   position: relative;
 }
 .WXIspfxBzGyfPOvOt6Wd .RVzjtWAadvbxIwf_Vy5a {
@@ -842,9 +898,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.WXIspfxBzGyfPOvOt6Wd {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 1000px) {
   .WXIspfxBzGyfPOvOt6Wd {
+    height: 50vh;
     width: 100%;
     padding: 0 2rem;
-    margin: 0 0 10vh;
+    margin: 3rem 0;
   }
   .WXIspfxBzGyfPOvOt6Wd .RVzjtWAadvbxIwf_Vy5a {
     font-size: 1.4rem;
@@ -870,7 +927,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.WXIspfxBzGyfPOvOt6Wd {
     transform: rotate(0);
     width: 25rem;
   }
-}`, "",{"version":3,"sources":["webpack://./src/components/IntroContainer/IntroContainer.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,aAAA;EACA,kBAAA;AACJ;AAAI;EACI,cAAA;AAER;AAAI;EACI,YAAA;EACA,gBAAA;AAER;AADQ;EACI,gBAAA;AAGZ;AADQ;EACI,gBAAA;EACA,2BAAA;AAGZ;AADQ;EACI,YAAA;EACA,gBAAA;AAGZ;AACI;EACI,WAAA;EACA,gBAAA;EACA,WAAA;AACR;AAEI;EACI,uBAAA;EACA,WAAA;EACA,kBAAA;EACA,SAAA;EACA,YAAA;EACA,WAAA;EACA,uBAAA;AAAR;;AAIA,oEAAA;AACA;EACI;IACI,WAAA;IACA,eAAA;IACA,gBAAA;EADN;EAEM;IACI,iBAAA;IACA,YAAA;IACA,cAAA;EAAV;EAEM;IACI,WAAA;IACA,gBAAA;EAAV;EACU;IACI,gBAAA;EACd;EACU;IACI,gBAAA;EACd;EAEM;IACI,aAAA;EAAV;EAEM;IACI,MAAA;IACA,QAAA;IACA,oBAAA;IACA,YAAA;EAAV;AACF","sourcesContent":[".IntroContainer {\n    width: 100%;\n    height: 100vh;\n    position: relative;\n    .headingSM {\n        margin: 8rem 0;\n    }\n    .heading {\n        color: white;\n        font-size: 11rem;\n        .spanText, .spanPlus {\n            font-size: 11rem;\n        }\n        .spanText {\n            font-weight: 100;\n            color: var(--heading-color);\n        }\n        .spanPlus {\n            color: black;\n            font-size: 13rem;\n        }\n    }\n    \n    .paragraph {\n        color: grey;\n        margin-top: 5rem;\n        width: 50vw;\n    }\n    \n    .image {\n        background-color: black;\n        width: 30vw;\n        position: absolute;\n        top: 4rem;\n        right: 10rem;\n        z-index: -1;\n        transform: rotate(7deg);\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .IntroContainer {\n        width: 100%;\n        padding: 0 2rem;\n        margin: 0 0 10vh; \n        .headingSM {\n            font-size: 1.4rem;\n            color: white;\n            margin: 2rem 0;\n        }\n        .heading {\n            width: 100%;\n            font-size: 9.5vw;\n            .spanText {\n                font-size: 9.5vw;\n            }\n            .spanPlus {\n                font-size: 9.5vw;\n            }\n        }\n        .paragraph {\n            display: none;\n        }\n        .image {\n            top: 0;\n            right: 0;\n            transform: rotate(0);\n            width: 25rem;\n        }\n    }\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/IntroContainer/IntroContainer.module.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,WAAA;EACA,kBAAA;AACJ;AAAI;EACI,cAAA;AAER;AAAI;EACI,YAAA;EACA,gBAAA;AAER;AADQ;EACI,gBAAA;AAGZ;AADQ;EACI,gBAAA;EACA,2BAAA;AAGZ;AADQ;EACI,YAAA;EACA,gBAAA;AAGZ;AACI;EACI,WAAA;EACA,gBAAA;EACA,WAAA;AACR;AAEI;EACI,uBAAA;EACA,WAAA;EACA,kBAAA;EACA,SAAA;EACA,YAAA;EACA,WAAA;EACA,uBAAA;AAAR;;AAIA,oEAAA;AACA;EACI;IACI,YAAA;IACA,WAAA;IACA,eAAA;IACA,cAAA;EADN;EAEM;IACI,iBAAA;IACA,YAAA;IACA,cAAA;EAAV;EAEM;IACI,WAAA;IACA,gBAAA;EAAV;EACU;IACI,gBAAA;EACd;EACU;IACI,gBAAA;EACd;EAEM;IACI,aAAA;EAAV;EAEM;IACI,MAAA;IACA,QAAA;IACA,oBAAA;IACA,YAAA;EAAV;AACF","sourcesContent":[".IntroContainer {\n    height: 90vh;\n    width: 100%;\n    position: relative;\n    .headingSM {\n        margin: 8rem 0;\n    }\n    .heading {\n        color: white;\n        font-size: 11rem;\n        .spanText, .spanPlus {\n            font-size: 11rem;\n        }\n        .spanText {\n            font-weight: 100;\n            color: var(--heading-color);\n        }\n        .spanPlus {\n            color: black;\n            font-size: 13rem;\n        }\n    }\n    \n    .paragraph {\n        color: grey;\n        margin-top: 5rem;\n        width: 50vw;\n    }\n    \n    .image {\n        background-color: black;\n        width: 30vw;\n        position: absolute;\n        top: 4rem;\n        right: 10rem;\n        z-index: -1;\n        transform: rotate(7deg);\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .IntroContainer {\n        height: 50vh;\n        width: 100%;\n        padding: 0 2rem;\n        margin: 3rem 0; \n        .headingSM {\n            font-size: 1.4rem;\n            color: white;\n            margin: 2rem 0;\n        }\n        .heading {\n            width: 100%;\n            font-size: 9.5vw;\n            .spanText {\n                font-size: 9.5vw;\n            }\n            .spanPlus {\n                font-size: 9.5vw;\n            }\n        }\n        .paragraph {\n            display: none;\n        }\n        .image {\n            top: 0;\n            right: 0;\n            transform: rotate(0);\n            width: 25rem;\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"IntroContainer": `WXIspfxBzGyfPOvOt6Wd`,
@@ -1267,6 +1324,91 @@ ___CSS_LOADER_EXPORT___.locals = {
 	"projectBannerContainer": `_RlhkD0XPSDMMssJYXKX`,
 	"projectBanner": `SDsAEOfJWxWmImHC0SjW`,
 	"slideAcross": `WfZiLgV49hZQvFy0EQIc`
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/components/Projects/Projects.module.scss":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/components/Projects/Projects.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `.HvU7kbcyjp3pvz6lM1wq {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 8rem 0;
+}
+.HvU7kbcyjp3pvz6lM1wq .I2vcVBmHRvi68FqUcaYn, .HvU7kbcyjp3pvz6lM1wq .g0VE9u_IgRURjjsnwHN5, .HvU7kbcyjp3pvz6lM1wq .AKEeLWgI7ruKOm3rHJ_9 {
+  height: 100%;
+}
+.HvU7kbcyjp3pvz6lM1wq .g0VE9u_IgRURjjsnwHN5 {
+  display: flex;
+  align-items: flex-end;
+}
+.HvU7kbcyjp3pvz6lM1wq .W7OGJxXSakrTBBtyDJWw {
+  height: 45rem;
+  width: 40rem;
+  border: 0.3rem solid var(--heading-color);
+  background-color: rgb(45, 51, 50);
+  padding: 2rem;
+  border-radius: 3rem;
+  transition: 0.3s ease;
+}
+.HvU7kbcyjp3pvz6lM1wq .W7OGJxXSakrTBBtyDJWw .YPjXKbnPoV4MOlYZ2OJJ {
+  width: 100%;
+  height: 80%;
+  background-color: black;
+  border: 0.1rem solid var(--heading-color);
+  border-radius: 3rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HvU7kbcyjp3pvz6lM1wq .W7OGJxXSakrTBBtyDJWw .YPjXKbnPoV4MOlYZ2OJJ .vJjKKPhkRkFiPoWZEcfn {
+  width: 90%;
+}
+.HvU7kbcyjp3pvz6lM1wq .W7OGJxXSakrTBBtyDJWw .LftQarex9ZU94M4Rp2R8 {
+  color: var(--heading-color);
+  text-align: center;
+}
+.HvU7kbcyjp3pvz6lM1wq .W7OGJxXSakrTBBtyDJWw .LftQarex9ZU94M4Rp2R8 h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.HvU7kbcyjp3pvz6lM1wq .W7OGJxXSakrTBBtyDJWw:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.3s ease;
+}`, "",{"version":3,"sources":["webpack://./src/components/Projects/Projects.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,eAAA;AACJ;AAAI;EACI,YAAA;AAER;AAAI;EACI,aAAA;EACA,qBAAA;AAER;AAAI;EACI,aAAA;EACA,YAAA;EACA,yCAAA;EACA,iCAAA;EACA,aAAA;EACA,mBAAA;EACA,qBAAA;AAER;AADQ;EACI,WAAA;EACA,WAAA;EACA,uBAAA;EACA,yCAAA;EACA,mBAAA;EACA,gBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;AAGZ;AAFY;EACI,UAAA;AAIhB;AADQ;EACI,2BAAA;EACA,kBAAA;AAGZ;AAFY;EACI,iBAAA;EACA,iBAAA;EACA,gBAAA;AAIhB;AADQ;EACI,eAAA;EACA,qBAAA;EACA,qBAAA;AAGZ","sourcesContent":[".Projects {\n    width: 100%;\n    height: 90vh;\n    display: flex;\n    justify-content: space-evenly;\n    padding: 8rem 0;\n    .ProjectCardOne, .ProjectCardTwo, .ProjectCardThree {\n        height: 100%;\n    }\n    .ProjectCardTwo {\n        display: flex;\n        align-items: flex-end;\n    }\n    .ProjectCard {\n        height: 45rem;\n        width: 40rem;\n        border: .3rem solid var(--heading-color);\n        background-color: rgb(45, 51, 50);\n        padding: 2rem;\n        border-radius: 3rem;\n        transition: .3s ease;\n        .imgContainer {\n            width: 100%;\n            height: 80%;\n            background-color: black;\n            border: .1rem solid var(--heading-color);\n            border-radius: 3rem;\n            overflow: hidden;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            .ProjectLogo {\n                width: 90%;\n            }\n        }\n        .ProjectDetails {\n            color: var(--heading-color);\n            text-align: center;\n            h5 {\n                font-size: 1.3rem;\n                font-weight: bold;\n                margin-top: 1rem;\n            }\n        }\n        &:hover {\n            cursor: pointer;\n            transform: scale(1.2);\n            transition: .3s ease;\n        }\n    }\n}"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"Projects": `HvU7kbcyjp3pvz6lM1wq`,
+	"ProjectCardOne": `I2vcVBmHRvi68FqUcaYn`,
+	"ProjectCardTwo": `g0VE9u_IgRURjjsnwHN5`,
+	"ProjectCardThree": `AKEeLWgI7ruKOm3rHJ_9`,
+	"ProjectCard": `W7OGJxXSakrTBBtyDJWw`,
+	"imgContainer": `YPjXKbnPoV4MOlYZ2OJJ`,
+	"ProjectLogo": `vJjKKPhkRkFiPoWZEcfn`,
+	"ProjectDetails": `LftQarex9ZU94M4Rp2R8`
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1975,6 +2117,59 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./src/components/Projects/Projects.module.scss":
+/*!******************************************************!*\
+  !*** ./src/components/Projects/Projects.module.scss ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_Projects_module_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!../../../node_modules/sass-loader/dist/cjs.js!../../../node_modules/postcss-loader/dist/cjs.js!./Projects.module.scss */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/components/Projects/Projects.module.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_Projects_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_Projects_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_Projects_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_Projects_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
 /***/ "./src/components/ServiceContainer/ServiceContainer.module.scss":
 /*!**********************************************************************!*\
   !*** ./src/components/ServiceContainer/ServiceContainer.module.scss ***!
@@ -2449,4 +2644,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.4745a59f309249456a322d201b74d6da.js.map
+//# sourceMappingURL=App.e4212af67b09c3c8ad584ac82d9a48fe.js.map

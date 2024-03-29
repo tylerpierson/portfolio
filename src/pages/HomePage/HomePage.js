@@ -6,6 +6,7 @@ import Bio from '../../components/Bio/Bio'
 import ImgBanner from '../../components/ImgBanner/ImgBanner'
 import ServiceContainer from '../../components/ServiceContainer/ServiceContainer'
 import ProjectBanner from '../../components/ProjectBanner/ProjectBanner'
+import Projects from '../../components/Projects/Projects'
 
 export default function HomePage(){
     return (
@@ -18,6 +19,7 @@ export default function HomePage(){
                 <ImgBanner />
                 <ServiceContainer />
                 <ProjectBanner />
+                <Projects />
             </div>
         </>
     )
