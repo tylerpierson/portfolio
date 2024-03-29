@@ -1,6 +1,6 @@
 .IntroContainer {
+    height: 90vh;
     width: 100%;
-    height: 100vh;
     position: relative;
     .headingSM {
         margin: 8rem 0;
@@ -41,9 +41,10 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 1000px) {
     .IntroContainer {
+        height: 50vh;
         width: 100%;
         padding: 0 2rem;
-        margin: 0 0 10vh; 
+        margin: 3rem 0; 
         .headingSM {
             font-size: 1.4rem;
             color: white;
