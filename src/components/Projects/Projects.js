@@ -1,7 +1,15 @@
+import { useState } from 'react'
 import styles from './Projects.module.scss'
+import ProjectCard from '../ProjectCard/ProjectCard'
 
 function Projects() {
+    const [showCard, setShowCard] = useState(false)
+
   return (
+    <>
+    {
+        showCard ? <ProjectCard />:null
+    }
     <div className={styles.Projects}>
         <div className={styles.ProjectCardOne}>
             <div className={styles.ProjectCard}>
@@ -40,6 +48,7 @@ function Projects() {
             </div>
         </div>
     </div>
+    </>
   )
 }
 
