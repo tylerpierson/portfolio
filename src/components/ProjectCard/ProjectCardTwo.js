@@ -1,13 +1,13 @@
 import styles from './ProjectCard.module.scss'
 
-function ProjectCard() {
+function ProjectCardTwo() {
   return (
     <div className={styles.ProjectCardContainer}>
         <div className={styles.ProjectCardInnerContainer}>
             <div className={styles.ProjectCard}>
                 <div className={styles.titleImgContainer}>
                     <h2 className={styles.ProjectTitle}>MarvelVerse Comics</h2>
-                    <img className={styles.ProjectImg} src="https://i.imgur.com/HlXU1oe.png"/>
+                    <img className={styles.ProjectImg} src="/img/marvel.jpg"/>
                     <h4>Year: 2024</h4>
                     <h4>Category: Ecommerce</h4>
                 </div>
@@ -22,4 +22,4 @@ function ProjectCard() {
   )
 }
 
-export default ProjectCard
+export default ProjectCardTwo

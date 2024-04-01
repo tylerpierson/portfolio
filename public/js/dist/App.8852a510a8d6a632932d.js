@@ -339,10 +339,10 @@ function ProjectBanner() {
 
 /***/ }),
 
-/***/ "./src/components/ProjectCard/ProjectCard.js":
-/*!***************************************************!*\
-  !*** ./src/components/ProjectCard/ProjectCard.js ***!
-  \***************************************************/
+/***/ "./src/components/ProjectCard/ProjectCardOne.js":
+/*!******************************************************!*\
+  !*** ./src/components/ProjectCard/ProjectCardOne.js ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -351,7 +351,80 @@ function ProjectBanner() {
 /* harmony import */ var _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProjectCard.module.scss */ "./src/components/ProjectCard/ProjectCard.module.scss");
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
-function ProjectCard() {
+function ProjectCardOne() {
+  return /*#__PURE__*/React.createElement("div", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectCardContainer
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectCardInnerContainer
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectCard
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].titleImgContainer
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectTitle
+  }, "Goose Dev Hub"), /*#__PURE__*/React.createElement("img", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectImg,
+    src: "/img/goose.png",
+    alt: "Goose Image"
+  }), /*#__PURE__*/React.createElement("h4", null, "Year: 2024"), /*#__PURE__*/React.createElement("h4", null, "Category: Social Media Application")), /*#__PURE__*/React.createElement("div", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].DescriptionContainer
+  }, /*#__PURE__*/React.createElement("p", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectDescription
+  }, "Welcome to Goose Dev Hub, the ultimate social platform meticulously crafted with the power of the MERN (MongoDB, Express.js, React.js, Node.js) stack, tailored exclusively for the web development community. Here, every line of code and every pixel on the screen is a testament to our commitment to empowering developers and employers alike. Behind the sleek and intuitive user interface lies a powerhouse of technology, driven by Node.js for lightning-fast performance and Express.js for seamless backend communication. With MongoDB as our database of choice, we've created a scalable and robust platform that can handle the diverse needs of developers and employers with ease. But Goose Dev Hub is more than just a showcase of technical prowess \u2013 it's a vibrant community where developers can showcase their projects, skills, and expertise, and employers can discover top talent to propel their businesses forward. Whether you're a seasoned developer looking for your next career opportunity or an employer seeking skilled candidates for your projects, Goose Dev Hub provides the perfect platform for connection and collaboration. Join us at Goose Dev Hub and unlock endless possibilities for professional growth and success. With our MERN stack-powered platform, you'll have everything you need to take your career to new heights or find the perfect candidate for your next project. Let's build the future of web development together \u2013 one connection at a time.")))));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectCardOne);
+
+/***/ }),
+
+/***/ "./src/components/ProjectCard/ProjectCardThree.js":
+/*!********************************************************!*\
+  !*** ./src/components/ProjectCard/ProjectCardThree.js ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProjectCard.module.scss */ "./src/components/ProjectCard/ProjectCard.module.scss");
+/* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+function ProjectCardThree() {
+  return /*#__PURE__*/React.createElement("div", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectCardContainer
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectCardInnerContainer
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectCard
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].titleImgContainer
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectTitle
+  }, "Liberty Blogs"), /*#__PURE__*/React.createElement("img", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectImg,
+    src: "/img/blog.png"
+  }), /*#__PURE__*/React.createElement("h4", null, "Year: 2023"), /*#__PURE__*/React.createElement("h4", null, "Category: Blog")), /*#__PURE__*/React.createElement("div", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].DescriptionContainer
+  }, /*#__PURE__*/React.createElement("p", {
+    className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectDescription
+  }, "Driven by the power of the MERN (MongoDB, Express.js, React.js, Node.js) stack, Liberty Blogs is more than just a website \u2013 it's your personal canvas, waiting to be painted with the colors of your imagination. With React.js at the helm, your readers are greeted with a seamless and captivating interface, inviting them to delve into the depths of your thoughts and stories. Meanwhile, Node.js and Express.js ensure that your platform runs smoothly, allowing you to focus on what truly matters \u2013 your words. Liberty Blogs isn't just a platform \u2013 it's your digital haven, where you have the freedom to express yourself authentically and connect with readers who resonate with your message. Whether you're sharing personal anecdotes, discussing thought-provoking topics, or simply expressing your creativity, Liberty Blogs is your space to shine.")))));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectCardThree);
+
+/***/ }),
+
+/***/ "./src/components/ProjectCard/ProjectCardTwo.js":
+/*!******************************************************!*\
+  !*** ./src/components/ProjectCard/ProjectCardTwo.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProjectCard.module.scss */ "./src/components/ProjectCard/ProjectCard.module.scss");
+/* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+function ProjectCardTwo() {
   return /*#__PURE__*/React.createElement("div", {
     className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectCardContainer
   }, /*#__PURE__*/React.createElement("div", {
@@ -364,14 +437,14 @@ function ProjectCard() {
     className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectTitle
   }, "MarvelVerse Comics"), /*#__PURE__*/React.createElement("img", {
     className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectImg,
-    src: "https://i.imgur.com/HlXU1oe.png"
+    src: "/img/marvel.jpg"
   }), /*#__PURE__*/React.createElement("h4", null, "Year: 2024"), /*#__PURE__*/React.createElement("h4", null, "Category: Ecommerce")), /*#__PURE__*/React.createElement("div", {
     className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].DescriptionContainer
   }, /*#__PURE__*/React.createElement("p", {
     className: _ProjectCard_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ProjectDescription
   }, "Welcome to our Marvel Comics Emporium, where every purchase is a journey into the heart of the Marvel universe, meticulously crafted using the latest in web technology. Our online store isn't just a destination; it's a testament to the power of innovation and creativity, built from the ground up with a MERN (MongoDB, Express.js, React.js, Node.js) stack.")))));
 }
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectCard);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectCardTwo);
 
 /***/ }),
 
@@ -387,19 +460,50 @@ function ProjectCard() {
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Projects.module.scss */ "./src/components/Projects/Projects.module.scss");
-/* harmony import */ var _ProjectCard_ProjectCard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../ProjectCard/ProjectCard */ "./src/components/ProjectCard/ProjectCard.js");
+/* harmony import */ var _ProjectCard_ProjectCardOne__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../ProjectCard/ProjectCardOne */ "./src/components/ProjectCard/ProjectCardOne.js");
+/* harmony import */ var _ProjectCard_ProjectCardTwo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../ProjectCard/ProjectCardTwo */ "./src/components/ProjectCard/ProjectCardTwo.js");
+/* harmony import */ var _ProjectCard_ProjectCardThree__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../ProjectCard/ProjectCardThree */ "./src/components/ProjectCard/ProjectCardThree.js");
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 
 
+
+
 function Projects() {
-  const [showCard, setShowCard] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
-  return /*#__PURE__*/React.createElement(React.Fragment, null, showCard ? /*#__PURE__*/React.createElement(_ProjectCard_ProjectCard__WEBPACK_IMPORTED_MODULE_2__["default"], null) : null, /*#__PURE__*/React.createElement("div", {
+  const [showCardOne, setShowCardOne] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  const [showCardTwo, setShowCardTwo] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  const [showCardThree, setShowCardThree] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  const projectCardRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    function handleClickOutside(event) {
+      if (projectCardRef.current && !projectCardRef.current.contains(event.target)) {
+        setShowCardOne(false);
+        setShowCardTwo(false);
+        setShowCardThree(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [projectCardRef]);
+  const toggleCardOne = () => {
+    setShowCardOne(!showCardOne);
+  };
+  const toggleCardTwo = () => {
+    setShowCardTwo(!showCardTwo);
+  };
+  const toggleCardThree = () => {
+    setShowCardThree(!showCardThree);
+  };
+  return /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].Projects
   }, /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].ProjectCardOne
   }, /*#__PURE__*/React.createElement("div", {
-    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].ProjectCard
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].ProjectCard,
+    onClick: toggleCardOne,
+    ref: projectCardRef
   }, /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].imgContainer
   }, /*#__PURE__*/React.createElement("img", {
@@ -410,7 +514,9 @@ function Projects() {
   }, /*#__PURE__*/React.createElement("h5", null, "Goose Dev Hub"), /*#__PURE__*/React.createElement("h6", null, "Year: 2024"), /*#__PURE__*/React.createElement("h6", null, "Category: Tech, Social Media")))), /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].ProjectCardTwo
   }, /*#__PURE__*/React.createElement("div", {
-    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].ProjectCard
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].ProjectCard,
+    onClick: toggleCardTwo,
+    ref: projectCardRef
   }, /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].imgContainer
   }, /*#__PURE__*/React.createElement("img", {
@@ -421,7 +527,9 @@ function Projects() {
   }, /*#__PURE__*/React.createElement("h5", null, "MarvelVerse Comics"), /*#__PURE__*/React.createElement("h6", null, "Year: 2024"), /*#__PURE__*/React.createElement("h6", null, "Category: Ecommerce")))), /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].ProjectCardThree
   }, /*#__PURE__*/React.createElement("div", {
-    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].ProjectCard
+    className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].ProjectCard,
+    onClick: toggleCardThree,
+    ref: projectCardRef
   }, /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].imgContainer
   }, /*#__PURE__*/React.createElement("img", {
@@ -429,7 +537,7 @@ function Projects() {
     src: "https://i.imgur.com/0yD52R2.png"
   })), /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].ProjectDetails
-  }, /*#__PURE__*/React.createElement("h5", null, "Liberty Blogs"), /*#__PURE__*/React.createElement("h6", null, "Year: 2023"), /*#__PURE__*/React.createElement("h6", null, "Category: Social Media, Communication"))))));
+  }, /*#__PURE__*/React.createElement("h5", null, "Liberty Blogs"), /*#__PURE__*/React.createElement("h6", null, "Year: 2023"), /*#__PURE__*/React.createElement("h6", null, "Category: Social Media, Communication")))), showCardOne && /*#__PURE__*/React.createElement(_ProjectCard_ProjectCardOne__WEBPACK_IMPORTED_MODULE_2__["default"], null), showCardTwo && /*#__PURE__*/React.createElement(_ProjectCard_ProjectCardTwo__WEBPACK_IMPORTED_MODULE_3__["default"], null), showCardThree && /*#__PURE__*/React.createElement(_ProjectCard_ProjectCardThree__WEBPACK_IMPORTED_MODULE_4__["default"], null));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Projects);
 
@@ -1426,7 +1534,8 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.m__y77JZW4Yvdlc4R0MQ {
   width: 50%;
 }
 .m__y77JZW4Yvdlc4R0MQ .AfzNCN9BaCKFdMLmcmbb .sw3INglMKzbCUhnomKH9 .f24awNwZSrgRDaAvc5p0 .TsTLQMp3bGREunwBG4lW {
-  width: 100%;
+  max-width: 100%;
+  max-height: 60rem;
   border-radius: 3rem;
   border: 0.1rem solid var(--heading-color);
 }
@@ -1447,7 +1556,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.m__y77JZW4Yvdlc4R0MQ {
   margin: 0 2rem;
   font-size: 1.6rem;
   line-height: 4rem;
-}`, "",{"version":3,"sources":["webpack://./src/components/ProjectCard/ProjectCard.module.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,kBAAA;EACA,WAAA;EACA,YAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,oCAAA;AACJ;AAAI;EACI,UAAA;EACA,YAAA;EACA,mBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,yCAAA;EACA,uCAAA;AAER;AADQ;EACI,UAAA;EACA,YAAA;EACA,aAAA;EACA,mBAAA;EACA,yCAAA;EACA,oCAAA;EACA,YAAA;EACA,gBAAA;EACA,aAAA;AAGZ;AAFY;EACI,kBAAA;EACA,UAAA;AAIhB;AAHgB;EACI,WAAA;EACA,mBAAA;EACA,yCAAA;AAKpB;AAHgB;EACI,cAAA;EACA,iBAAA;EACA,iBAAA;AAKpB;AAHgB;EACI,iBAAA;EACA,gBAAA;AAKpB;AAFY;EACI,UAAA;EACA,gBAAA;AAIhB;AAHgB;EACI,cAAA;EACA,iBAAA;EACA,iBAAA;AAKpB","sourcesContent":[".ProjectCardContainer {\n    z-index: 500;\n    position: absolute;\n    width: 100%;\n    height: 90vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: rgba(0, 0, 0, .5);\n    .ProjectCardInnerContainer {\n        width: 90%;\n        height: 80vh;\n        border-radius: 3rem;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        border: .3rem solid var(--heading-color);\n        background-color: rgba(45, 51, 50, .7);\n        .ProjectCard {\n            width: 90%;\n            height: 70vh;\n            display: flex;\n            border-radius: 3rem;\n            border: .3rem solid var(--heading-color);\n            background-color: rgba(0, 0, 0, .6);\n            color: white;\n            overflow: hidden;\n            padding: 2rem;\n            .titleImgContainer {\n                text-align: center;\n                width: 50%;\n                .ProjectImg {\n                    width: 100%;\n                    border-radius: 3rem;\n                    border: .1rem solid var(--heading-color);\n                }\n                .ProjectTitle {\n                    margin: 2rem 0;\n                    font-size: 2.5rem;\n                    font-weight: bold;\n                }\n                h4 {\n                    font-size: 1.8rem;\n                    margin-top: 1rem;\n                }\n            }\n            .DescriptionContainer {\n                width: 50%;\n                margin-top: 2rem;\n                .ProjectDescription {\n                    margin: 0 2rem;\n                    font-size: 1.6rem;\n                    line-height: 4rem;\n                }\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/ProjectCard/ProjectCard.module.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,kBAAA;EACA,WAAA;EACA,YAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,oCAAA;AACJ;AAAI;EACI,UAAA;EACA,YAAA;EACA,mBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,yCAAA;EACA,uCAAA;AAER;AADQ;EACI,UAAA;EACA,YAAA;EACA,aAAA;EACA,mBAAA;EACA,yCAAA;EACA,oCAAA;EACA,YAAA;EACA,gBAAA;EACA,aAAA;AAGZ;AAFY;EACI,kBAAA;EACA,UAAA;AAIhB;AAHgB;EACI,eAAA;EACA,iBAAA;EACA,mBAAA;EACA,yCAAA;AAKpB;AAHgB;EACI,cAAA;EACA,iBAAA;EACA,iBAAA;AAKpB;AAHgB;EACI,iBAAA;EACA,gBAAA;AAKpB;AAFY;EACI,UAAA;EACA,gBAAA;AAIhB;AAHgB;EACI,cAAA;EACA,iBAAA;EACA,iBAAA;AAKpB","sourcesContent":[".ProjectCardContainer {\n    z-index: 500;\n    position: absolute;\n    width: 100%;\n    height: 90vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: rgba(0, 0, 0, .5);\n    .ProjectCardInnerContainer {\n        width: 90%;\n        height: 80vh;\n        border-radius: 3rem;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        border: .3rem solid var(--heading-color);\n        background-color: rgba(45, 51, 50, .7);\n        .ProjectCard {\n            width: 90%;\n            height: 70vh;\n            display: flex;\n            border-radius: 3rem;\n            border: .3rem solid var(--heading-color);\n            background-color: rgba(0, 0, 0, .6);\n            color: white;\n            overflow: hidden;\n            padding: 2rem;\n            .titleImgContainer {\n                text-align: center;\n                width: 50%;\n                .ProjectImg {\n                    max-width: 100%;\n                    max-height: 60rem;\n                    border-radius: 3rem;\n                    border: .1rem solid var(--heading-color);\n                }\n                .ProjectTitle {\n                    margin: 2rem 0;\n                    font-size: 2.5rem;\n                    font-weight: bold;\n                }\n                h4 {\n                    font-size: 1.8rem;\n                    margin-top: 1rem;\n                }\n            }\n            .DescriptionContainer {\n                width: 50%;\n                margin-top: 2rem;\n                .ProjectDescription {\n                    margin: 0 2rem;\n                    font-size: 1.6rem;\n                    line-height: 4rem;\n                }\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"ProjectCardContainer": `m__y77JZW4Yvdlc4R0MQ`,
@@ -2831,4 +2940,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.0fe2812fa96295e8b208e73bf3a46427.js.map
+//# sourceMappingURL=App.ceb80dc921df2fb47b9f69c82bb180fc.js.map
