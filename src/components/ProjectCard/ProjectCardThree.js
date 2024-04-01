@@ -9,7 +9,7 @@ function ProjectCardThree() {
                     <h2 className={styles.ProjectTitle}>Liberty Blogs</h2>
                     <img className={styles.ProjectImg} src="/img/blog.png"/>
                     <h4>Year: 2023</h4>
-                    <h4>Category: Blog</h4>
+                    <h4>Category: Social Media, Communication</h4>
                 </div>
                 <div className={styles.DescriptionContainer}>
                     <p className={styles.ProjectDescription}>

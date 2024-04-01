@@ -42,7 +42,7 @@ function Projects() {
             <div className={styles.ProjectCardOne}>
                 <div className={styles.ProjectCard} onClick={toggleCardOne} ref={projectCardRef}>
                     <div className={styles.imgContainer}>
-                        <img className={styles.ProjectLogo} src="https://i.imgur.com/UIjyIMC.png"/>
+                        <img className={styles.ProjectLogo} src="/img/goose-logo.png"/>
                     </div>
                     <div className={styles.ProjectDetails}>
                         <h5>Goose Dev Hub</h5>
@@ -54,7 +54,7 @@ function Projects() {
             <div className={styles.ProjectCardTwo}>
                 <div className={styles.ProjectCard} onClick={toggleCardTwo} ref={projectCardRef}>
                     <div className={styles.imgContainer}>
-                        <img className={styles.ProjectLogo} src="https://i.imgur.com/ndrcB38.png"/>
+                        <img className={styles.ProjectLogo} src="/img/marvel-logo.png"/>
                     </div>
                     <div className={styles.ProjectDetails}>
                         <h5>MarvelVerse Comics</h5>
@@ -66,7 +66,7 @@ function Projects() {
             <div className={styles.ProjectCardThree}>
                 <div className={styles.ProjectCard} onClick={toggleCardThree} ref={projectCardRef}>
                     <div className={styles.imgContainer}>
-                        <img className={styles.ProjectLogo} src="https://i.imgur.com/0yD52R2.png"/>
+                        <img className={styles.ProjectLogo} src="/img/blog-logo.png"/>
                     </div>
                     <div className={styles.ProjectDetails}>
                         <h5>Liberty Blogs</h5>

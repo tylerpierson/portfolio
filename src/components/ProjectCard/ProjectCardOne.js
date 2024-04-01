@@ -9,7 +9,7 @@ function ProjectCardOne() {
                     <h2 className={styles.ProjectTitle}>Goose Dev Hub</h2>
                     <img className={styles.ProjectImg} src='/img/goose.png' alt="Goose Image" />
                     <h4>Year: 2024</h4>
-                    <h4>Category: Social Media Application</h4>
+                    <h4>Category: Tech, Social Media</h4>
                 </div>
                 <div className={styles.DescriptionContainer}>
                     <p className={styles.ProjectDescription}>
