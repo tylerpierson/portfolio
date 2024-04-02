@@ -605,35 +605,42 @@ function AboutPage() {
 
 
 function ContactPage() {
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/React.createElement("h1", null, "Contact Page"), /*#__PURE__*/React.createElement("form", {
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/React.createElement("div", {
+    className: _ContactPage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ContactPage
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _ContactPage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].FormContainer
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: _ContactPage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].header
+  }, "Contact Me Today!"), /*#__PURE__*/React.createElement("form", {
+    className: _ContactPage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].Form,
     action: "https://submit-form.com/9atYbBFL"
   }, /*#__PURE__*/React.createElement("label", {
     for: "name"
   }, "Name"), /*#__PURE__*/React.createElement("input", {
+    className: _ContactPage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].input,
     type: "text",
     id: "name",
     name: "name",
-    placeholder: "Name",
     required: ""
   }), /*#__PURE__*/React.createElement("label", {
     for: "email"
   }, "Email"), /*#__PURE__*/React.createElement("input", {
+    className: _ContactPage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].input,
     type: "email",
     id: "email",
     name: "email",
-    placeholder: "Email",
     required: ""
   }), /*#__PURE__*/React.createElement("label", {
     for: "message"
   }, "Message"), /*#__PURE__*/React.createElement("textarea", {
+    className: _ContactPage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].message,
     id: "message",
     name: "message",
-    placeholder: "Message",
     required: ""
   }), /*#__PURE__*/React.createElement("button", {
     className: _ContactPage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].button,
     type: "submit"
-  }, "Send")));
+  }, "Send")))));
 }
 
 /***/ }),
@@ -1776,6 +1783,11 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.lkSfnDUQxn7c_fywXKpE {
 }
 .lkSfnDUQxn7c_fywXKpE .w0ja4CsHvALVP85RyPJj .W7Ys6_Es2My6z5Xw1gg9 {
   color: white;
+}
+.lkSfnDUQxn7c_fywXKpE .w0ja4CsHvALVP85RyPJj .o7En6rTPDTw_64wL3siB {
+  color: var(--heading-color);
+}
+.lkSfnDUQxn7c_fywXKpE .w0ja4CsHvALVP85RyPJj .W7Ys6_Es2My6z5Xw1gg9, .lkSfnDUQxn7c_fywXKpE .w0ja4CsHvALVP85RyPJj .o7En6rTPDTw_64wL3siB {
   width: 90%;
   line-height: 3rem;
   font-size: 1.3rem;
@@ -1783,12 +1795,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.lkSfnDUQxn7c_fywXKpE {
 }
 .lkSfnDUQxn7c_fywXKpE .uuoSQC2OKXxAZt1ssg_l {
   transform: rotate(10deg);
-}`, "",{"version":3,"sources":["webpack://./src/pages/AboutPage/AboutPage.module.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,WAAA;EACA,gBAAA;AACJ;AAAI;EACI,UAAA;AAER;AADQ;EACI,YAAA;EACA,UAAA;EACA,iBAAA;EACA,iBAAA;EACA,cAAA;AAGZ;AAAI;EACI,wBAAA;AAER","sourcesContent":[".AboutPage {\n    display: flex;\n    justify-content: center;\n    margin: 12vh 2rem 0;\n    height: 88vh;\n    width: 100%;\n    overflow: hidden;\n    .textContainer {\n        width: 50%;\n        .bio {\n            color: white;\n            width: 90%;\n            line-height: 3rem;\n            font-size: 1.3rem;\n            margin: 3rem 0;\n        }\n    }\n    .image {\n        transform: rotate(10deg);\n    }\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/pages/AboutPage/AboutPage.module.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,WAAA;EACA,gBAAA;AACJ;AAAI;EACI,UAAA;AAER;AADQ;EACI,YAAA;AAGZ;AADQ;EACI,2BAAA;AAGZ;AADQ;EACI,UAAA;EACA,iBAAA;EACA,iBAAA;EACA,cAAA;AAGZ;AAAI;EACI,wBAAA;AAER","sourcesContent":[".AboutPage {\n    display: flex;\n    justify-content: center;\n    margin: 12vh 2rem 0;\n    height: 88vh;\n    width: 100%;\n    overflow: hidden;\n    .textContainer {\n        width: 50%;\n        .bio {\n            color: white;\n        }\n        .highlight {\n            color: var(--heading-color);\n        }\n        .bio, .highlight {\n            width: 90%;\n            line-height: 3rem;\n            font-size: 1.3rem;\n            margin: 3rem 0;\n        }\n    }\n    .image {\n        transform: rotate(10deg);\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"AboutPage": `lkSfnDUQxn7c_fywXKpE`,
 	"textContainer": `w0ja4CsHvALVP85RyPJj`,
 	"bio": `W7Ys6_Es2My6z5Xw1gg9`,
+	"highlight": `o7En6rTPDTw_64wL3siB`,
 	"image": `uuoSQC2OKXxAZt1ssg_l`
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
@@ -1814,14 +1827,57 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `.c0lRD6kedzAgDIWTmXWt {
-  height: 130px;
-  background-color: red;
-  width: 1px;
-}`, "",{"version":3,"sources":["webpack://./src/pages/ContactPage/ContactPage.module.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,qBAAA;EACA,UAAA;AACJ","sourcesContent":[".bgDesign {\n    height: 130px;\n    background-color: red;\n    width: 1px;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, `.YLhl5O0tSVyQw_Ud6GeH {
+  height: 88vh;
+  width: 100%;
+  margin-top: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.YLhl5O0tSVyQw_Ud6GeH .YSnwU9tSueWAfFZaXFGb {
+  background-color: rgb(45, 51, 50);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 3rem;
+  padding: 3rem;
+  width: 40%;
+  height: 90%;
+}
+.YLhl5O0tSVyQw_Ud6GeH .YSnwU9tSueWAfFZaXFGb .kQIC4I2TlLl_ToATaqms {
+  font-size: 3.4vw;
+}
+.YLhl5O0tSVyQw_Ud6GeH .YSnwU9tSueWAfFZaXFGb .OZRoCQy7AvGXd7je1Siv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.YLhl5O0tSVyQw_Ud6GeH .YSnwU9tSueWAfFZaXFGb .OZRoCQy7AvGXd7je1Siv .im3q2K_NmtDJvH5Yd8Ha {
+  margin-bottom: 2rem;
+}
+.YLhl5O0tSVyQw_Ud6GeH .YSnwU9tSueWAfFZaXFGb .OZRoCQy7AvGXd7je1Siv .fRyMHED_wOojI83LzmDp {
+  border-radius: 1rem;
+  height: 8rem;
+  width: 25vw;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+.YLhl5O0tSVyQw_Ud6GeH .YSnwU9tSueWAfFZaXFGb .OZRoCQy7AvGXd7je1Siv .fRyMHED_wOojI83LzmDp:focus {
+  outline: none;
+  box-shadow: 0 0 1rem var(--btn-color);
+}`, "",{"version":3,"sources":["webpack://./src/pages/ContactPage/ContactPage.module.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,WAAA;EACA,gBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;AACJ;AAAI;EACI,iCAAA;EACA,aAAA;EACA,sBAAA;EACA,6BAAA;EACA,mBAAA;EACA,mBAAA;EACA,aAAA;EACA,UAAA;EACA,WAAA;AAER;AADQ;EACI,gBAAA;AAGZ;AADQ;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;AAGZ;AAFY;EACI,mBAAA;AAIhB;AAFY;EACI,mBAAA;EACA,YAAA;EACA,WAAA;EACA,mBAAA;EACA,aAAA;AAIhB;AAHgB;EACI,aAAA;EACA,qCAAA;AAKpB","sourcesContent":[".ContactPage {\n    height: 88vh;\n    width: 100%;\n    margin-top: 12vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: white;\n    .FormContainer {\n        background-color: rgb(45, 51, 50);\n        display: flex;\n        flex-direction: column;\n        justify-content: space-evenly;\n        align-items: center;\n        border-radius: 3rem;\n        padding: 3rem;\n        width: 40%;\n        height: 90%;\n        .header {\n            font-size: 3.4vw;\n        }\n        .Form {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            .input {\n                margin-bottom: 2rem;\n            }\n            .message {\n                border-radius: 1rem;\n                height: 8rem;\n                width: 25vw;\n                margin-bottom: 3rem;\n                padding: 1rem;\n                &:focus {\n                    outline: none;\n                    box-shadow: 0 0 1rem var(--btn-color);\n                }\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
-	"bgDesign": `c0lRD6kedzAgDIWTmXWt`
+	"ContactPage": `YLhl5O0tSVyQw_Ud6GeH`,
+	"FormContainer": `YSnwU9tSueWAfFZaXFGb`,
+	"header": `kQIC4I2TlLl_ToATaqms`,
+	"Form": `OZRoCQy7AvGXd7je1Siv`,
+	"input": `im3q2K_NmtDJvH5Yd8Ha`,
+	"message": `fRyMHED_wOojI83LzmDp`
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2826,4 +2882,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.16d50849715353bc555c368919f6cc28.js.map
+//# sourceMappingURL=App.94e227eaeb87714884f97e482914f935.js.map

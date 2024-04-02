@@ -9,6 +9,11 @@
         width: 50%;
         .bio {
             color: white;
+        }
+        .highlight {
+            color: var(--heading-color);
+        }
+        .bio, .highlight {
             width: 90%;
             line-height: 3rem;
             font-size: 1.3rem;
