@@ -9,6 +9,7 @@ import ProjectBanner from '../../components/ProjectBanner/ProjectBanner'
 import Projects from '../../components/Projects/Projects'
 
 export default function HomePage(){
+    const projectId = "project-section";
     return (
         <>
             <NavBar />

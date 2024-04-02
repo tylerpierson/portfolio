@@ -1,0 +1,21 @@
+.AboutPage {
+    display: flex;
+    justify-content: center;
+    margin: 12vh 2rem 0;
+    height: 88vh;
+    width: 100%;
+    overflow: hidden;
+    .textContainer {
+        width: 50%;
+        .bio {
+            color: white;
+            width: 90%;
+            line-height: 3rem;
+            font-size: 1.3rem;
+            margin: 3rem 0;
+        }
+    }
+    .image {
+        transform: rotate(10deg);
+    }
+}

@@ -1,6 +1,5 @@
 import styles from './ContactPage.module.scss'
 import NavBar from '../../components/NavBar/NavBar'
-import Button from '../../components/Button/Button'
 
 export default function ContactPage(){
     return (
@@ -19,7 +18,7 @@ export default function ContactPage(){
                     placeholder="Message"
                     required=""
                 ></textarea>
-                <button type="submit">Send</button>
+                <button className={styles.button} type="submit">Send</button>
             </form>
         </>
     )
