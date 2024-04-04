@@ -106,7 +106,12 @@
         .ul {
             display: block;
             text-decoration: none;
+            .Link {
+                text-decoration: none;
+                color: black;
+            }
             .li {
+                text-decoration: none;
                 list-style-type: none;
                 font-size: 4rem;
                 transition: .3s ease;
@@ -114,6 +119,7 @@
                     cursor: pointer;
                     background-color: rgba(0, 0, 0, .3);
                     transition: .3s ease;
+                    color: white;
                 }
             }
         }

@@ -24,3 +24,23 @@
         transform: rotate(10deg);
     }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 1000px) {
+    .AboutPage {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        overflow: visible;
+        padding-bottom: 3rem;
+        margin-top: 5vh;
+        .textContainer {
+            width: 100%;
+        }
+        .image {
+            display: none;
+            transform: rotate(0);
+            width: 50%;
+        }
+    }
+}

@@ -1,10 +1,12 @@
 import styles from './ContactPage.module.scss'
 import NavBar from '../../components/NavBar/NavBar'
+import NavMobile from '../../components/NavMobile/NavMobile'
 
 export default function ContactPage(){
     return (
         <>
             <NavBar />
+            <NavMobile />
             <div className={styles.ContactPage}>
                 <div className={styles.FormContainer}>
                     <h1 className={styles.header}>Contact Me Today!</h1>

@@ -202,8 +202,10 @@ function NavBar() {
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
 /* harmony import */ var _NavMobile_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavMobile.module.scss */ "./src/components/NavMobile/NavMobile.module.scss");
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
 
 
 function NavMobile() {
@@ -228,15 +230,22 @@ function NavMobile() {
     className: "".concat(_NavMobile_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].NavContainer, " ").concat(listShown ? _NavMobile_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].expandContainer : _NavMobile_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].collapseContainer)
   }, /*#__PURE__*/React.createElement("ul", {
     className: _NavMobile_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].ul
+  }, /*#__PURE__*/React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    className: _NavMobile_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].Link,
+    to: "/"
   }, /*#__PURE__*/React.createElement("li", {
     className: _NavMobile_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].li
-  }, "Home"), /*#__PURE__*/React.createElement("li", {
+  }, "Home")), /*#__PURE__*/React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    className: _NavMobile_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].Link,
+    to: "/about"
+  }, /*#__PURE__*/React.createElement("li", {
     className: _NavMobile_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].li
-  }, "About Me"), /*#__PURE__*/React.createElement("li", {
+  }, "About Me")), /*#__PURE__*/React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    className: _NavMobile_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].Link,
+    to: "/contact"
+  }, /*#__PURE__*/React.createElement("li", {
     className: _NavMobile_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].li
-  }, "Projects"), /*#__PURE__*/React.createElement("li", {
-    className: _NavMobile_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].li
-  }, "Contact Me"))));
+  }, "Contact")))));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavMobile);
 
@@ -561,28 +570,30 @@ root.render( /*#__PURE__*/React.createElement(react__WEBPACK_IMPORTED_MODULE_0__
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/NavBar/NavBar */ "./src/components/NavBar/NavBar.js");
-/* harmony import */ var _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AboutPage.module.scss */ "./src/pages/AboutPage/AboutPage.module.scss");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
+/* harmony import */ var _components_NavMobile_NavMobile__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/NavMobile/NavMobile */ "./src/components/NavMobile/NavMobile.js");
+/* harmony import */ var _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AboutPage.module.scss */ "./src/pages/AboutPage/AboutPage.module.scss");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
+
 
 
 
 
 function AboutPage() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].AboutPage
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_NavMobile_NavMobile__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].AboutPage
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].textContainer
+    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].textContainer
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].header
+    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].header
   }, "Who I am..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].bio
+    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].bio
   }, "Hello! I am a former educator turned ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].highlight
-  }, "Software Engineer"), ". I first became interested in computer science and web development after attending a conference related to the responsiveness of teachers to their students' academic needs. Being a teacher, I found that many of the applications available for teachers to track student data were very complex and hard to navigate. I made it a mission of mine to make this a thing of the past, and during this journey, became extremely passionate about software engineering. My goal now is to do for others what I was wanting to do for myself, which is to make their technological dreams a reality. Having the ability to take something from nothing but a dream and turn it into something tangible is what I live for nowadays. If you are on my page now, it is most likely because you have a dream that you are wanting to make a reality. Reach out today so that you and I can work together to make it happen!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
-    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].button,
+    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].highlight
+  }, "Software Engineer"), ". I first became interested in computer science and web development after attending a conference related to the responsiveness of teachers to their students' academic needs. Being a teacher, I found that many of the applications available for teachers to track student data were very complex and hard to navigate. I made it a mission of mine to make this a thing of the past, and during this journey, became extremely passionate about software engineering. My goal now is to do for others what I was wanting to do for myself, which is to make their technological dreams a reality. Having the ability to take something from nothing but a dream and turn it into something tangible is what I live for nowadays. If you are on my page now, it is most likely because you have a dream that you are wanting to make a reality. Reach out today so that you and I can work together to make it happen!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Link, {
+    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].button,
     to: "/contact"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "Contact Me Today!"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].image,
+    className: _AboutPage_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].image,
     src: "/img/cow.jpg"
   })));
 }
@@ -601,11 +612,13 @@ function AboutPage() {
 /* harmony export */ });
 /* harmony import */ var _ContactPage_module_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ContactPage.module.scss */ "./src/pages/ContactPage/ContactPage.module.scss");
 /* harmony import */ var _components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/NavBar/NavBar */ "./src/components/NavBar/NavBar.js");
+/* harmony import */ var _components_NavMobile_NavMobile__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/NavMobile/NavMobile */ "./src/components/NavMobile/NavMobile.js");
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 
+
 function ContactPage() {
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/React.createElement(_components_NavMobile_NavMobile__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/React.createElement("div", {
     className: _ContactPage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].ContactPage
   }, /*#__PURE__*/React.createElement("div", {
     className: _ContactPage_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].FormContainer
@@ -836,16 +849,9 @@ ___CSS_LOADER_EXPORT___.push([module.id, `/* Small devices (portrait tablets and
     font-size: 2rem;
   }
   .jinRZ7_sItrL6xbGnzrK .WjVjMLdQXGGAB9HV83S0 {
-    display: flex;
-    justify-content: center;
-    width: 70%;
-    height: 100%;
-    font-size: 1.3rem;
+    display: none;
   }
-  .jinRZ7_sItrL6xbGnzrK .WjVjMLdQXGGAB9HV83S0:hover {
-    color: black;
-  }
-}`, "",{"version":3,"sources":["webpack://./src/components/Bio/Bio.module.scss"],"names":[],"mappings":"AAAA,oEAAA;AACA;EACI,YAAA;EACA,WAAA;EACA,iBAAA;EACA,qBAAA;EACA,aAAA;EACA,sCAAA;EACA,uBAAA;EACA,mBAAA;AACJ;AAAI;EACI,YAAA;EACA,aAAA;EACA,sBAAA;EACA,yBAAA;EACA,uBAAA;AAER;AADQ;EACI,gBAAA;EACA,gBAAA;EACA,YAAA;AAGZ;AAAI;EACI,WAAA;EACA,kBAAA;EACA,YAAA;EACA,cAAA;EACA,aAAA;EACA,sBAAA;EACA,yBAAA;EACA,uBAAA;EACA,mBAAA;AAER;AADQ;EACI,sBAAA;EACA,mBAAA;AAGZ;;AAEA;EACI;IACI,eAAA;IACA,YAAA;IACA,aAAA;IACA,oCAAA;EACN;EAAM;IACI,aAAA;IACA,uBAAA;IACA,YAAA;IACA,UAAA;EAEV;EADU;IACI,iBAAA;EAGd;EADU;IACI,eAAA;EAGd;EAAM;IACI,aAAA;IACA,uBAAA;IACA,UAAA;IACA,YAAA;IACA,iBAAA;EAEV;EADU;IACI,YAAA;EAGd;AACF","sourcesContent":["/* Small devices (portrait tablets and large phones, 600px and up) */\n.Bio {\n    height: 60vh;\n    width: 100%;\n    margin: 2rem auto;\n    padding: 3rem 0 10rem;\n    display: flex;\n    background-color: var(--heading-color);\n    justify-content: center;\n    align-items: center;\n    .contentContainer {\n        height: 60vh;\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-end;\n        align-items: flex-start;\n        .title {\n            font-size: 8.5vw;\n            font-weight: 600;\n            color: white;\n        }\n    }\n    .titleDescription {\n        color: grey;\n        padding-left: 3rem;\n        height: 60vh;\n        font-size: 3vw;\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-end;\n        align-items: flex-start;\n        transition: 1s ease;\n        &:hover {\n            color: var(--bg-color);\n            transition: 1s ease;\n        }\n    }\n}\n\n@media only screen and (max-width: 1000px) {\n    .Bio {\n        padding: 0 2rem;\n        width: 100vw;\n        height: 15rem;\n        background-color: rgb(100, 237, 207);\n        .contentContainer {\n            display: flex;\n            justify-content: center;\n            height: 100%;\n            width: 30%;\n            .headingSM {\n                font-size: 1.5rem;\n            }\n            .title {\n                font-size: 2rem;\n            }\n        }\n        .titleDescription {\n            display: flex;\n            justify-content: center;\n            width: 70%;\n            height: 100%;\n            font-size: 1.3rem; \n            &:hover {\n                color: black;\n            }\n        }\n    }\n}\n\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/Bio/Bio.module.scss"],"names":[],"mappings":"AAAA,oEAAA;AACA;EACI,YAAA;EACA,WAAA;EACA,iBAAA;EACA,qBAAA;EACA,aAAA;EACA,sCAAA;EACA,uBAAA;EACA,mBAAA;AACJ;AAAI;EACI,YAAA;EACA,aAAA;EACA,sBAAA;EACA,yBAAA;EACA,uBAAA;AAER;AADQ;EACI,gBAAA;EACA,gBAAA;EACA,YAAA;AAGZ;AAAI;EACI,WAAA;EACA,kBAAA;EACA,YAAA;EACA,cAAA;EACA,aAAA;EACA,sBAAA;EACA,yBAAA;EACA,uBAAA;EACA,mBAAA;AAER;AADQ;EACI,sBAAA;EACA,mBAAA;AAGZ;;AAEA;EACI;IACI,eAAA;IACA,YAAA;IACA,aAAA;IACA,oCAAA;EACN;EAAM;IACI,aAAA;IACA,uBAAA;IACA,YAAA;IACA,UAAA;EAEV;EADU;IACI,iBAAA;EAGd;EADU;IACI,eAAA;EAGd;EAAM;IACI,aAAA;EAEV;AACF","sourcesContent":["/* Small devices (portrait tablets and large phones, 600px and up) */\n.Bio {\n    height: 60vh;\n    width: 100%;\n    margin: 2rem auto;\n    padding: 3rem 0 10rem;\n    display: flex;\n    background-color: var(--heading-color);\n    justify-content: center;\n    align-items: center;\n    .contentContainer {\n        height: 60vh;\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-end;\n        align-items: flex-start;\n        .title {\n            font-size: 8.5vw;\n            font-weight: 600;\n            color: white;\n        }\n    }\n    .titleDescription {\n        color: grey;\n        padding-left: 3rem;\n        height: 60vh;\n        font-size: 3vw;\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-end;\n        align-items: flex-start;\n        transition: 1s ease;\n        &:hover {\n            color: var(--bg-color);\n            transition: 1s ease;\n        }\n    }\n}\n\n@media only screen and (max-width: 1000px) {\n    .Bio {\n        padding: 0 2rem;\n        width: 100vw;\n        height: 15rem;\n        background-color: rgb(100, 237, 207);\n        .contentContainer {\n            display: flex;\n            justify-content: center;\n            height: 100%;\n            width: 30%;\n            .headingSM {\n                font-size: 1.5rem;\n            }\n            .title {\n                font-size: 2rem;\n            }\n        }\n        .titleDescription {\n            display: none;\n        }\n    }\n}\n\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Bio": `jinRZ7_sItrL6xbGnzrK`,
@@ -1232,7 +1238,12 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.lksBUiCZFQPLTfIjYUCV {
     display: block;
     text-decoration: none;
   }
+  .DvGKNPsuqDyxZDn7CWSQ .LAxFiZWZmQlaaqJAMk4J .vWBFW9dgoy2HsuBJ62zC {
+    text-decoration: none;
+    color: black;
+  }
   .DvGKNPsuqDyxZDn7CWSQ .LAxFiZWZmQlaaqJAMk4J .c6nVZZUwtb5ZjSC5zOF4 {
+    text-decoration: none;
     list-style-type: none;
     font-size: 4rem;
     transition: 0.3s ease;
@@ -1241,6 +1252,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.lksBUiCZFQPLTfIjYUCV {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.3);
     transition: 0.3s ease;
+    color: white;
   }
   .okLjs1ihh9Oby_1MzKDZ {
     width: 5rem;
@@ -1318,7 +1330,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.lksBUiCZFQPLTfIjYUCV {
     left: 1.8rem;
     font-size: 3rem;
   }
-}`, "",{"version":3,"sources":["webpack://./src/components/NavMobile/NavMobile.module.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;AACJ;;AAEA;EACI,aAAA;AACJ;;AAEA,oEAAA;AACA;EACI;IACI,cAAA;IACA,YAAA;IACA,iBAAA;IACA,aAAA;EACN;EAAM;IACI,aAAA;IACA,WAAA;IACA,YAAA;IACA,YAAA;IACA,mBAAA;IACA,eAAA;IACA,SAAA;IACA,WAAA;EAEV;EAAU;IACI,qBAAA;IACA,eAAA;IACA,kBAAA;IACA,wBAAA;EAEd;EACU;IACI,WAAA;IACA,YAAA;IACA,wBAAA;EACd;EAEU;IACI,2CAAA;EAAd;EAGU;IACI,4CAAA;EADd;EAIU;IACI,WAAA;IACA,YAAA;IACA,wBAAA;EAFd;EAKU;IACI,6CAAA;EAHd;EAMU;IACI,4CAAA;EAJd;EAOU;IACI,WAAA;IACA,YAAA;IACA,yBAAA;EALd;EAQU;IACI,2CAAA;EANd;EASU;IACI,4CAAA;EAPd;EAYE;IACI,eAAA;IACA,cAAA;IACA,SAAA;IACA,WAAA;IACA,WAAA;IACA,YAAA;IACA,mBAAA;IACA,YAAA;IACA,aAAA;IACA,0CAAA;IACA,gBAAA;IACA,mCAAA;EAVN;EAaE;IACI,aAAA;EAXN;EAcE;IACI,WAAA;IACA,YAAA;IACA,MAAA;IACA,QAAA;IACA,iBAAA;IACA,aAAA;IACA,sBAAA;IACA,uBAAA;IACA,mBAAA;EAZN;EAaM;IACI,cAAA;IACA,qBAAA;EAXV;EAYU;IACI,qBAAA;IACA,eAAA;IACA,qBAAA;EAVd;EAWc;IACI,eAAA;IACA,oCAAA;IACA,qBAAA;EATlB;EAeE;IACI,WAAA;IACA,YAAA;EAbN;AACF;AAgBA;EACI;IACI,wBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAdN;EAiBE;IACI,yBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAfN;AACF;AAkBA;EACI;IACI,yBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAhBN;EAmBE;IACI,wBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAjBN;AACF;AAoBA;EACI;IACI,UAAA;EAlBN;EAqBE;IACI,UAAA;EAnBN;AACF;AAsBA;EACI;IACI,UAAA;EApBN;EAuBE;IACI,UAAA;EArBN;AACF;AAwBA;EACI;IACI,yBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAtBN;EAyBE;IACI,wBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAvBN;AACF;AA0BA;EACI;IACI,wBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAxBN;EA2BE;IACI,yBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAzBN;AACF","sourcesContent":[".NavMobile {\n    display: none;\n}\n\n.NavContainer {\n    display: none;\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .NavMobile {\n        display: block;\n        color: white;\n        text-align: right;\n        padding: 2rem;\n        .NavBtn {\n            z-index: 2000;\n            width: 5rem;\n            height: 5rem;\n            border: none;\n            border-radius: 100%;\n            position: fixed;\n            top: 2rem;\n            right: 2rem;\n\n            span {\n                display: inline-block;\n                font-size: 3rem;\n                position: absolute;\n                transform-origin: center;\n            }\n\n            .NavBtnTop {\n                top: .3rem;\n                left: 2.4rem;\n                transform: rotate(90deg);\n            }\n\n            .rotateTop {\n                animation: rotateTop 5s forwards;\n            }\n\n            .revertTop {\n                animation: revertTop 5s backwards;\n            }\n\n            .NavBtnMid {\n                top: .9rem;\n                left: 2.4rem;\n                transform: rotate(90deg);\n            }\n\n            .fadeOut {\n                animation: fadeOut 1.5s forwards;\n            }\n\n            .fadeIn {\n                animation: fadeIn 5s backwards;\n            }\n            \n            .NavBtnBottom {\n                top: 1.3rem;\n                left: 1.8rem;\n                transform: rotate(-90deg);\n            }\n\n            .rotateBottom {\n                animation: rotateBottom 5s forwards;\n            }\n\n            .revertBottom {\n                animation: revertBottom 5s backwards;\n            }\n        }\n    }\n\n    .NavContainer {\n        position: fixed;\n        display: block;\n        top: 2rem;\n        right: 2rem;\n        width: 5rem;\n        height: 5rem;\n        border-radius: 100%;\n        border: none;\n        z-index: 1000;\n        background-color: rgba(100, 237, 207, .9);;\n        overflow: hidden;\n        transition: width 0.3s, height 0.3s; \n    }\n\n    .ul {\n        display: none;\n    }\n\n    .expandContainer {\n        width: 100%;\n        height: 100%;\n        top: 0;\n        right: 0;\n        border-radius: 0%;\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        .ul {\n            display: block;\n            text-decoration: none;\n            .li {\n                list-style-type: none;\n                font-size: 4rem;\n                transition: .3s ease;\n                &:hover {\n                    cursor: pointer;\n                    background-color: rgba(0, 0, 0, .3);\n                    transition: .3s ease;\n                }\n            }\n        }\n    }\n\n    .collapseContainer {\n        width: 5rem;\n        height: 5rem;\n    }\n}\n\n@keyframes rotateTop {\n    from {\n        transform: rotate(90deg);\n        top: .3rem;\n        left: 2.4rem;\n        font-size: 3rem;\n    }\n  \n    to {\n        transform: rotate(-50deg);\n        top: -.2rem;\n        left: 1.8rem;\n        font-size: 4rem;\n    }\n}\n\n@keyframes revertTop {\n    from {\n        transform: rotate(-50deg);\n        top: -.2rem;\n        left: 1.8rem;\n        font-size: 4rem;\n    }\n\n    to {\n        transform: rotate(90deg);\n        top: .3rem;\n        left: 2.4rem;\n        font-size: 3rem;\n    }\n}\n\n@keyframes fadeOut {\n    from {\n        opacity: 1;\n    }\n\n    to {\n        opacity: 0;\n    }\n}\n\n@keyframes fadeIn {\n    from {\n        opacity: 0;\n    }\n\n    to {\n        opacity: 1;\n    }\n}\n\n@keyframes rotateBottom {\n    from {\n        transform: rotate(-90deg);\n        top: 1.3rem;\n        left: 1.8rem;\n        font-size: 3rem;\n    }\n  \n    to {\n        transform: rotate(45deg);\n        top: -.1rem;\n        left: 2.2rem;\n        font-size: 4rem;\n    }\n}\n\n@keyframes revertBottom {\n    from {\n        transform: rotate(45deg);\n        top: -.2rem;\n        left: 2.2rem;\n        font-size: 4rem;\n    }\n\n    to {\n        transform: rotate(-90deg);\n        top: 1.3rem;\n        left: 1.8rem;\n        font-size: 3rem;\n    }\n}\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/NavMobile/NavMobile.module.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;AACJ;;AAEA;EACI,aAAA;AACJ;;AAEA,oEAAA;AACA;EACI;IACI,cAAA;IACA,YAAA;IACA,iBAAA;IACA,aAAA;EACN;EAAM;IACI,aAAA;IACA,WAAA;IACA,YAAA;IACA,YAAA;IACA,mBAAA;IACA,eAAA;IACA,SAAA;IACA,WAAA;EAEV;EAAU;IACI,qBAAA;IACA,eAAA;IACA,kBAAA;IACA,wBAAA;EAEd;EACU;IACI,WAAA;IACA,YAAA;IACA,wBAAA;EACd;EAEU;IACI,2CAAA;EAAd;EAGU;IACI,4CAAA;EADd;EAIU;IACI,WAAA;IACA,YAAA;IACA,wBAAA;EAFd;EAKU;IACI,6CAAA;EAHd;EAMU;IACI,4CAAA;EAJd;EAOU;IACI,WAAA;IACA,YAAA;IACA,yBAAA;EALd;EAQU;IACI,2CAAA;EANd;EASU;IACI,4CAAA;EAPd;EAYE;IACI,eAAA;IACA,cAAA;IACA,SAAA;IACA,WAAA;IACA,WAAA;IACA,YAAA;IACA,mBAAA;IACA,YAAA;IACA,aAAA;IACA,0CAAA;IACA,gBAAA;IACA,mCAAA;EAVN;EAaE;IACI,aAAA;EAXN;EAcE;IACI,WAAA;IACA,YAAA;IACA,MAAA;IACA,QAAA;IACA,iBAAA;IACA,aAAA;IACA,sBAAA;IACA,uBAAA;IACA,mBAAA;EAZN;EAaM;IACI,cAAA;IACA,qBAAA;EAXV;EAYU;IACI,qBAAA;IACA,YAAA;EAVd;EAYU;IACI,qBAAA;IACA,qBAAA;IACA,eAAA;IACA,qBAAA;EAVd;EAWc;IACI,eAAA;IACA,oCAAA;IACA,qBAAA;IACA,YAAA;EATlB;EAeE;IACI,WAAA;IACA,YAAA;EAbN;AACF;AAgBA;EACI;IACI,wBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAdN;EAiBE;IACI,yBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAfN;AACF;AAkBA;EACI;IACI,yBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAhBN;EAmBE;IACI,wBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAjBN;AACF;AAoBA;EACI;IACI,UAAA;EAlBN;EAqBE;IACI,UAAA;EAnBN;AACF;AAsBA;EACI;IACI,UAAA;EApBN;EAuBE;IACI,UAAA;EArBN;AACF;AAwBA;EACI;IACI,yBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAtBN;EAyBE;IACI,wBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAvBN;AACF;AA0BA;EACI;IACI,wBAAA;IACA,YAAA;IACA,YAAA;IACA,eAAA;EAxBN;EA2BE;IACI,yBAAA;IACA,WAAA;IACA,YAAA;IACA,eAAA;EAzBN;AACF","sourcesContent":[".NavMobile {\n    display: none;\n}\n\n.NavContainer {\n    display: none;\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .NavMobile {\n        display: block;\n        color: white;\n        text-align: right;\n        padding: 2rem;\n        .NavBtn {\n            z-index: 2000;\n            width: 5rem;\n            height: 5rem;\n            border: none;\n            border-radius: 100%;\n            position: fixed;\n            top: 2rem;\n            right: 2rem;\n\n            span {\n                display: inline-block;\n                font-size: 3rem;\n                position: absolute;\n                transform-origin: center;\n            }\n\n            .NavBtnTop {\n                top: .3rem;\n                left: 2.4rem;\n                transform: rotate(90deg);\n            }\n\n            .rotateTop {\n                animation: rotateTop 5s forwards;\n            }\n\n            .revertTop {\n                animation: revertTop 5s backwards;\n            }\n\n            .NavBtnMid {\n                top: .9rem;\n                left: 2.4rem;\n                transform: rotate(90deg);\n            }\n\n            .fadeOut {\n                animation: fadeOut 1.5s forwards;\n            }\n\n            .fadeIn {\n                animation: fadeIn 5s backwards;\n            }\n            \n            .NavBtnBottom {\n                top: 1.3rem;\n                left: 1.8rem;\n                transform: rotate(-90deg);\n            }\n\n            .rotateBottom {\n                animation: rotateBottom 5s forwards;\n            }\n\n            .revertBottom {\n                animation: revertBottom 5s backwards;\n            }\n        }\n    }\n\n    .NavContainer {\n        position: fixed;\n        display: block;\n        top: 2rem;\n        right: 2rem;\n        width: 5rem;\n        height: 5rem;\n        border-radius: 100%;\n        border: none;\n        z-index: 1000;\n        background-color: rgba(100, 237, 207, .9);;\n        overflow: hidden;\n        transition: width 0.3s, height 0.3s; \n    }\n\n    .ul {\n        display: none;\n    }\n\n    .expandContainer {\n        width: 100%;\n        height: 100%;\n        top: 0;\n        right: 0;\n        border-radius: 0%;\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        .ul {\n            display: block;\n            text-decoration: none;\n            .Link {\n                text-decoration: none;\n                color: black;\n            }\n            .li {\n                text-decoration: none;\n                list-style-type: none;\n                font-size: 4rem;\n                transition: .3s ease;\n                &:hover {\n                    cursor: pointer;\n                    background-color: rgba(0, 0, 0, .3);\n                    transition: .3s ease;\n                    color: white;\n                }\n            }\n        }\n    }\n\n    .collapseContainer {\n        width: 5rem;\n        height: 5rem;\n    }\n}\n\n@keyframes rotateTop {\n    from {\n        transform: rotate(90deg);\n        top: .3rem;\n        left: 2.4rem;\n        font-size: 3rem;\n    }\n  \n    to {\n        transform: rotate(-50deg);\n        top: -.2rem;\n        left: 1.8rem;\n        font-size: 4rem;\n    }\n}\n\n@keyframes revertTop {\n    from {\n        transform: rotate(-50deg);\n        top: -.2rem;\n        left: 1.8rem;\n        font-size: 4rem;\n    }\n\n    to {\n        transform: rotate(90deg);\n        top: .3rem;\n        left: 2.4rem;\n        font-size: 3rem;\n    }\n}\n\n@keyframes fadeOut {\n    from {\n        opacity: 1;\n    }\n\n    to {\n        opacity: 0;\n    }\n}\n\n@keyframes fadeIn {\n    from {\n        opacity: 0;\n    }\n\n    to {\n        opacity: 1;\n    }\n}\n\n@keyframes rotateBottom {\n    from {\n        transform: rotate(-90deg);\n        top: 1.3rem;\n        left: 1.8rem;\n        font-size: 3rem;\n    }\n  \n    to {\n        transform: rotate(45deg);\n        top: -.1rem;\n        left: 2.2rem;\n        font-size: 4rem;\n    }\n}\n\n@keyframes revertBottom {\n    from {\n        transform: rotate(45deg);\n        top: -.2rem;\n        left: 2.2rem;\n        font-size: 4rem;\n    }\n\n    to {\n        transform: rotate(-90deg);\n        top: 1.3rem;\n        left: 1.8rem;\n        font-size: 3rem;\n    }\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"NavMobile": `lksBUiCZFQPLTfIjYUCV`,
@@ -1335,6 +1347,7 @@ ___CSS_LOADER_EXPORT___.locals = {
 	"revertBottom": `siNp7y8LcjSI_4BB0YO2`,
 	"ul": `LAxFiZWZmQlaaqJAMk4J`,
 	"expandContainer": `DvGKNPsuqDyxZDn7CWSQ`,
+	"Link": `vWBFW9dgoy2HsuBJ62zC`,
 	"li": `c6nVZZUwtb5ZjSC5zOF4`,
 	"collapseContainer": `okLjs1ihh9Oby_1MzKDZ`
 };
@@ -1428,7 +1441,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.m__y77JZW4Yvdlc4R0MQ {
   position: absolute;
   margin-top: 0;
   width: 100%;
-  height: 90vh;
+  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1477,12 +1490,20 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.m__y77JZW4Yvdlc4R0MQ {
 .m__y77JZW4Yvdlc4R0MQ .AfzNCN9BaCKFdMLmcmbb .sw3INglMKzbCUhnomKH9 .jROx3Ika_gIWiAM8ZpJH {
   width: 50%;
   margin-top: 2rem;
+  overflow-y: scroll;
 }
 .m__y77JZW4Yvdlc4R0MQ .AfzNCN9BaCKFdMLmcmbb .sw3INglMKzbCUhnomKH9 .jROx3Ika_gIWiAM8ZpJH ._44jpuphRiajMWDJ6pvsb {
   margin: 0 2rem;
   font-size: 1.6rem;
   line-height: 4rem;
-}`, "",{"version":3,"sources":["webpack://./src/components/ProjectCard/ProjectCard.module.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,kBAAA;EACA,aAAA;EACA,WAAA;EACA,YAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,oCAAA;AACJ;AAAI;EACI,UAAA;EACA,YAAA;EACA,mBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,yCAAA;EACA,uCAAA;AAER;AADQ;EACI,UAAA;EACA,YAAA;EACA,aAAA;EACA,mBAAA;EACA,yCAAA;EACA,oCAAA;EACA,YAAA;EACA,gBAAA;EACA,aAAA;AAGZ;AAFY;EACI,kBAAA;EACA,UAAA;AAIhB;AAHgB;EACI,eAAA;EACA,iBAAA;EACA,mBAAA;EACA,yCAAA;AAKpB;AAHgB;EACI,cAAA;EACA,iBAAA;EACA,iBAAA;AAKpB;AAHgB;EACI,iBAAA;EACA,gBAAA;AAKpB;AAFY;EACI,UAAA;EACA,gBAAA;AAIhB;AAHgB;EACI,cAAA;EACA,iBAAA;EACA,iBAAA;AAKpB","sourcesContent":[".ProjectCardContainer {\n    z-index: 500;\n    position: absolute;\n    margin-top: 0;\n    width: 100%;\n    height: 90vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: rgba(0, 0, 0, .5);\n    .ProjectCardInnerContainer {\n        width: 90%;\n        height: 80vh;\n        border-radius: 3rem;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        border: .3rem solid var(--heading-color);\n        background-color: rgba(45, 51, 50, .7);\n        .ProjectCard {\n            width: 90%;\n            height: 70vh;\n            display: flex;\n            border-radius: 3rem;\n            border: .3rem solid var(--heading-color);\n            background-color: rgba(0, 0, 0, .6);\n            color: white;\n            overflow: hidden;\n            padding: 2rem;\n            .titleImgContainer {\n                text-align: center;\n                width: 50%;\n                .ProjectImg {\n                    max-width: 100%;\n                    max-height: 60rem;\n                    border-radius: 3rem;\n                    border: .1rem solid var(--heading-color);\n                }\n                .ProjectTitle {\n                    margin: 2rem 0;\n                    font-size: 2.5rem;\n                    font-weight: bold;\n                }\n                h4 {\n                    font-size: 1.8rem;\n                    margin-top: 1rem;\n                }\n            }\n            .DescriptionContainer {\n                width: 50%;\n                margin-top: 2rem;\n                .ProjectDescription {\n                    margin: 0 2rem;\n                    font-size: 1.6rem;\n                    line-height: 4rem;\n                }\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
+}
+
+/* Small devices (portrait tablets and large phones, 1000px and up) */
+@media only screen and (max-width: 1000px) {
+  .m__y77JZW4Yvdlc4R0MQ {
+    display: none;
+  }
+}`, "",{"version":3,"sources":["webpack://./src/components/ProjectCard/ProjectCard.module.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,kBAAA;EACA,aAAA;EACA,WAAA;EACA,WAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,oCAAA;AACJ;AAAI;EACI,UAAA;EACA,YAAA;EACA,mBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,yCAAA;EACA,uCAAA;AAER;AADQ;EACI,UAAA;EACA,YAAA;EACA,aAAA;EACA,mBAAA;EACA,yCAAA;EACA,oCAAA;EACA,YAAA;EACA,gBAAA;EACA,aAAA;AAGZ;AAFY;EACI,kBAAA;EACA,UAAA;AAIhB;AAHgB;EACI,eAAA;EACA,iBAAA;EACA,mBAAA;EACA,yCAAA;AAKpB;AAHgB;EACI,cAAA;EACA,iBAAA;EACA,iBAAA;AAKpB;AAHgB;EACI,iBAAA;EACA,gBAAA;AAKpB;AAFY;EACI,UAAA;EACA,gBAAA;EACA,kBAAA;AAIhB;AAHgB;EACI,cAAA;EACA,iBAAA;EACA,iBAAA;AAKpB;;AAEA,qEAAA;AACA;EACI;IACI,aAAA;EACN;AACF","sourcesContent":[".ProjectCardContainer {\n    z-index: 500;\n    position: absolute;\n    margin-top: 0;\n    width: 100%;\n    height: 90%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: rgba(0, 0, 0, .5);\n    .ProjectCardInnerContainer {\n        width: 90%;\n        height: 80vh;\n        border-radius: 3rem;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        border: .3rem solid var(--heading-color);\n        background-color: rgba(45, 51, 50, .7);\n        .ProjectCard {\n            width: 90%;\n            height: 70vh;\n            display: flex;\n            border-radius: 3rem;\n            border: .3rem solid var(--heading-color);\n            background-color: rgba(0, 0, 0, .6);\n            color: white;\n            overflow: hidden;\n            padding: 2rem;\n            .titleImgContainer {\n                text-align: center;\n                width: 50%;\n                .ProjectImg {\n                    max-width: 100%;\n                    max-height: 60rem;\n                    border-radius: 3rem;\n                    border: .1rem solid var(--heading-color);\n                }\n                .ProjectTitle {\n                    margin: 2rem 0;\n                    font-size: 2.5rem;\n                    font-weight: bold;\n                }\n                h4 {\n                    font-size: 1.8rem;\n                    margin-top: 1rem;\n                }\n            }\n            .DescriptionContainer {\n                width: 50%;\n                margin-top: 2rem;\n                overflow-y: scroll;\n                .ProjectDescription {\n                    margin: 0 2rem;\n                    font-size: 1.6rem;\n                    line-height: 4rem;\n                }\n            }\n        }\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 1000px and up) */\n@media only screen and (max-width: 1000px) {\n    .ProjectCardContainer {\n        display: none;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"ProjectCardContainer": `m__y77JZW4Yvdlc4R0MQ`,
@@ -1533,7 +1554,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.HvU7kbcyjp3pvz6lM1wq {
 }
 .HvU7kbcyjp3pvz6lM1wq .W7OGJxXSakrTBBtyDJWw {
   height: 60rem;
-  width: 55rem;
+  width: 30vw;
   border: 0.3rem solid var(--heading-color);
   background-color: rgb(45, 51, 50);
   padding: 2rem;
@@ -1565,9 +1586,30 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.HvU7kbcyjp3pvz6lM1wq {
 }
 .HvU7kbcyjp3pvz6lM1wq .W7OGJxXSakrTBBtyDJWw:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0.3s ease;
-}`, "",{"version":3,"sources":["webpack://./src/components/Projects/Projects.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,eAAA;AACJ;AAAI;EACI,YAAA;AAER;AAAI;EACI,aAAA;EACA,qBAAA;AAER;AAAI;EACI,aAAA;EACA,YAAA;EACA,yCAAA;EACA,iCAAA;EACA,aAAA;EACA,mBAAA;EACA,qBAAA;AAER;AADQ;EACI,WAAA;EACA,WAAA;EACA,uBAAA;EACA,yCAAA;EACA,mBAAA;EACA,gBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;AAGZ;AAFY;EACI,UAAA;AAIhB;AADQ;EACI,2BAAA;EACA,kBAAA;AAGZ;AAFY;EACI,iBAAA;EACA,iBAAA;EACA,gBAAA;AAIhB;AADQ;EACI,eAAA;EACA,qBAAA;EACA,qBAAA;AAGZ","sourcesContent":[".Projects {\n    width: 100%;\n    height: 90vh;\n    display: flex;\n    justify-content: space-evenly;\n    padding: 8rem 0;\n    .ProjectCardOne, .ProjectCardTwo, .ProjectCardThree {\n        height: 100%;\n    }\n    .ProjectCardTwo {\n        display: flex;\n        align-items: flex-end;\n    }\n    .ProjectCard {\n        height: 60rem;\n        width: 55rem;\n        border: .3rem solid var(--heading-color);\n        background-color: rgb(45, 51, 50);\n        padding: 2rem;\n        border-radius: 3rem;\n        transition: .3s ease;\n        .imgContainer {\n            width: 100%;\n            height: 80%;\n            background-color: black;\n            border: .1rem solid var(--heading-color);\n            border-radius: 3rem;\n            overflow: hidden;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            .ProjectLogo {\n                width: 90%;\n            }\n        }\n        .ProjectDetails {\n            color: var(--heading-color);\n            text-align: center;\n            h5 {\n                font-size: 1.3rem;\n                font-weight: bold;\n                margin-top: 1rem;\n            }\n        }\n        &:hover {\n            cursor: pointer;\n            transform: scale(1.2);\n            transition: .3s ease;\n        }\n    }\n}"],"sourceRoot":""}]);
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 1000px) {
+  .HvU7kbcyjp3pvz6lM1wq {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .HvU7kbcyjp3pvz6lM1wq .g0VE9u_IgRURjjsnwHN5 {
+    align-items: center;
+  }
+  .HvU7kbcyjp3pvz6lM1wq .W7OGJxXSakrTBBtyDJWw {
+    width: 95vw;
+    margin-bottom: 3rem;
+  }
+  .HvU7kbcyjp3pvz6lM1wq .W7OGJxXSakrTBBtyDJWw:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+  }
+}`, "",{"version":3,"sources":["webpack://./src/components/Projects/Projects.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,eAAA;AACJ;AAAI;EACI,YAAA;AAER;AAAI;EACI,aAAA;EACA,qBAAA;AAER;AAAI;EACI,aAAA;EACA,WAAA;EACA,yCAAA;EACA,iCAAA;EACA,aAAA;EACA,mBAAA;EACA,qBAAA;AAER;AADQ;EACI,WAAA;EACA,WAAA;EACA,uBAAA;EACA,yCAAA;EACA,mBAAA;EACA,gBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;AAGZ;AAFY;EACI,UAAA;AAIhB;AADQ;EACI,2BAAA;EACA,kBAAA;AAGZ;AAFY;EACI,iBAAA;EACA,iBAAA;EACA,gBAAA;AAIhB;AADQ;EACI,eAAA;EACA,qBAAA;EACA,qBAAA;AAGZ;;AAEA,oEAAA;AACA;EACI;IACI,sBAAA;IACA,uBAAA;IACA,mBAAA;IACA,YAAA;EACN;EAAM;IACI,mBAAA;EAEV;EAAM;IACI,WAAA;IACA,mBAAA;EAEV;EADU;IACI,sBAAA;IACA,qBAAA;EAGd;AACF","sourcesContent":[".Projects {\n    width: 100%;\n    height: 90vh;\n    display: flex;\n    justify-content: space-evenly;\n    padding: 8rem 0;\n    .ProjectCardOne, .ProjectCardTwo, .ProjectCardThree {\n        height: 100%;\n    }\n    .ProjectCardTwo {\n        display: flex;\n        align-items: flex-end;\n    }\n    .ProjectCard {\n        height: 60rem;\n        width: 30vw;\n        border: .3rem solid var(--heading-color);\n        background-color: rgb(45, 51, 50);\n        padding: 2rem;\n        border-radius: 3rem;\n        transition: .3s ease;\n        .imgContainer {\n            width: 100%;\n            height: 80%;\n            background-color: black;\n            border: .1rem solid var(--heading-color);\n            border-radius: 3rem;\n            overflow: hidden;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            .ProjectLogo {\n                width: 90%;\n            }\n        }\n        .ProjectDetails {\n            color: var(--heading-color);\n            text-align: center;\n            h5 {\n                font-size: 1.3rem;\n                font-weight: bold;\n                margin-top: 1rem;\n            }\n        }\n        &:hover {\n            cursor: pointer;\n            transform: scale(1.1);\n            transition: .3s ease;\n        }\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .Projects {\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        height: 100%;\n        .ProjectCardTwo {\n            align-items: center;\n        }\n        .ProjectCard {\n            width: 95vw;\n            margin-bottom: 3rem;\n            &:hover {\n                transform: scale(1.05);\n                transition: .3s ease;\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Projects": `HvU7kbcyjp3pvz6lM1wq`,
@@ -1795,7 +1837,27 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.lkSfnDUQxn7c_fywXKpE {
 }
 .lkSfnDUQxn7c_fywXKpE .uuoSQC2OKXxAZt1ssg_l {
   transform: rotate(10deg);
-}`, "",{"version":3,"sources":["webpack://./src/pages/AboutPage/AboutPage.module.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,WAAA;EACA,gBAAA;AACJ;AAAI;EACI,UAAA;AAER;AADQ;EACI,YAAA;AAGZ;AADQ;EACI,2BAAA;AAGZ;AADQ;EACI,UAAA;EACA,iBAAA;EACA,iBAAA;EACA,cAAA;AAGZ;AAAI;EACI,wBAAA;AAER","sourcesContent":[".AboutPage {\n    display: flex;\n    justify-content: center;\n    margin: 12vh 2rem 0;\n    height: 88vh;\n    width: 100%;\n    overflow: hidden;\n    .textContainer {\n        width: 50%;\n        .bio {\n            color: white;\n        }\n        .highlight {\n            color: var(--heading-color);\n        }\n        .bio, .highlight {\n            width: 90%;\n            line-height: 3rem;\n            font-size: 1.3rem;\n            margin: 3rem 0;\n        }\n    }\n    .image {\n        transform: rotate(10deg);\n    }\n}"],"sourceRoot":""}]);
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 1000px) {
+  .lkSfnDUQxn7c_fywXKpE {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    overflow: visible;
+    padding-bottom: 3rem;
+    margin-top: 5vh;
+  }
+  .lkSfnDUQxn7c_fywXKpE .w0ja4CsHvALVP85RyPJj {
+    width: 100%;
+  }
+  .lkSfnDUQxn7c_fywXKpE .uuoSQC2OKXxAZt1ssg_l {
+    display: none;
+    transform: rotate(0);
+    width: 50%;
+  }
+}`, "",{"version":3,"sources":["webpack://./src/pages/AboutPage/AboutPage.module.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,WAAA;EACA,gBAAA;AACJ;AAAI;EACI,UAAA;AAER;AADQ;EACI,YAAA;AAGZ;AADQ;EACI,2BAAA;AAGZ;AADQ;EACI,UAAA;EACA,iBAAA;EACA,iBAAA;EACA,cAAA;AAGZ;AAAI;EACI,wBAAA;AAER;;AAEA,oEAAA;AACA;EACI;IACI,sBAAA;IACA,mBAAA;IACA,YAAA;IACA,iBAAA;IACA,oBAAA;IACA,eAAA;EACN;EAAM;IACI,WAAA;EAEV;EAAM;IACI,aAAA;IACA,oBAAA;IACA,UAAA;EAEV;AACF","sourcesContent":[".AboutPage {\n    display: flex;\n    justify-content: center;\n    margin: 12vh 2rem 0;\n    height: 88vh;\n    width: 100%;\n    overflow: hidden;\n    .textContainer {\n        width: 50%;\n        .bio {\n            color: white;\n        }\n        .highlight {\n            color: var(--heading-color);\n        }\n        .bio, .highlight {\n            width: 90%;\n            line-height: 3rem;\n            font-size: 1.3rem;\n            margin: 3rem 0;\n        }\n    }\n    .image {\n        transform: rotate(10deg);\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .AboutPage {\n        flex-direction: column;\n        align-items: center;\n        height: 100%;\n        overflow: visible;\n        padding-bottom: 3rem;\n        margin-top: 5vh;\n        .textContainer {\n            width: 100%;\n        }\n        .image {\n            display: none;\n            transform: rotate(0);\n            width: 50%;\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"AboutPage": `lkSfnDUQxn7c_fywXKpE`,
@@ -1869,7 +1931,26 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.YLhl5O0tSVyQw_Ud6GeH {
 .YLhl5O0tSVyQw_Ud6GeH .YSnwU9tSueWAfFZaXFGb .OZRoCQy7AvGXd7je1Siv .fRyMHED_wOojI83LzmDp:focus {
   outline: none;
   box-shadow: 0 0 1rem var(--btn-color);
-}`, "",{"version":3,"sources":["webpack://./src/pages/ContactPage/ContactPage.module.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,WAAA;EACA,gBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;AACJ;AAAI;EACI,iCAAA;EACA,aAAA;EACA,sBAAA;EACA,6BAAA;EACA,mBAAA;EACA,mBAAA;EACA,aAAA;EACA,UAAA;EACA,WAAA;AAER;AADQ;EACI,gBAAA;AAGZ;AADQ;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;AAGZ;AAFY;EACI,mBAAA;AAIhB;AAFY;EACI,mBAAA;EACA,YAAA;EACA,WAAA;EACA,mBAAA;EACA,aAAA;AAIhB;AAHgB;EACI,aAAA;EACA,qCAAA;AAKpB","sourcesContent":[".ContactPage {\n    height: 88vh;\n    width: 100%;\n    margin-top: 12vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: white;\n    .FormContainer {\n        background-color: rgb(45, 51, 50);\n        display: flex;\n        flex-direction: column;\n        justify-content: space-evenly;\n        align-items: center;\n        border-radius: 3rem;\n        padding: 3rem;\n        width: 40%;\n        height: 90%;\n        .header {\n            font-size: 3.4vw;\n        }\n        .Form {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            .input {\n                margin-bottom: 2rem;\n            }\n            .message {\n                border-radius: 1rem;\n                height: 8rem;\n                width: 25vw;\n                margin-bottom: 3rem;\n                padding: 1rem;\n                &:focus {\n                    outline: none;\n                    box-shadow: 0 0 1rem var(--btn-color);\n                }\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 1000px) {
+  .YLhl5O0tSVyQw_Ud6GeH {
+    margin-top: 5vh;
+  }
+  .YLhl5O0tSVyQw_Ud6GeH .YSnwU9tSueWAfFZaXFGb {
+    width: 90vw;
+  }
+  .YLhl5O0tSVyQw_Ud6GeH .YSnwU9tSueWAfFZaXFGb .OZRoCQy7AvGXd7je1Siv {
+    width: 100%;
+  }
+  .YLhl5O0tSVyQw_Ud6GeH .YSnwU9tSueWAfFZaXFGb .OZRoCQy7AvGXd7je1Siv .im3q2K_NmtDJvH5Yd8Ha {
+    width: 80%;
+  }
+  .YLhl5O0tSVyQw_Ud6GeH .YSnwU9tSueWAfFZaXFGb .OZRoCQy7AvGXd7je1Siv .fRyMHED_wOojI83LzmDp {
+    width: 80%;
+  }
+}`, "",{"version":3,"sources":["webpack://./src/pages/ContactPage/ContactPage.module.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,WAAA;EACA,gBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;AACJ;AAAI;EACI,iCAAA;EACA,aAAA;EACA,sBAAA;EACA,6BAAA;EACA,mBAAA;EACA,mBAAA;EACA,aAAA;EACA,UAAA;EACA,WAAA;AAER;AADQ;EACI,gBAAA;AAGZ;AADQ;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;AAGZ;AAFY;EACI,mBAAA;AAIhB;AAFY;EACI,mBAAA;EACA,YAAA;EACA,WAAA;EACA,mBAAA;EACA,aAAA;AAIhB;AAHgB;EACI,aAAA;EACA,qCAAA;AAKpB;;AAEA,oEAAA;AACA;EACI;IACI,eAAA;EACN;EAAM;IACI,WAAA;EAEV;EADU;IACI,WAAA;EAGd;EAFc;IACI,UAAA;EAIlB;EAFc;IACI,UAAA;EAIlB;AACF","sourcesContent":[".ContactPage {\n    height: 88vh;\n    width: 100%;\n    margin-top: 12vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: white;\n    .FormContainer {\n        background-color: rgb(45, 51, 50);\n        display: flex;\n        flex-direction: column;\n        justify-content: space-evenly;\n        align-items: center;\n        border-radius: 3rem;\n        padding: 3rem;\n        width: 40%;\n        height: 90%;\n        .header {\n            font-size: 3.4vw;\n        }\n        .Form {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            .input {\n                margin-bottom: 2rem;\n            }\n            .message {\n                border-radius: 1rem;\n                height: 8rem;\n                width: 25vw;\n                margin-bottom: 3rem;\n                padding: 1rem;\n                &:focus {\n                    outline: none;\n                    box-shadow: 0 0 1rem var(--btn-color);\n                }\n            }\n        }\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1000px) {\n    .ContactPage {\n        margin-top: 5vh;\n        .FormContainer {\n            width: 90vw;\n            .Form {\n                width: 100%;\n                .input {\n                    width: 80%;\n                }\n                .message {\n                    width: 80%;\n                }\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"ContactPage": `YLhl5O0tSVyQw_Ud6GeH`,
@@ -2882,4 +2963,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.94e227eaeb87714884f97e482914f935.js.map
+//# sourceMappingURL=App.e23b4b35026b5d7ef190a4a391a073d7.js.map

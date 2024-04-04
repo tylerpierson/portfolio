@@ -41,3 +41,22 @@
         }
     }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 1000px) {
+    .ContactPage {
+        margin-top: 5vh;
+        .FormContainer {
+            width: 90vw;
+            .Form {
+                width: 100%;
+                .input {
+                    width: 80%;
+                }
+                .message {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

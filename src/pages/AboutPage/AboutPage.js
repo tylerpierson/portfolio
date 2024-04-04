@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from '../../components/NavBar/NavBar'
+import NavMobile from '../../components/NavMobile/NavMobile'
 import styles from './AboutPage.module.scss'
 import { Link } from 'react-router-dom'
 
@@ -7,6 +8,7 @@ function AboutPage() {
   return (
     <>
       <NavBar />
+      <NavMobile />
       <div className={styles.AboutPage}>
         <div className={styles.textContainer}>
           <h1 className={styles.header}>Who I am...</h1> 

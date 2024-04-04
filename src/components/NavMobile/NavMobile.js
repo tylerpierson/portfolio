@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
 import styles from './NavMobile.module.scss';
 
 function NavMobile() {
@@ -19,10 +20,15 @@ function NavMobile() {
             </button>
             <div className={`${styles.NavContainer} ${listShown ? styles.expandContainer : styles.collapseContainer}`}>
                 <ul className={styles.ul}>
-                    <li className={styles.li}>Home</li>
-                    <li className={styles.li}>About Me</li>
-                    <li className={styles.li}>Projects</li>
-                    <li className={styles.li}>Contact Me</li>
+                    <Link className={styles.Link} to='/'>
+                        <li className={styles.li}>Home</li>
+                    </Link>
+                    <Link className={styles.Link} to='/about'>
+                        <li className={styles.li}>About Me</li>
+                    </Link>
+                    <Link className={styles.Link} to='/contact'>
+                        <li className={styles.li}>Contact</li>
+                    </Link>
                 </ul>
             </div>
         </nav>
