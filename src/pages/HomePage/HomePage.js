@@ -7,6 +7,7 @@ import ImgBanner from '../../components/ImgBanner/ImgBanner'
 import ServiceContainer from '../../components/ServiceContainer/ServiceContainer'
 import ProjectBanner from '../../components/ProjectBanner/ProjectBanner'
 import Projects from '../../components/Projects/Projects'
+import SpriteAnimation from '../../components/SpriteAnimation/SpriteAnimation'
 
 export default function HomePage(){
     const projectId = "project-section";
@@ -15,6 +16,7 @@ export default function HomePage(){
             <NavBar />
             <NavMobile />
             <div className={styles.HomePage}>
+                <SpriteAnimation />
                 <IntroContainer />
                 <Bio />
                 <ImgBanner />

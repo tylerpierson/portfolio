@@ -8,7 +8,7 @@
     .serviceHeader {
         font-size: 8.5rem;
         font-weight: 600;
-        color: white;
+        color: var(--btn-color);
     }
     .serviceContainerLeft {
         display: flex;
@@ -40,8 +40,17 @@
         transition: .4s ease;
         .serviceTitle {
             margin: 1rem;
-            font-size: 1.8rem;
+            font-size: 2rem;
             color: white;
+        }
+        .serviceList {
+            .serviceListItem {
+                list-style-type: none;
+                font-size: 1.3rem;
+                color: rgb(183, 183, 183);
+                margin: 0 2rem;
+                line-height: 2rem;
+            }
         }
         .serviceDescription {
             font-size: 1vw;

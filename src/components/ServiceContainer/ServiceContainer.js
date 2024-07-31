@@ -1,35 +1,66 @@
-import styles from './ServiceContainer.module.scss'
+import styles from './ServiceContainer.module.scss';
 
 function ServiceContainer() {
   return (
     <div className={styles.serviceContainerMain}>
         <div className={styles.serviceContainerLeft}>
             <div className={styles.serviceCard}>
-                <h4 className={styles.serviceTitle}>Design</h4>
-                <p className={styles.serviceDescription}>Design in web development is the art of harmoniously blending aesthetics and functionality to create immersive digital experiences that captivate and engage users.</p>
+                <h4 className={styles.serviceTitle}>Frontend</h4>
+                <ul className={styles.serviceList}>
+                    <li className={styles.serviceListItem}>JavaScript</li>
+                    <li className={styles.serviceListItem}>HTML/CSS</li>
+                    <li className={styles.serviceListItem}>SCSS</li>
+                    <li className={styles.serviceListItem}>TypeScript</li>
+                    <li className={styles.serviceListItem}>React.js</li>
+                    {/* Add more frontend technologies as needed */}
+                </ul>
             </div>
             <div className={styles.serviceCard}>
-                <h4 className={styles.serviceTitle}>Development</h4>
-                <p className={styles.serviceDescription}>The intricate process of architecting and implementing innovative solutions, leveraging cutting-edge technologies to build robust, scalable, and user-centric digital platforms that empower and enrich the online experience.</p>
+                <h4 className={styles.serviceTitle}>Backend</h4>
+                <ul className={styles.serviceList}>
+                    <li className={styles.serviceListItem}>Node.js</li>
+                    <li className={styles.serviceListItem}>Express.js</li>
+                    <li className={styles.serviceListItem}>Django</li>
+                    <li className={styles.serviceListItem}>Nuxt.js</li>
+                    <li className={styles.serviceListItem}>MongoDB</li>
+                    <li className={styles.serviceListItem}>MySQL</li>
+                    <li className={styles.serviceListItem}>Supabase</li>
+                    <li className={styles.serviceListItem}>Python</li>
+                    {/* Add more backend technologies as needed */}
+                </ul>
             </div>
             <div className={styles.headingSMContainer}>
                 <p className={styles.headingSM}>I provide comprehensive web development services, crafting tailored solutions that seamlessly integrate design, branding, and marketing strategies to elevate online presence and drive meaningful engagement.</p>
             </div>
         </div>
         <div className={styles.serviceContainerRight}>
-            <h4 className={styles.headingSM}>Creative Solutions</h4>
-            <h2 className={styles.serviceHeader}>Services</h2>
+            <h2 className={styles.serviceHeader}>Experience</h2>
             <div className={styles.serviceCard}>
-                <h4 className={styles.serviceTitle}>Branding</h4>
-                <p className={styles.serviceDescription}>Branding in web development is the strategic cultivation of a cohesive digital identity, encompassing visual elements, messaging, and user experience, to establish a distinctive and memorable presence that resonates with audiences and fosters trust and loyalty.</p>
+                <h4 className={styles.serviceTitle}>Deployment Tools</h4>
+                <ul className={styles.serviceList}>
+                    <li className={styles.serviceListItem}>AWS</li>
+                    <li className={styles.serviceListItem}>Cloudfront</li>
+                    <li className={styles.serviceListItem}>EC2</li>
+                    <li className={styles.serviceListItem}>S3</li>
+                    <li className={styles.serviceListItem}>DigitalOcean</li>
+                    {/* Add more deployment tools as needed */}
+                </ul>
             </div>
             <div className={styles.serviceCard}>
-                <h4 className={styles.serviceTitle}>Marketing</h4>
-                <p className={styles.serviceDescription}>Marketing in web development involves leveraging various digital channels and strategies to effectively promote products, services, or ideas, with the aim of reaching and engaging target audiences, driving traffic, and ultimately achieving business objectives, all while delivering compelling and relevant content tailored to user needs and preferences.</p>
+                <h4 className={styles.serviceTitle}>Collaboration Tools</h4>
+                <ul className={styles.serviceList}>
+                    <li className={styles.serviceListItem}>Slack</li>
+                    <li className={styles.serviceListItem}>Discord</li>
+                    <li className={styles.serviceListItem}>JIRA</li>
+                    <li className={styles.serviceListItem}>Trello</li>
+                    <li className={styles.serviceListItem}>GitHub</li>
+                    <li className={styles.serviceListItem}>PUSH Project Management</li>
+                    {/* Add more collaboration tools as needed */}
+                </ul>
             </div>
         </div>
     </div>
-  )
+  );
 }
 
-export default ServiceContainer
+export default ServiceContainer;

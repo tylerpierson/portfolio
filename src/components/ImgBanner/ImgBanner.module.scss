@@ -1,16 +1,32 @@
 .imgBannerContainer {
-    background-color: var(--heading-color);
+    background-color: white;
     height: 60vh;
+    width: 100%;
+    overflow-x: hidden;
     position: relative;
-    overflow: hidden;
-    .imgBanner {
-        width: 100vw;
+    .spritesheet {
+        width: 15.5rem;
+        height: 27rem;
+        background-image: url('/Users/tylerpierson/portfolio/public/img/walking-spritesheet.png');
+        background-repeat: no-repeat;
+        background-size: 80rem 80rem;
+        animation: play 1s steps(1) infinite, slide 10s linear infinite;
         position: absolute;
-        transition: .8s ease;
-        &:hover {
-            transition: .8s ease;
-            opacity: .9;
-        }
+        top: 72%;
+        transform: translateY(-50%);
+    }
+     
+    @keyframes play {
+        0% { background-position: -12rem -5rem; }
+        25% { background-position: -52rem -5rem; }
+        50% { background-position: -12rem -45rem; }
+        75% { background-position: -52rem -5rem; }
+        100% { background-position: -12rem -5rem; }
+    }
+
+    @keyframes slide {
+        0% { left: -20%; }
+        100% { left: 100%; }
     }
 }
 
@@ -20,7 +36,7 @@
         background-color: transparent;
         width: 100%;
         height: 35vh;
-        .imgBanner {
+        .spritesheet {
             width: 100%;
         }
     }
