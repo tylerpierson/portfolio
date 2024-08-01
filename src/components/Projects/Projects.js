@@ -1,85 +1,85 @@
-import { useState, useEffect, useRef } from 'react'
+import React from 'react'
 import styles from './Projects.module.scss'
-import ProjectCardOne from '../ProjectCard/ProjectCardOne'
-import ProjectCardTwo from '../ProjectCard/ProjectCardTwo'
-import ProjectCardThree from '../ProjectCard/ProjectCardThree'
+import { Link } from 'react-router-dom'
 
 function Projects() {
-    const [showCardOne, setShowCardOne] = useState(false)
-    const [showCardTwo, setShowCardTwo] = useState(false)
-    const [showCardThree, setShowCardThree] = useState(false)
-    const projectCardRef = useRef(null);
+  return (
+    <div className={styles.Projects}>
 
-    useEffect(() => {
-        function handleClickOutside(event) {
-            if (projectCardRef.current && !projectCardRef.current.contains(event.target)) {
-                setShowCardOne(false);
-                setShowCardTwo(false);
-                setShowCardThree(false);
-            }
-        }
-
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
-        };
-    }, [projectCardRef]);
-
-    const toggleCardOne = () => {
-        setShowCardOne(!showCardOne);
-    }
-
-    const toggleCardTwo = () => {
-        setShowCardTwo(!showCardTwo);
-    }
-
-    const toggleCardThree = () => {
-        setShowCardThree(!showCardThree);
-    }
-
-    return (
-        <div className={styles.Projects}>
-            <div className={styles.ProjectCardOne}>
-                <div className={styles.ProjectCard} onClick={toggleCardOne} ref={projectCardRef}>
-                    <div className={styles.imgContainer}>
-                        <img className={styles.ProjectLogo} src="/img/goose-logo.png"/>
-                    </div>
-                    <div className={styles.ProjectDetails}>
-                        <h5>Goose Dev Hub</h5>
-                        <h6>Year: 2024</h6>
-                        <h6>Category: Tech, Social Media</h6>
-                    </div>
+        <div className={styles.ProjectCard}>
+            <div className={styles.imgContainer}>
+                <img className={styles.ProjectLogo} src="/img/push-logo.png"/>
+                </div>
+                <div className={styles.ProjectDetails}>
+                <h4>Push Project Management</h4>
+                <h6>Year: 2024</h6>
+                <h6>Category: Development, Project Management</h6>
+                <Link target="_blank" to="https://www.pushmanage.pro"><img className={styles.ProjectLink} src="/img/link-icon.png" /></Link>
+                <div className={styles.devContainer}>
+                    <p className={styles.devTool}>ReactJS</p>
+                    <p className={styles.devTool}>AWS</p>
+                    <p className={styles.devTool}>EC2</p>
+                    <p className={styles.devTool}>Cloudfront</p>
                 </div>
             </div>
-            <div className={styles.ProjectCardTwo}>
-                <div className={styles.ProjectCard} onClick={toggleCardTwo} ref={projectCardRef}>
-                    <div className={styles.imgContainer}>
-                        <img className={styles.ProjectLogo} src="/img/marvel-logo.png"/>
-                    </div>
-                    <div className={styles.ProjectDetails}>
-                        <h5>MarvelVerse Comics</h5>
-                        <h6>Year: 2024</h6>
-                        <h6>Category: Ecommerce</h6>
-                    </div>
-                </div>
-            </div>
-            <div className={styles.ProjectCardThree}>
-                <div className={styles.ProjectCard} onClick={toggleCardThree} ref={projectCardRef}>
-                    <div className={styles.imgContainer}>
-                        <img className={styles.ProjectLogo} src="/img/blog-logo.png"/>
-                    </div>
-                    <div className={styles.ProjectDetails}>
-                        <h5>Liberty Blogs</h5>
-                        <h6>Year: 2023</h6>
-                        <h6>Category: Social Media, Communication</h6>
-                    </div>
-                </div>
-            </div>
-            {showCardOne && <ProjectCardOne />}
-            {showCardTwo && <ProjectCardTwo />}
-            {showCardThree && <ProjectCardThree />}
         </div>
-    )
+
+        <div className={styles.ProjectCard}>
+            <div className={styles.imgContainer}>
+                <img className={styles.ProjectLogo} src="/img/goose-logo.png"/>
+                </div>
+                <div className={styles.ProjectDetails}>
+                <h4>Goose Dev Hub</h4>
+                <h6>Year: 2024</h6>
+                <h6>Category: Developer Tools, Social Media</h6>
+                <Link target="_blank" to="https://goose.danwheeler.me"><img className={styles.ProjectLink} src="/img/link-icon.png" /></Link>
+                <div className={styles.devContainer}>
+                    <p className={styles.devTool}>ReactJS</p>
+                    <p className={styles.devTool}>ExpressJS</p>
+                    <p className={styles.devTool}>NodeJs</p>
+                    <p className={styles.devTool}>DigitalOcean</p>
+                </div>
+            </div>
+        </div>
+        
+        <div className={styles.ProjectCard}>
+            <div className={styles.imgContainer}>
+                <img className={styles.ProjectLogo} src="/img/marvel-logo.png"/>
+                </div>
+                <div className={styles.ProjectDetails}>
+                <h4>MarvelVerse Comics</h4>
+                <h6>Year: 2023</h6>
+                <h6>Category: eCommerce, Comics</h6>
+                <Link target="_blank" to="https://marvel.tylerpierson.me"><img className={styles.ProjectLink} src="/img/link-icon.png" /></Link>
+                <div className={styles.devContainer}>
+                    <p className={styles.devTool}>ReactJS</p>
+                    <p className={styles.devTool}>Nginx</p>
+                    <p className={styles.devTool}>MongoDB</p>
+                    <p className={styles.devTool}>NodeJS</p>
+                </div>
+            </div>
+        </div>
+
+        <div className={styles.ProjectCard}>
+            <div className={styles.imgContainer}>
+                <img className={styles.ProjectLogo} src="/img/blog-logo.png"/>
+                </div>
+                <div className={styles.ProjectDetails}>
+                <h4>Liberty Blog</h4>
+                <h6>Year: 2023</h6>
+                <h6>Category: Blog, Community</h6>
+                <Link target="_blank" to="https://blog.tylerpierson.me"><img className={styles.ProjectLink} src="/img/link-icon.png" /></Link>
+                <div className={styles.devContainer}>
+                    <p className={styles.devTool}>ReactJS</p>
+                    <p className={styles.devTool}>Javascript</p>
+                    <p className={styles.devTool}>HTML5</p>
+                    <p className={styles.devTool}>SCSS</p>
+                </div>
+            </div>
+        </div>    
+    
+    </div>
+  )
 }
 
 export default Projects

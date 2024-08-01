@@ -3,13 +3,14 @@
     width: 100%;
     position: relative;
     .headingSM {
-        margin: 8rem 0;
+        margin: 8rem 0 8rem 2rem;
     }
     .heading {
         color: white;
-        font-size: 11rem;
+        font-size: 10rem;
+        margin-left: 5rem;
         .spanText, .spanPlus {
-            font-size: 11rem;
+            font-size: 9rem;
         }
         .spanText {
             font-weight: 100;
@@ -23,7 +24,7 @@
     
     .paragraph {
         color: grey;
-        margin-top: 5rem;
+        margin: 5rem 0 0 5rem;
         width: 50vw;
     }
     

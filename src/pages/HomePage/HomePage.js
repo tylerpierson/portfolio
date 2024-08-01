@@ -6,11 +6,10 @@ import Bio from '../../components/Bio/Bio'
 import ImgBanner from '../../components/ImgBanner/ImgBanner'
 import ServiceContainer from '../../components/ServiceContainer/ServiceContainer'
 import ProjectBanner from '../../components/ProjectBanner/ProjectBanner'
-import Projects from '../../components/Projects/Projects'
 import SpriteAnimation from '../../components/SpriteAnimation/SpriteAnimation'
+import Projects from '../../components/Projects/Projects'
 
 export default function HomePage(){
-    const projectId = "project-section";
     return (
         <>
             <NavBar />
