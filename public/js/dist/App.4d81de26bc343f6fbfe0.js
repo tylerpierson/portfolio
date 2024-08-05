@@ -162,7 +162,8 @@ function NavBar() {
     className: _NavBar_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].Nav
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: _NavBar_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].image,
-    src: "/img/tp-logo.png"
+    src: "/img/tp-logo.png",
+    alt: "Logo"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
     className: _NavBar_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].ul
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
@@ -198,7 +199,19 @@ function NavBar() {
     className: _NavBar_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].navItemBottom
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: _NavBar_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].listItem
-  }, "Contact")))));
+  }, "Contact"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    className: _NavBar_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].listItemContainer,
+    href: "/documents/resume.docx.pdf",
+    download: "Tyler_Pierson_Resume.pdf"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _NavBar_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].navItemTop
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: _NavBar_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].listItem
+  }, "Resume")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _NavBar_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].navItemBottom
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: _NavBar_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].listItem
+  }, "Resume")))));
 }
 
 /***/ }),
@@ -4750,4 +4763,4 @@ module.exports = __webpack_require__.p + "4031c99fef0abdcd87ad.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.bed26966f839ca42785b750597abd9f9.js.map
+//# sourceMappingURL=App.a5249edc47a0a6cc2d616cf1fd6071c3.js.map
