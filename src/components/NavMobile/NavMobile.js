@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import styles from './NavMobile.module.scss';
 
 function NavMobile() {
@@ -29,6 +29,9 @@ function NavMobile() {
                     <Link className={styles.Link} to='/contact'>
                         <li className={styles.li}>Contact</li>
                     </Link>
+                    <a className={styles.Link} href="/documents/resume.docx.pdf" download="Tyler_Pierson_Resume.pdf">
+                        <li className={styles.li}>Resume</li>
+                    </a>
                 </ul>
             </div>
         </nav>
