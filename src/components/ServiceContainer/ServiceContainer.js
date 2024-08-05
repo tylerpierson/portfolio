@@ -60,6 +60,7 @@ function ServiceContainer() {
                 </ul>
             </div>
         </div>
+        <div className={styles.spritesheet}></div>
     </div>
   );
 }

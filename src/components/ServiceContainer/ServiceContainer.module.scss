@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     .altServiceHeader {
         display: none;
     }
@@ -66,6 +67,23 @@
             transition: .4s ease;
         }
     }
+    .spritesheet {
+        width: 35.2rem;
+        height: 35.2rem;
+        background-image: url('/Users/tylerpierson/software_projects/class-website/public/img/hulk-sprite.png');
+        background-repeat: no-repeat;
+        background-size: 28160px 352px;
+        background-position: 0rem 0rem;
+        position: absolute;
+        bottom: -1rem;
+        right: -15rem;
+        animation: play 15s steps(80) infinite;
+    }
+     
+    @keyframes play {
+        0% { background-position: 0rem 0rem; }
+        100% { background-position: -2816rem 0rem; }
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -87,6 +105,14 @@
             .serviceHeader {
                 font-size: 6rem;
             }
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .serviceContainerMain {
+        .spritesheet {
+            right: -20rem;
         }
     }
 }

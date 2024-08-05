@@ -558,7 +558,9 @@ function ServiceContainer() {
     className: _ServiceContainer_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceListItem
   }, "GitHub"), /*#__PURE__*/React.createElement("li", {
     className: _ServiceContainer_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].serviceListItem
-  }, "PUSH Project Management")))));
+  }, "PUSH Project Management")))), /*#__PURE__*/React.createElement("div", {
+    className: _ServiceContainer_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].spritesheet
+  }));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ServiceContainer);
 
@@ -817,6 +819,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, `.IMqMrT2eGOGeFiLbCAGg {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -863,7 +866,7 @@ button:hover {
 
 button:hover {
   cursor: pointer;
-}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;AACJ;;AAEA;EACI,gBAAA;EACA,2BAAA;EACA,8BAAA;AACJ;;AAEA;EACI,WAAA;EACA,cAAA;EACA,mBAAA;EACA,iBAAA;EACA,eAAA;EACA,aAAA;EACA,yBAAA;AACJ;;AAEA;EACI,aAAA;EACA,qCAAA;AACJ;;AAEA;EACI,iBAAA;EACA,aAAA;AACJ;;AAEA;EACI,kCAAA;EACA,4BAAA;EACA,gCAAA;EACA,YAAA;EACA,UAAA;EACA,YAAA;EACA,qBAAA;AACJ;AAAI;EACI,eAAA;EACA,2CAAA;EACA,YAAA;EACA,qBAAA;AAER;;AAEA;EACI,eAAA;AACJ","sourcesContent":[".App {\n    width: 100%;\n    height: 100%;\n}\n\nh1 {\n    font-size: 7vmin;\n    color: var(--heading-color);\n    text-shadow: 1px 1px 2px black;\n}\n\ninput {\n    width: 25vw;\n    height: 3.5rem;\n    border-radius: 1rem;\n    margin-left: 1rem;\n    font-size: 2rem;\n    padding: 1rem;\n    color: var(--input-color);\n}\n\ninput:focus {\n    outline: none;\n    box-shadow: 0 0 1rem var(--btn-color);\n}\n\nlabel {\n    font-size: 2.3rem;\n    padding: 1rem;\n}\n\nbutton {\n    background-color: var(--btn-color);\n    border-top-left-radius: 1rem;\n    border-bottom-right-radius: 1rem;\n    border: none;\n    width: 50%;\n    height: 4rem;\n    transition: .3s ease;\n    &:hover {\n        cursor: pointer;\n        background-color: rgba(120, 236, 211, 0.65);\n        color: white;\n        transition: .3s ease;\n    }\n}\n\nbutton:hover {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;EACA,kBAAA;AACJ;;AAEA;EACI,gBAAA;EACA,2BAAA;EACA,8BAAA;AACJ;;AAEA;EACI,WAAA;EACA,cAAA;EACA,mBAAA;EACA,iBAAA;EACA,eAAA;EACA,aAAA;EACA,yBAAA;AACJ;;AAEA;EACI,aAAA;EACA,qCAAA;AACJ;;AAEA;EACI,iBAAA;EACA,aAAA;AACJ;;AAEA;EACI,kCAAA;EACA,4BAAA;EACA,gCAAA;EACA,YAAA;EACA,UAAA;EACA,YAAA;EACA,qBAAA;AACJ;AAAI;EACI,eAAA;EACA,2CAAA;EACA,YAAA;EACA,qBAAA;AAER;;AAEA;EACI,eAAA;AACJ","sourcesContent":[".App {\n    width: 100%;\n    height: 100%;\n    overflow-x: hidden;\n}\n\nh1 {\n    font-size: 7vmin;\n    color: var(--heading-color);\n    text-shadow: 1px 1px 2px black;\n}\n\ninput {\n    width: 25vw;\n    height: 3.5rem;\n    border-radius: 1rem;\n    margin-left: 1rem;\n    font-size: 2rem;\n    padding: 1rem;\n    color: var(--input-color);\n}\n\ninput:focus {\n    outline: none;\n    box-shadow: 0 0 1rem var(--btn-color);\n}\n\nlabel {\n    font-size: 2.3rem;\n    padding: 1rem;\n}\n\nbutton {\n    background-color: var(--btn-color);\n    border-top-left-radius: 1rem;\n    border-bottom-right-radius: 1rem;\n    border: none;\n    width: 50%;\n    height: 4rem;\n    transition: .3s ease;\n    &:hover {\n        cursor: pointer;\n        background-color: rgba(120, 236, 211, 0.65);\n        color: white;\n        transition: .3s ease;\n    }\n}\n\nbutton:hover {\n    cursor: pointer;\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"App": `IMqMrT2eGOGeFiLbCAGg`
@@ -1907,10 +1910,15 @@ ___CSS_LOADER_EXPORT___.locals = {
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../software_projects/class-website/public/img/hulk-sprite.png */ "../software_projects/class-website/public/img/hulk-sprite.png"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.MyYwvFOFpuKKEZrTTodI {
   width: 75%;
@@ -1919,6 +1927,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.MyYwvFOFpuKKEZrTTodI {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .MyYwvFOFpuKKEZrTTodI .kNqOnLPofAbe3CMaovAW {
   display: none;
@@ -1979,6 +1988,26 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.MyYwvFOFpuKKEZrTTodI {
   color: var(--heading-color);
   transition: 0.4s ease;
 }
+.MyYwvFOFpuKKEZrTTodI .l57oEo1s2ddd0CIEkE3N {
+  width: 35.2rem;
+  height: 35.2rem;
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
+  background-repeat: no-repeat;
+  background-size: 28160px 352px;
+  background-position: 0rem 0rem;
+  position: absolute;
+  bottom: -1rem;
+  right: -15rem;
+  animation: JoL9nFGQIOW8Ow7UaPbE 15s steps(80) infinite;
+}
+@keyframes JoL9nFGQIOW8Ow7UaPbE {
+  0% {
+    background-position: 0rem 0rem;
+  }
+  100% {
+    background-position: -2816rem 0rem;
+  }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 1200px) {
@@ -1990,6 +2019,11 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.MyYwvFOFpuKKEZrTTodI {
   }
   .MyYwvFOFpuKKEZrTTodI .HGrHWilZnmAKW9M17BfB .Z3wofxnV_fQfGxSSpHeb {
     font-size: 6rem;
+  }
+}
+@media (max-width: 1100px) {
+  .MyYwvFOFpuKKEZrTTodI .l57oEo1s2ddd0CIEkE3N {
+    right: -20rem;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -2032,7 +2066,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.MyYwvFOFpuKKEZrTTodI {
   .MyYwvFOFpuKKEZrTTodI .HGrHWilZnmAKW9M17BfB .Z3wofxnV_fQfGxSSpHeb {
     display: none;
   }
-}`, "",{"version":3,"sources":["webpack://./src/components/ServiceContainer/ServiceContainer.module.scss"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,cAAA;EACA,eAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;AACJ;AAAI;EACI,aAAA;AAER;AAAI;EACI,iBAAA;EACA,gBAAA;EACA,uBAAA;AAER;AAAI;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;AAER;AADQ;EACI,UAAA;AAGZ;AAFY;EACI,gBAAA;AAIhB;AAAI;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;AAER;AAAI;EACI,UAAA;EACA,YAAA;EACA,yBAAA;EACA,eAAA;EACA,mBAAA;EACA,qBAAA;EACA,qBAAA;AAER;AADQ;EACI,YAAA;EACA,eAAA;EACA,YAAA;AAGZ;AAAY;EACI,qBAAA;EACA,iBAAA;EACA,yBAAA;EACA,cAAA;EACA,iBAAA;AAEhB;AACQ;EACI,cAAA;EACA,YAAA;EACA,eAAA;AACZ;AACQ;EACI,sBAAA;EACA,2BAAA;EACA,qBAAA;AACZ;;AAIA,oEAAA;AACA;EAIgB;IACI,iBAAA;EAJlB;EAUc;IACI,iBAAA;EARlB;EAWU;IACI,eAAA;EATd;AACF;AAcA;EAIgB;IACI,iBAAA;EAflB;EAqBc;IACI,iBAAA;EAnBlB;EAsBU;IACI,eAAA;EApBd;AACF;AAyBA;EACI;IACI,aAAA;IACA,sBAAA;EAvBN;EAwBM;IACI,cAAA;IACA,eAAA;IACA,gBAAA;IACA,uBAAA;EAtBV;EAwBM;IACI,WAAA;EAtBV;EAwBc;IACI,iBAAA;EAtBlB;EAyBU;IACI,aAAA;EAvBd;EA0BM;IACI,WAAA;EAxBV;EA0Bc;IACI,iBAAA;EAxBlB;EA2BU;IACI,aAAA;EAzBd;AACF","sourcesContent":[".serviceContainerMain {\n    width: 75%;\n    margin: 0 auto;\n    padding: 5rem 0;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    .altServiceHeader {\n        display: none;\n    }\n    .serviceHeader {\n        font-size: 8.5rem;\n        font-weight: 600;\n        color: var(--btn-color);\n    }\n    .serviceContainerLeft {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        width: 50%;\n        .headingSMContainer {\n            width: 90%;\n            .headingSM {\n                text-align: left;\n            }\n        }\n    }\n    .serviceContainerRight {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        width: 50%;\n    }\n    .serviceCard {\n        width: 90%;\n        height: 35vh;\n        background-color: #303030;\n        padding: 1.5rem;\n        margin-bottom: 3rem;\n        border-radius: .5rem;\n        transition: .4s ease;\n        .serviceTitle {\n            margin: 1rem;\n            font-size: 2rem;\n            color: white;\n        }\n        .serviceList {\n            .serviceListItem {\n                list-style-type: none;\n                font-size: 1.3rem;\n                color: rgb(183, 183, 183);\n                margin: 0 2rem;\n                line-height: 2rem;\n            }\n        }\n        .serviceDescription {\n            font-size: 1vw;\n            margin: 1rem;\n            color: darkgrey;\n        }\n        &:hover .serviceTitle {\n            transform: scale(1.05);\n            color: var(--heading-color);\n            transition: .4s ease;\n        }\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1200px) {\n    .serviceContainerMain {\n        .serviceContainerLeft {\n            .serviceCard {\n                .serviceTitle {\n                    font-size: 1.5rem;\n                }\n            } \n        }  \n        .serviceContainerRight {\n            .serviceCard {\n                .serviceTitle {\n                    font-size: 1.5rem;\n                }\n            }\n            .serviceHeader {\n                font-size: 6rem;\n            }\n        }\n    }\n}\n\n@media only screen and (max-width: 1000px) {\n    .serviceContainerMain {\n        .serviceContainerLeft {\n            .serviceCard {\n                .serviceTitle {\n                    font-size: 1.5rem;\n                }\n            } \n        }  \n        .serviceContainerRight {\n            .serviceCard {\n                .serviceTitle {\n                    font-size: 1.5rem;\n                }\n            }\n            .serviceHeader {\n                font-size: 4rem;\n            }\n        }\n    }\n}\n\n@media only screen and (max-width: 800px) {\n    .serviceContainerMain {\n        display: flex;\n        flex-direction: column;\n        .altServiceHeader {\n            display: block;\n            font-size: 6rem;\n            font-weight: 600;\n            color: var(--btn-color);\n        }\n        .serviceContainerLeft {\n            width: 100%;\n            .serviceCard {\n                .serviceTitle {\n                    font-size: 1.5rem;\n                }\n            } \n            .headingSMContainer {\n                display: none;\n            }\n        }  \n        .serviceContainerRight {\n            width: 100%;\n            .serviceCard {\n                .serviceTitle {\n                    font-size: 1.5rem;\n                }\n            }\n            .serviceHeader {\n                display: none;\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/ServiceContainer/ServiceContainer.module.scss"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,cAAA;EACA,eAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,kBAAA;AACJ;AAAI;EACI,aAAA;AAER;AAAI;EACI,iBAAA;EACA,gBAAA;EACA,uBAAA;AAER;AAAI;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;AAER;AADQ;EACI,UAAA;AAGZ;AAFY;EACI,gBAAA;AAIhB;AAAI;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;AAER;AAAI;EACI,UAAA;EACA,YAAA;EACA,yBAAA;EACA,eAAA;EACA,mBAAA;EACA,qBAAA;EACA,qBAAA;AAER;AADQ;EACI,YAAA;EACA,eAAA;EACA,YAAA;AAGZ;AAAY;EACI,qBAAA;EACA,iBAAA;EACA,yBAAA;EACA,cAAA;EACA,iBAAA;AAEhB;AACQ;EACI,cAAA;EACA,YAAA;EACA,eAAA;AACZ;AACQ;EACI,sBAAA;EACA,2BAAA;EACA,qBAAA;AACZ;AAEI;EACI,cAAA;EACA,eAAA;EACA,yDAAA;EACA,4BAAA;EACA,8BAAA;EACA,8BAAA;EACA,kBAAA;EACA,aAAA;EACA,aAAA;EACA,sDAAA;AAAR;AAGI;EACI;IAAK,8BAAA;EAAX;EACM;IAAO,kCAAA;EAEb;AACF;;AACA,oEAAA;AACA;EAIgB;IACI,iBAAA;EADlB;EAOc;IACI,iBAAA;EALlB;EAQU;IACI,eAAA;EANd;AACF;AAWA;EAEQ;IACI,aAAA;EAVV;AACF;AAcA;EAIgB;IACI,iBAAA;EAflB;EAqBc;IACI,iBAAA;EAnBlB;EAsBU;IACI,eAAA;EApBd;AACF;AAyBA;EACI;IACI,aAAA;IACA,sBAAA;EAvBN;EAwBM;IACI,cAAA;IACA,eAAA;IACA,gBAAA;IACA,uBAAA;EAtBV;EAwBM;IACI,WAAA;EAtBV;EAwBc;IACI,iBAAA;EAtBlB;EAyBU;IACI,aAAA;EAvBd;EA0BM;IACI,WAAA;EAxBV;EA0Bc;IACI,iBAAA;EAxBlB;EA2BU;IACI,aAAA;EAzBd;AACF","sourcesContent":[".serviceContainerMain {\n    width: 75%;\n    margin: 0 auto;\n    padding: 5rem 0;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    position: relative;\n    .altServiceHeader {\n        display: none;\n    }\n    .serviceHeader {\n        font-size: 8.5rem;\n        font-weight: 600;\n        color: var(--btn-color);\n    }\n    .serviceContainerLeft {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        width: 50%;\n        .headingSMContainer {\n            width: 90%;\n            .headingSM {\n                text-align: left;\n            }\n        }\n    }\n    .serviceContainerRight {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        width: 50%;\n    }\n    .serviceCard {\n        width: 90%;\n        height: 35vh;\n        background-color: #303030;\n        padding: 1.5rem;\n        margin-bottom: 3rem;\n        border-radius: .5rem;\n        transition: .4s ease;\n        .serviceTitle {\n            margin: 1rem;\n            font-size: 2rem;\n            color: white;\n        }\n        .serviceList {\n            .serviceListItem {\n                list-style-type: none;\n                font-size: 1.3rem;\n                color: rgb(183, 183, 183);\n                margin: 0 2rem;\n                line-height: 2rem;\n            }\n        }\n        .serviceDescription {\n            font-size: 1vw;\n            margin: 1rem;\n            color: darkgrey;\n        }\n        &:hover .serviceTitle {\n            transform: scale(1.05);\n            color: var(--heading-color);\n            transition: .4s ease;\n        }\n    }\n    .spritesheet {\n        width: 35.2rem;\n        height: 35.2rem;\n        background-image: url('/Users/tylerpierson/software_projects/class-website/public/img/hulk-sprite.png');\n        background-repeat: no-repeat;\n        background-size: 28160px 352px;\n        background-position: 0rem 0rem;\n        position: absolute;\n        bottom: -1rem;\n        right: -15rem;\n        animation: play 15s steps(80) infinite;\n    }\n     \n    @keyframes play {\n        0% { background-position: 0rem 0rem; }\n        100% { background-position: -2816rem 0rem; }\n    }\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (max-width: 1200px) {\n    .serviceContainerMain {\n        .serviceContainerLeft {\n            .serviceCard {\n                .serviceTitle {\n                    font-size: 1.5rem;\n                }\n            } \n        }  \n        .serviceContainerRight {\n            .serviceCard {\n                .serviceTitle {\n                    font-size: 1.5rem;\n                }\n            }\n            .serviceHeader {\n                font-size: 6rem;\n            }\n        }\n    }\n}\n\n@media (max-width: 1100px) {\n    .serviceContainerMain {\n        .spritesheet {\n            right: -20rem;\n        }\n    }\n}\n\n@media only screen and (max-width: 1000px) {\n    .serviceContainerMain {\n        .serviceContainerLeft {\n            .serviceCard {\n                .serviceTitle {\n                    font-size: 1.5rem;\n                }\n            } \n        }  \n        .serviceContainerRight {\n            .serviceCard {\n                .serviceTitle {\n                    font-size: 1.5rem;\n                }\n            }\n            .serviceHeader {\n                font-size: 4rem;\n            }\n        }\n    }\n}\n\n@media only screen and (max-width: 800px) {\n    .serviceContainerMain {\n        display: flex;\n        flex-direction: column;\n        .altServiceHeader {\n            display: block;\n            font-size: 6rem;\n            font-weight: 600;\n            color: var(--btn-color);\n        }\n        .serviceContainerLeft {\n            width: 100%;\n            .serviceCard {\n                .serviceTitle {\n                    font-size: 1.5rem;\n                }\n            } \n            .headingSMContainer {\n                display: none;\n            }\n        }  \n        .serviceContainerRight {\n            width: 100%;\n            .serviceCard {\n                .serviceTitle {\n                    font-size: 1.5rem;\n                }\n            }\n            .serviceHeader {\n                display: none;\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"serviceContainerMain": `MyYwvFOFpuKKEZrTTodI`,
@@ -2046,7 +2080,9 @@ ___CSS_LOADER_EXPORT___.locals = {
 	"serviceTitle": `VVltheWFikP7_pdjmNcp`,
 	"serviceList": `n0lXaaymao2zQbZIa8gs`,
 	"serviceListItem": `Ma8eZdshCejEner2km_9`,
-	"serviceDescription": `YMBTswNNuhoziprZb9Dz`
+	"serviceDescription": `YMBTswNNuhoziprZb9Dz`,
+	"spritesheet": `l57oEo1s2ddd0CIEkE3N`,
+	"play": `JoL9nFGQIOW8Ow7UaPbE`
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -4502,6 +4538,16 @@ module.exports = __webpack_require__.p + "8fccd3022acd7762640b.png";
 
 /***/ }),
 
+/***/ "../software_projects/class-website/public/img/hulk-sprite.png":
+/*!*********************************************************************!*\
+  !*** ../software_projects/class-website/public/img/hulk-sprite.png ***!
+  \*********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "68f8113d10e82d8582a5.png";
+
+/***/ }),
+
 /***/ "../software_projects/class-website/public/img/tyler-spritesheet-med.png":
 /*!*******************************************************************************!*\
   !*** ../software_projects/class-website/public/img/tyler-spritesheet-med.png ***!
@@ -4769,4 +4815,4 @@ module.exports = __webpack_require__.p + "4031c99fef0abdcd87ad.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.d583e2cf0a8776e928e2f2b226d755cd.js.map
+//# sourceMappingURL=App.10b54e9a577bdc9fede652c9e0a98340.js.map
