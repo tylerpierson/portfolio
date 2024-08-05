@@ -15,7 +15,6 @@ export default function HomePage(){
             <NavBar />
             <NavMobile />
             <div className={styles.HomePage}>
-                <SpriteAnimation />
                 <IntroContainer />
                 <Bio />
                 <ImgBanner />

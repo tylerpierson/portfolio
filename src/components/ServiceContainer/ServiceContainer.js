@@ -3,6 +3,7 @@ import styles from './ServiceContainer.module.scss';
 function ServiceContainer() {
   return (
     <div className={styles.serviceContainerMain}>
+        <h2 className={styles.altServiceHeader}>Experience</h2>
         <div className={styles.serviceContainerLeft}>
             <div className={styles.serviceCard}>
                 <h4 className={styles.serviceTitle}>Frontend</h4>

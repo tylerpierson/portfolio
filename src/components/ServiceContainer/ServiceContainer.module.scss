@@ -5,6 +5,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    .altServiceHeader {
+        display: none;
+    }
     .serviceHeader {
         font-size: 8.5rem;
         font-weight: 600;
@@ -66,26 +69,78 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .serviceContainerMain {
-        display: none;
         .serviceContainerLeft {
-            display: none;
             .serviceCard {
-                display: none;
                 .serviceTitle {
-                    display: none;
+                    font-size: 1.5rem;
                 }
-                .serviceDescription {
-                    display: none;
+            } 
+        }  
+        .serviceContainerRight {
+            .serviceCard {
+                .serviceTitle {
+                    font-size: 1.5rem;
                 }
             }
+            .serviceHeader {
+                font-size: 6rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .serviceContainerMain {
+        .serviceContainerLeft {
+            .serviceCard {
+                .serviceTitle {
+                    font-size: 1.5rem;
+                }
+            } 
+        }  
+        .serviceContainerRight {
+            .serviceCard {
+                .serviceTitle {
+                    font-size: 1.5rem;
+                }
+            }
+            .serviceHeader {
+                font-size: 4rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .serviceContainerMain {
+        display: flex;
+        flex-direction: column;
+        .altServiceHeader {
+            display: block;
+            font-size: 6rem;
+            font-weight: 600;
+            color: var(--btn-color);
+        }
+        .serviceContainerLeft {
+            width: 100%;
+            .serviceCard {
+                .serviceTitle {
+                    font-size: 1.5rem;
+                }
+            } 
             .headingSMContainer {
                 display: none;
             }
-        }
+        }  
         .serviceContainerRight {
-            display: none;
+            width: 100%;
+            .serviceCard {
+                .serviceTitle {
+                    font-size: 1.5rem;
+                }
+            }
             .serviceHeader {
                 display: none;
             }

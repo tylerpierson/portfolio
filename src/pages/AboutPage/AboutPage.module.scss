@@ -6,24 +6,22 @@
     width: 100%;
     .textContainer {
         width: 50%;
-        .bioContainer {
+        .bio {
+            color: rgb(75, 75, 75);
             background-color: rgba(100, 237, 207, 0.075);
             padding: 5rem;
             border-radius: 1rem;
-            .bio {
-                color: rgb(75, 75, 75);
-            }
-            .highlight {
-                font-weight: bold;
-                color: var(--heading-color);
-                text-shadow: .5px .5px 1px black;
-            }
-            .bio, .highlight {
-                width: 90%;
-                line-height: 3rem;
-                font-size: 1.3rem;
-                margin: 3rem 0;
-            }
+        }
+        .highlight {
+            font-weight: bold;
+            color: var(--heading-color);
+            text-shadow: .5px .5px 1px black;
+        }
+        .bio, .highlight {
+            width: 90%;
+            line-height: 3rem;
+            font-size: 1.3rem;
+            margin: 3rem 0;
         }
     }
     .image {
@@ -42,11 +40,16 @@
         margin-top: 5vh;
         .textContainer {
             width: 100%;
+            z-index: 1;
         }
         .image {
-            display: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 80%;
+            opacity: .4;
             transform: rotate(0);
-            width: 50%;
+            border-bottom-left-radius: 50%;
         }
     }
 }

@@ -7,6 +7,7 @@ function Projects() {
     <div className={styles.Projects}>
 
         <div className={styles.ProjectCard}>
+            <p className={styles.mobileResponsive}>Mobile Responsive</p>
             <div className={styles.imgContainer}>
                 <img className={styles.ProjectLogo} src="/img/push-logo.png"/>
                 </div>
@@ -19,6 +20,25 @@ function Projects() {
                     <p className={styles.devTool}>ReactJS</p>
                     <p className={styles.devTool}>AWS</p>
                     <p className={styles.devTool}>EC2</p>
+                    <p className={styles.devTool}>Cloudfront</p>
+                </div>
+            </div>
+        </div>
+
+        <div className={styles.ProjectCard}>
+            <p className={styles.mobileResponsive}>Mobile Responsive</p>
+            <div className={styles.imgContainer}>
+                <img className={styles.ProjectLogo} src="/img/todo-list.png"/>
+                </div>
+                <div className={styles.ProjectDetails}>
+                <h4>Todo List Application</h4>
+                <h6>Year: 2024</h6>
+                <h6>Category: Task Management</h6>
+                <Link target="_blank" to="https://d1240helpk124m.cloudfront.net"><img className={styles.ProjectLink} src="/img/link-icon.png" /></Link>
+                <div className={styles.devContainer}>
+                    <p className={styles.devTool}>Django</p>
+                    <p className={styles.devTool}>Python</p>
+                    <p className={styles.devTool}>AWS S3</p>
                     <p className={styles.devTool}>Cloudfront</p>
                 </div>
             </div>
